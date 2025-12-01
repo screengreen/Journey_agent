@@ -1,0 +1,6 @@
+# Weaviate Python client v4 (совместим с Weaviate сервером 1.27.0+)
+weaviate-client>=4.6,<5
+
+# HTTP библиотека для проверки готовности сервера
+requests>=2.25.0
+
