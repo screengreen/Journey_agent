@@ -35,7 +35,7 @@ link -
 
 ## Data volume
 KuddGos data - 2 (SPB and MOSCOW)*10 (topics)*100(amount of events from each topic) = 1000 samples of data
-Personal data - 10 test samples
+Personal data - 27 test samples
 
 
 ## Setup
