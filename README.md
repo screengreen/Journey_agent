@@ -12,7 +12,7 @@ https://yandex.ru
 
 Выполните вход.
 
-![Вход в Яндекс](images/01-login.png)
+![Вход в Яндекс](https://drive.google.com/uc?export=view&id=1Kf05RUGFgpDaY2_aedOCzvuXmd8IyPSY)
 
 ---
 
@@ -22,7 +22,7 @@ https://yandex.ru
 
 **https://developer.tech.yandex.ru**
 
-![Кабинет разработчика](images/02-dashboard.png)
+![Кабинет разработчика](https://drive.google.com/uc?export=view&id=1fHEKdiBhJqsZSJTiFZ2xc6-9WCYO78LU)
 
 ---
 
@@ -33,7 +33,7 @@ https://yandex.ru
 - **«Получить ключ»**  
 - или **«Подключить API»**
 
-![Получить ключ](images/03-get-key.png)
+![Получить ключ](https://drive.google.com/uc?export=view&id=1KMd6ohWFQGz3gFhRHIlzppWLT8bnO3RS)
 
 ---
 
@@ -47,7 +47,7 @@ https://yandex.ru
 https://yandex.ru/dev/maps/jsapi  
 https://yandex.ru/dev/geocode  
 
-![Выбор API](images/04-select-geocoder.png)
+![Выбор API](https://drive.google.com/uc?export=view&id=1m2Y5bIFwM3pNHHdkHYOYQjBew2bfitTp)
 
 ---
 
@@ -65,7 +65,7 @@ https://yandex.ru/dev/geocode
 Условия использования API:  
 https://yandex.ru/legal/maps_termsofuse/
 
-![Форма подключения](images/05-form.png)
+![Форма подключения](https://drive.google.com/uc?export=view&id=1UmZWPuiXRCAuc3vGCBBHJHHcn_dnXsV2)
 
 ---
 
@@ -75,7 +75,7 @@ https://yandex.ru/legal/maps_termsofuse/
 
 **Мои ключи → API keys**
 
-![Список ключей](images/06-api-key.png)
+![Список ключей](https://drive.google.com/uc?export=view&id=1Z1btXG2EX82SGaffafmbCaQbvFPtdwvK)
 
 Скопируйте ключ — это ваш **YANDEX_GEOCODER_API_KEY**.
 
