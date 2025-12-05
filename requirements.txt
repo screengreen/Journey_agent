@@ -1,0 +1,6 @@
+telethon
+langchain
+langgraph
+pydantic
+openai
+python-dotenv
