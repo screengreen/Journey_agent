@@ -208,3 +208,7 @@ __marimo__/
 
 
 tg_session.session
+
+# Bot database
+bot/users_channels.db
+bot/users_channels.db-journal
