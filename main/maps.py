@@ -44,25 +44,40 @@ class YandexGeocoder:
         Возвращает (lon, lat) или None, если адрес не найден.
         """
         api_key = os.getenv("YANDEX_GEOCODER_API_KEY")
-        resp = requests.get(
-            self.geocoder_url,
-            params={
-                "apikey": api_key,
-                "geocode": address,
-                "format": "json",
-            },
-            timeout=10,
-        )
-        resp.raise_for_status()
+        if not api_key:
+            raise ValueError("YANDEX_GEOCODER_API_KEY не установлен в переменных окружения")
+        
+        try:
+            resp = requests.get(
+                self.geocoder_url,
+                params={
+                    "apikey": api_key,
+                    "geocode": address,
+                    "format": "json",
+                },
+                timeout=10,
+            )
+            resp.raise_for_status()
 
-        members = resp.json()["response"]["GeoObjectCollection"]["featureMember"]
-        if not members:
-            return None
+            members = resp.json()["response"]["GeoObjectCollection"]["featureMember"]
+            if not members:
+                return None
 
-        pos = members[0]["GeoObject"]["Point"]["pos"]
-        lon_str, lat_str = pos.split(" ")
+            pos = members[0]["GeoObject"]["Point"]["pos"]
+            lon_str, lat_str = pos.split(" ")
 
-        return float(lon_str), float(lat_str)
+            return float(lon_str), float(lat_str)
+        except requests.exceptions.HTTPError as e:
+            error_msg = f"HTTP ошибка {e.response.status_code}"
+            try:
+                error_detail = e.response.json()
+                if "error" in error_detail:
+                    error_msg += f": {error_detail['error']}"
+            except:
+                error_msg += f": {e.response.text[:200]}"
+            raise ValueError(error_msg) from e
+        except requests.exceptions.RequestException as e:
+            raise ValueError(f"Ошибка запроса к геокодеру: {str(e)}") from e
     
 
 @dataclass
