@@ -1,0 +1,9 @@
+langgraph==0.0.20
+
+# LangChain-стек, совместимый с langgraph 0.0.20
+langchain==0.1.16
+langchain-core==0.1.46
+langchain-community==0.0.34
+
+# утилиты
+requests==2.32.3
