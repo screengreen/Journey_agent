@@ -1,6 +1,23 @@
+<<<<<<< HEAD
 telethon
 langchain
 langgraph
 pydantic
 openai
 python-dotenv
+=======
+# Weaviate Python client v4 (совместим с Weaviate сервером 1.27.0+)
+weaviate-client>=4.6,<5
+
+# HTTP библиотека для проверки готовности сервера
+requests>=2.25.0
+
+# LangGraph и LangChain для Self-RAG системы
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-openai>=0.2.0
+
+# Pydantic для валидации данных
+pydantic>=2.0.0
+
+>>>>>>> feature/vdb
