@@ -20,4 +20,3 @@ class Event(BaseModel):
         """Конфигурация модели."""
 
         extra = "allow"  # Разрешаем дополнительные поля из Weaviate
-
