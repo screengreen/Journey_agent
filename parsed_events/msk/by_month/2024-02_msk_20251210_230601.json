@@ -1,0 +1,481 @@
+{
+  "metadata": {
+    "month": "2024-02",
+    "city": "msk",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:06:03.175643"
+  },
+  "events": [
+    {
+      "id": 208828,
+      "title": "спектакль «Говори со мной» в Театре имени Вахтангова (Новая сцена)",
+      "description": "Спектакль Эльдара Трамова по сборнику из пяти пьес американского классика Теннесси Уильямса.",
+      "short_description": "Спектакль Эльдара Трамова по сборнику из пяти пьес американского классика Теннесси Уильямса.",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1707755400,
+          "end_timestamp": 1707755400,
+          "start_datetime": "2024-02-12T19:30:00",
+          "end_datetime": "2024-02-12T19:30:00",
+          "year": 2024,
+          "month": 2,
+          "day": 12,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1707841800,
+          "end_timestamp": 1707841800,
+          "start_datetime": "2024-02-13T19:30:00",
+          "end_datetime": "2024-02-13T19:30:00",
+          "year": 2024,
+          "month": 2,
+          "day": 13,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1708533000,
+          "end_timestamp": 1708533000,
+          "start_datetime": "2024-02-21T19:30:00",
+          "end_datetime": "2024-02-21T19:30:00",
+          "year": 2024,
+          "month": 2,
+          "day": 21,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1709310600,
+          "end_timestamp": 1709322000,
+          "start_datetime": "2024-03-01T19:30:00",
+          "end_datetime": "2024-03-01T22:40:00",
+          "year": 2024,
+          "month": 3,
+          "day": 1,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1710433800,
+          "end_timestamp": 1710445200,
+          "start_datetime": "2024-03-14T19:30:00",
+          "end_datetime": "2024-03-14T22:40:00",
+          "year": 2024,
+          "month": 3,
+          "day": 14,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1712680200,
+          "end_timestamp": 1712691600,
+          "start_datetime": "2024-04-09T19:30:00",
+          "end_datetime": "2024-04-09T22:40:00",
+          "year": 2024,
+          "month": 4,
+          "day": 9,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1714494600,
+          "end_timestamp": 1714506000,
+          "start_datetime": "2024-04-30T19:30:00",
+          "end_datetime": "2024-04-30T22:40:00",
+          "year": 2024,
+          "month": 4,
+          "day": 30,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1715963400,
+          "end_timestamp": 1715974800,
+          "start_datetime": "2024-05-17T19:30:00",
+          "end_datetime": "2024-05-17T22:40:00",
+          "year": 2024,
+          "month": 5,
+          "day": 17,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1716913800,
+          "end_timestamp": 1716925200,
+          "start_datetime": "2024-05-28T19:30:00",
+          "end_datetime": "2024-05-28T22:40:00",
+          "year": 2024,
+          "month": 5,
+          "day": 28,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1717950600,
+          "end_timestamp": 1717962000,
+          "start_datetime": "2024-06-09T19:30:00",
+          "end_datetime": "2024-06-09T22:40:00",
+          "year": 2024,
+          "month": 6,
+          "day": 9,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1727541000,
+          "end_timestamp": 1727552400,
+          "start_datetime": "2024-09-28T19:30:00",
+          "end_datetime": "2024-09-28T22:40:00",
+          "year": 2024,
+          "month": 9,
+          "day": 28,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1729787400,
+          "end_timestamp": 1729798800,
+          "start_datetime": "2024-10-24T19:30:00",
+          "end_datetime": "2024-10-24T22:40:00",
+          "year": 2024,
+          "month": 10,
+          "day": 24,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1730997000,
+          "end_timestamp": 1731008400,
+          "start_datetime": "2024-11-07T19:30:00",
+          "end_datetime": "2024-11-07T22:40:00",
+          "year": 2024,
+          "month": 11,
+          "day": 7,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1733416200,
+          "end_timestamp": 1733427600,
+          "start_datetime": "2024-12-05T19:30:00",
+          "end_datetime": "2024-12-05T22:40:00",
+          "year": 2024,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1734280200,
+          "end_timestamp": 1734291600,
+          "start_datetime": "2024-12-15T19:30:00",
+          "end_datetime": "2024-12-15T22:40:00",
+          "year": 2024,
+          "month": 12,
+          "day": 15,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1737909000,
+          "end_timestamp": 1737920400,
+          "start_datetime": "2025-01-26T19:30:00",
+          "end_datetime": "2025-01-26T22:40:00",
+          "year": 2025,
+          "month": 1,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1740587400,
+          "end_timestamp": 1740598800,
+          "start_datetime": "2025-02-26T19:30:00",
+          "end_datetime": "2025-02-26T22:40:00",
+          "year": 2025,
+          "month": 2,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1741537800,
+          "end_timestamp": 1741549200,
+          "start_datetime": "2025-03-09T19:30:00",
+          "end_datetime": "2025-03-09T22:40:00",
+          "year": 2025,
+          "month": 3,
+          "day": 9,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1745685000,
+          "end_timestamp": 1745696400,
+          "start_datetime": "2025-04-26T19:30:00",
+          "end_datetime": "2025-04-26T22:40:00",
+          "year": 2025,
+          "month": 4,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1747499400,
+          "end_timestamp": 1747510800,
+          "start_datetime": "2025-05-17T19:30:00",
+          "end_datetime": "2025-05-17T22:40:00",
+          "year": 2025,
+          "month": 5,
+          "day": 17,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1749918600,
+          "end_timestamp": 1749930000,
+          "start_datetime": "2025-06-14T19:30:00",
+          "end_datetime": "2025-06-14T22:40:00",
+          "year": 2025,
+          "month": 6,
+          "day": 14,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1764779400,
+          "end_timestamp": 1764779400,
+          "start_datetime": "2025-12-03T19:30:00",
+          "end_datetime": "2025-12-03T19:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 3,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1766593800,
+          "end_timestamp": 1766593800,
+          "start_datetime": "2025-12-24T19:30:00",
+          "end_datetime": "2025-12-24T19:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 24,
+          "hour": 19,
+          "minute": 30
+        }
+      ],
+      "dates_text": [
+        "12.02.2024 19:30 - 19:30",
+        "13.02.2024 19:30 - 19:30",
+        "21.02.2024 19:30 - 19:30",
+        "01.03.2024 19:30 - 22:40",
+        "14.03.2024 19:30 - 22:40",
+        "09.04.2024 19:30 - 22:40",
+        "30.04.2024 19:30 - 22:40",
+        "17.05.2024 19:30 - 22:40",
+        "28.05.2024 19:30 - 22:40",
+        "09.06.2024 19:30 - 22:40",
+        "28.09.2024 19:30 - 22:40",
+        "24.10.2024 19:30 - 22:40",
+        "07.11.2024 19:30 - 22:40",
+        "05.12.2024 19:30 - 22:40",
+        "15.12.2024 19:30 - 22:40",
+        "26.01.2025 19:30 - 22:40",
+        "26.02.2025 19:30 - 22:40",
+        "09.03.2025 19:30 - 22:40",
+        "26.04.2025 19:30 - 22:40",
+        "17.05.2025 19:30 - 22:40",
+        "14.06.2025 19:30 - 22:40",
+        "03.12.2025 19:30 - 19:30",
+        "24.12.2025 19:30 - 19:30"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 1000 руб."
+      },
+      "price_text": "от 1000 руб.",
+      "place": {
+        "id": 27769,
+        "title": "Театр имени Евг. Вахтангова (Новая сцена)",
+        "address": "ул. Арбат, д. 24",
+        "subway": "Арбатская, Смоленская",
+        "coords": {
+          "lat": 55.74713529999973,
+          "lon": 37.5839806000002
+        },
+        "phone": "+7 499 241-16-79",
+        "site_url": "https://kudago.com/msk/place/teatr-imeni-evgeniya-vahtangova-novaya-scena/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Театр имени Евг. Вахтангова (Новая сцена)\nАдрес: ул. Арбат, д. 24\nМетро: Арбатская, Смоленская\nКоординаты: 55.747135, 37.583981\nТелефон: +7 499 241-16-79\nСайт: https://kudago.com/msk/place/teatr-imeni-evgeniya-vahtangova-novaya-scena/",
+      "url": "https://kudago.com/msk/event/teatr-govori-so-mnoj/",
+      "tags": [
+        "теннесси уильямс",
+        "спектакли",
+        "премьеры",
+        "16+",
+        "драматические постановки"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/df/0e/df0e380dc7cc680014abcfeaf09912ee.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/45/e2/45e2c0fd1ee092f0b0aa7836b926b320.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/23/94/2394ec906efd41197e2c90eedb532983.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14807,
+            "title": "Карен Овеян",
+            "slug": "karen-oveyan",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/karen-oveyan/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 13037,
+            "title": "Яна Соболевская",
+            "slug": "yana-sobolevskaya",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/yana-sobolevskaya/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 12967,
+            "title": "Александра Стрельцина",
+            "slug": "aleksandra-streltsina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksandra-streltsina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14999,
+            "title": "Анастасия Джентилини",
+            "slug": "anastasiya-dzhentilini",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anastasiya-dzhentilini/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 188,
+            "title": "Виталий Иванов",
+            "slug": "vitalij-ivanov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/vitalij-ivanov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 15000,
+            "title": "Григорий Здоров",
+            "slug": "grigorij-zdorov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/grigorij-zdorov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 10415,
+            "title": "Данила Гнидо",
+            "slug": "danila-gnido",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/danila-gnido/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3128,
+            "title": "Ольга Тумайкина",
+            "slug": "olga-tumajkina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/olga-tumajkina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 3142,
+            "title": "Эльдар Трамов",
+            "slug": "eldar-tramov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/eldar-tramov/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:17.733176",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Говори со мной» в Театре имени Вахтангова (Новая сцена) | Категория: Театр | Описание: Спектакль Эльдара Трамова по сборнику из пяти пьес американского классика Теннесси Уильямса. | Место: Место: Театр имени Евг. Вахтангова (Новая сцена) | Теги: теннесси уильямс, спектакли, премьеры, 16+, драматические постановки | Дата: 12.02.2024 19:30 - 19:30 | Город: Москва"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "metadata": {
+    "month": "2022-08",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:03.993151"
+  },
+  "events": [
+    {
+      "id": 198741,
+      "title": "концерт «Ennio Morricone. Professional» во дворце Белосельских-Белозерских",
+      "description": "Музыкальные темы из классических фильмов, покорившие мир, прозвучат во дворце Белосельских-Белозерских в исполнении оркестра и хора.",
+      "short_description": "Музыкальные темы из классических фильмов, покорившие мир, прозвучат во дворце Белосельских-Белозерских в исполнении оркестра и хора.",
+      "category": "Концерты",
+      "dates": [
+        {
+          "start_timestamp": 1659891600,
+          "end_timestamp": 1659898800,
+          "start_datetime": "2022-08-07T20:00:00",
+          "end_datetime": "2022-08-07T22:00:00",
+          "year": 2022,
+          "month": 8,
+          "day": 7,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1662138000,
+          "end_timestamp": 1662145200,
+          "start_datetime": "2022-09-02T20:00:00",
+          "end_datetime": "2022-09-02T22:00:00",
+          "year": 2022,
+          "month": 9,
+          "day": 2,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1692462600,
+          "end_timestamp": 1692462600,
+          "start_datetime": "2023-08-19T19:30:00",
+          "end_datetime": "2023-08-19T19:30:00",
+          "year": 2023,
+          "month": 8,
+          "day": 19,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1694880000,
+          "end_timestamp": 1694880000,
+          "start_datetime": "2023-09-16T19:00:00",
+          "end_datetime": "2023-09-16T19:00:00",
+          "year": 2023,
+          "month": 9,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1699286400,
+          "end_timestamp": 1699286400,
+          "start_datetime": "2023-11-06T19:00:00",
+          "end_datetime": "2023-11-06T19:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1718296200,
+          "end_timestamp": 1718296200,
+          "start_datetime": "2024-06-13T19:30:00",
+          "end_datetime": "2024-06-13T19:30:00",
+          "year": 2024,
+          "month": 6,
+          "day": 13,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1727020800,
+          "end_timestamp": 1727020800,
+          "start_datetime": "2024-09-22T19:00:00",
+          "end_datetime": "2024-09-22T19:00:00",
+          "year": 2024,
+          "month": 9,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1728662400,
+          "end_timestamp": 1728662400,
+          "start_datetime": "2024-10-11T19:00:00",
+          "end_datetime": "2024-10-11T19:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1731081600,
+          "end_timestamp": 1731081600,
+          "start_datetime": "2024-11-08T19:00:00",
+          "end_datetime": "2024-11-08T19:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733414400,
+          "end_timestamp": 1733414400,
+          "start_datetime": "2024-12-05T19:00:00",
+          "end_datetime": "2024-12-05T19:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749312000,
+          "end_timestamp": 1749312000,
+          "start_datetime": "2025-06-07T19:00:00",
+          "end_datetime": "2025-06-07T19:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751644800,
+          "end_timestamp": 1751644800,
+          "start_datetime": "2025-07-04T19:00:00",
+          "end_datetime": "2025-07-04T19:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757260800,
+          "end_timestamp": 1757260800,
+          "start_datetime": "2025-09-07T19:00:00",
+          "end_datetime": "2025-09-07T19:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1762617600,
+          "end_timestamp": 1762617600,
+          "start_datetime": "2025-11-08T19:00:00",
+          "end_datetime": "2025-11-08T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764952200,
+          "end_timestamp": 1764952200,
+          "start_datetime": "2025-12-05T19:30:00",
+          "end_datetime": "2025-12-05T19:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1766851200,
+          "end_timestamp": 1766851200,
+          "start_datetime": "2025-12-27T19:00:00",
+          "end_datetime": "2025-12-27T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 27,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "07.08.2022 20:00 - 22:00",
+        "02.09.2022 20:00 - 22:00",
+        "19.08.2023 19:30 - 19:30",
+        "16.09.2023 19:00 - 19:00",
+        "06.11.2023 19:00 - 19:00",
+        "13.06.2024 19:30 - 19:30",
+        "22.09.2024 19:00 - 19:00",
+        "11.10.2024 19:00 - 19:00",
+        "08.11.2024 19:00 - 19:00",
+        "05.12.2024 19:00 - 19:00",
+        "07.06.2025 19:00 - 19:00",
+        "04.07.2025 19:00 - 19:00",
+        "07.09.2025 19:00 - 19:00",
+        "08.11.2025 19:00 - 19:00",
+        "05.12.2025 19:30 - 19:30",
+        "27.12.2025 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 1900 рублей"
+      },
+      "price_text": "от 1900 рублей",
+      "place": {
+        "id": 1204,
+        "title": "Дворец Белосельских-Белозерских",
+        "address": "просп. Невский, д. 41",
+        "subway": "Невский Проспект",
+        "coords": {
+          "lat": 59.93280899999985,
+          "lon": 30.344676099999965
+        },
+        "phone": "+7 812 315-52-36",
+        "site_url": "https://kudago.com/spb/place/dvorec-beloselskih-belozerskih/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Дворец Белосельских-Белозерских\nАдрес: просп. Невский, д. 41\nМетро: Невский Проспект\nКоординаты: 59.932809, 30.344676\nТелефон: +7 812 315-52-36\nСайт: https://kudago.com/spb/place/dvorec-beloselskih-belozerskih/",
+      "url": "https://kudago.com/spb/event/kontsert-ennio-morricone-professional/",
+      "tags": [
+        "6+",
+        "это лето",
+        "концерт года",
+        "новое на сайте",
+        "концерты",
+        "открытые площадки",
+        "билеты на kudago",
+        "самые интересные события в городе",
+        "классическая"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/bc/fd/bcfd43e0e4b66fabb2878cb98b48b44d.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "6+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:12.721251",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: концерт «Ennio Morricone. Professional» во дворце Белосельских-Белозерских | Категория: Концерты | Описание: Музыкальные темы из классических фильмов, покорившие мир, прозвучат во дворце Белосельских-Белозерских в исполнении оркестра и хора. | Место: Место: Дворец Белосельских-Белозерских | Теги: 6+, это лето, концерт года, новое на сайте, концерты | Дата: 07.08.2022 20:00 - 22:00 | Город: Санкт-Петербург"
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "month": "2024-06",
+    "city": "msk",
+    "total_events": 2,
+    "export_date": "2025-12-10T23:06:02.980474"
+  },
+  "events": [
+    {
+      "id": 210145,
+      "title": "концерт «Музыка в Планетарии: Jazz&Stars»",
+      "description": "В этом сезоне гостей Планетария ждут вечера джаза под звёздным куполом. Читателям KudaGo дарят скидку!",
+      "short_description": "В этом сезоне гостей Планетария ждут вечера джаза под звёздным куполом. Читателям KudaGo дарят скидку!",
+      "category": "Концерты",
+      "dates": [
+        {
+          "start_timestamp": 1718989200,
+          "end_timestamp": 1718992800,
+          "start_datetime": "2024-06-21T20:00:00",
+          "end_datetime": "2024-06-21T21:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 21,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1720198800,
+          "end_timestamp": 1720202400,
+          "start_datetime": "2024-07-05T20:00:00",
+          "end_datetime": "2024-07-05T21:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 5,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1723309200,
+          "end_timestamp": 1723312800,
+          "start_datetime": "2024-08-10T20:00:00",
+          "end_datetime": "2024-08-10T21:00:00",
+          "year": 2024,
+          "month": 8,
+          "day": 10,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1729270800,
+          "end_timestamp": 1729274400,
+          "start_datetime": "2024-10-18T20:00:00",
+          "end_datetime": "2024-10-18T21:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 18,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1732726800,
+          "end_timestamp": 1732730400,
+          "start_datetime": "2024-11-27T20:00:00",
+          "end_datetime": "2024-11-27T21:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 27,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1741971600,
+          "end_timestamp": 1741971600,
+          "start_datetime": "2025-03-14T20:00:00",
+          "end_datetime": "2025-03-14T20:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 14,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744563600,
+          "end_timestamp": 1744563600,
+          "start_datetime": "2025-04-13T20:00:00",
+          "end_datetime": "2025-04-13T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 13,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745427600,
+          "end_timestamp": 1745427600,
+          "start_datetime": "2025-04-23T20:00:00",
+          "end_datetime": "2025-04-23T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 23,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1746982800,
+          "end_timestamp": 1746982800,
+          "start_datetime": "2025-05-11T20:00:00",
+          "end_datetime": "2025-05-11T20:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 11,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1748710800,
+          "end_timestamp": 1748710800,
+          "start_datetime": "2025-05-31T20:00:00",
+          "end_datetime": "2025-05-31T20:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 31,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749142800,
+          "end_timestamp": 1749142800,
+          "start_datetime": "2025-06-05T20:00:00",
+          "end_datetime": "2025-06-05T20:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 5,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749315600,
+          "end_timestamp": 1749315600,
+          "start_datetime": "2025-06-07T20:00:00",
+          "end_datetime": "2025-06-07T20:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 7,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751648400,
+          "end_timestamp": 1751648400,
+          "start_datetime": "2025-07-04T20:00:00",
+          "end_datetime": "2025-07-04T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 4,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753290000,
+          "end_timestamp": 1753290000,
+          "start_datetime": "2025-07-23T20:00:00",
+          "end_datetime": "2025-07-23T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 23,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755277200,
+          "end_timestamp": 1755277200,
+          "start_datetime": "2025-08-15T20:00:00",
+          "end_datetime": "2025-08-15T20:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 15,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1756573200,
+          "end_timestamp": 1756573200,
+          "start_datetime": "2025-08-30T20:00:00",
+          "end_datetime": "2025-08-30T20:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 30,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757264400,
+          "end_timestamp": 1757264400,
+          "start_datetime": "2025-09-07T20:00:00",
+          "end_datetime": "2025-09-07T20:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 7,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1758733200,
+          "end_timestamp": 1758733200,
+          "start_datetime": "2025-09-24T20:00:00",
+          "end_datetime": "2025-09-24T20:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 24,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764262800,
+          "end_timestamp": 1764262800,
+          "start_datetime": "2025-11-27T20:00:00",
+          "end_datetime": "2025-11-27T20:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 27,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765386000,
+          "end_timestamp": 1765386000,
+          "start_datetime": "2025-12-10T20:00:00",
+          "end_datetime": "2025-12-10T20:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 10,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766595600,
+          "end_timestamp": 1766595600,
+          "start_datetime": "2025-12-24T20:00:00",
+          "end_datetime": "2025-12-24T20:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 24,
+          "hour": 20,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "21.06.2024 20:00 - 21:00",
+        "05.07.2024 20:00 - 21:00",
+        "10.08.2024 20:00 - 21:00",
+        "18.10.2024 20:00 - 21:00",
+        "27.11.2024 20:00 - 21:00",
+        "14.03.2025 20:00 - 20:00",
+        "13.04.2025 20:00 - 20:00",
+        "23.04.2025 20:00 - 20:00",
+        "11.05.2025 20:00 - 20:00",
+        "31.05.2025 20:00 - 20:00",
+        "05.06.2025 20:00 - 20:00",
+        "07.06.2025 20:00 - 20:00",
+        "04.07.2025 20:00 - 20:00",
+        "23.07.2025 20:00 - 20:00",
+        "15.08.2025 20:00 - 20:00",
+        "30.08.2025 20:00 - 20:00",
+        "07.09.2025 20:00 - 20:00",
+        "24.09.2025 20:00 - 20:00",
+        "27.11.2025 20:00 - 20:00",
+        "10.12.2025 20:00 - 20:00",
+        "24.12.2025 20:00 - 20:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 4500 до 7500 рублей"
+      },
+      "price_text": "от 4500 до 7500 рублей",
+      "place": {
+        "id": 55,
+        "title": "Московский планетарий",
+        "address": "ул. Садовая-Кудринская, д. 5, стр. 1",
+        "subway": "Баррикадная",
+        "coords": {
+          "lat": 55.76140599999993,
+          "lon": 37.583660999999985
+        },
+        "phone": "+7 495 221-76-90, +7 495 221-76-92",
+        "site_url": "https://kudago.com/msk/place/planetariy-msk/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Московский планетарий\nАдрес: ул. Садовая-Кудринская, д. 5, стр. 1\nМетро: Баррикадная\nКоординаты: 55.761406, 37.583661\nТелефон: +7 495 221-76-90, +7 495 221-76-92\nСайт: https://kudago.com/msk/place/planetariy-msk/",
+      "url": "https://kudago.com/msk/event/kontsert-muzyika-v-planetarii-jazz-and-stars/",
+      "tags": [
+        "акции и скидки",
+        "классика джаза",
+        "новый год 2026",
+        "концерт года",
+        "романтичные места и события",
+        "12+",
+        "космос",
+        "концерты",
+        "развлечения",
+        "джаз и блюз"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/14/c7/14c7872df583ef577954dea8dc3c9e1e.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "12+",
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:08.507712",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: концерт «Музыка в Планетарии: Jazz&Stars» | Категория: Концерты | Описание: В этом сезоне гостей Планетария ждут вечера джаза под звёздным куполом. Читателям KudaGo дарят скидку! | Место: Место: Московский планетарий | Теги: акции и скидки, классика джаза, новый год 2026, концерт года, романтичные места и события | Дата: 21.06.2024 20:00 - 21:00 | Город: Москва"
+    },
+    {
+      "id": 210145,
+      "title": "концерт «Музыка в Планетарии: Jazz&Stars»",
+      "description": "В этом сезоне гостей Планетария ждут вечера джаза под звёздным куполом. Читателям KudaGo дарят скидку!",
+      "short_description": "В этом сезоне гостей Планетария ждут вечера джаза под звёздным куполом. Читателям KudaGo дарят скидку!",
+      "category": "Развлечения",
+      "dates": [
+        {
+          "start_timestamp": 1718989200,
+          "end_timestamp": 1718992800,
+          "start_datetime": "2024-06-21T20:00:00",
+          "end_datetime": "2024-06-21T21:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 21,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1720198800,
+          "end_timestamp": 1720202400,
+          "start_datetime": "2024-07-05T20:00:00",
+          "end_datetime": "2024-07-05T21:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 5,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1723309200,
+          "end_timestamp": 1723312800,
+          "start_datetime": "2024-08-10T20:00:00",
+          "end_datetime": "2024-08-10T21:00:00",
+          "year": 2024,
+          "month": 8,
+          "day": 10,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1729270800,
+          "end_timestamp": 1729274400,
+          "start_datetime": "2024-10-18T20:00:00",
+          "end_datetime": "2024-10-18T21:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 18,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1732726800,
+          "end_timestamp": 1732730400,
+          "start_datetime": "2024-11-27T20:00:00",
+          "end_datetime": "2024-11-27T21:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 27,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1741971600,
+          "end_timestamp": 1741971600,
+          "start_datetime": "2025-03-14T20:00:00",
+          "end_datetime": "2025-03-14T20:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 14,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744563600,
+          "end_timestamp": 1744563600,
+          "start_datetime": "2025-04-13T20:00:00",
+          "end_datetime": "2025-04-13T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 13,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745427600,
+          "end_timestamp": 1745427600,
+          "start_datetime": "2025-04-23T20:00:00",
+          "end_datetime": "2025-04-23T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 23,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1746982800,
+          "end_timestamp": 1746982800,
+          "start_datetime": "2025-05-11T20:00:00",
+          "end_datetime": "2025-05-11T20:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 11,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1748710800,
+          "end_timestamp": 1748710800,
+          "start_datetime": "2025-05-31T20:00:00",
+          "end_datetime": "2025-05-31T20:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 31,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749142800,
+          "end_timestamp": 1749142800,
+          "start_datetime": "2025-06-05T20:00:00",
+          "end_datetime": "2025-06-05T20:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 5,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749315600,
+          "end_timestamp": 1749315600,
+          "start_datetime": "2025-06-07T20:00:00",
+          "end_datetime": "2025-06-07T20:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 7,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751648400,
+          "end_timestamp": 1751648400,
+          "start_datetime": "2025-07-04T20:00:00",
+          "end_datetime": "2025-07-04T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 4,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753290000,
+          "end_timestamp": 1753290000,
+          "start_datetime": "2025-07-23T20:00:00",
+          "end_datetime": "2025-07-23T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 23,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755277200,
+          "end_timestamp": 1755277200,
+          "start_datetime": "2025-08-15T20:00:00",
+          "end_datetime": "2025-08-15T20:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 15,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1756573200,
+          "end_timestamp": 1756573200,
+          "start_datetime": "2025-08-30T20:00:00",
+          "end_datetime": "2025-08-30T20:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 30,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757264400,
+          "end_timestamp": 1757264400,
+          "start_datetime": "2025-09-07T20:00:00",
+          "end_datetime": "2025-09-07T20:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 7,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1758733200,
+          "end_timestamp": 1758733200,
+          "start_datetime": "2025-09-24T20:00:00",
+          "end_datetime": "2025-09-24T20:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 24,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764262800,
+          "end_timestamp": 1764262800,
+          "start_datetime": "2025-11-27T20:00:00",
+          "end_datetime": "2025-11-27T20:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 27,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765386000,
+          "end_timestamp": 1765386000,
+          "start_datetime": "2025-12-10T20:00:00",
+          "end_datetime": "2025-12-10T20:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 10,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766595600,
+          "end_timestamp": 1766595600,
+          "start_datetime": "2025-12-24T20:00:00",
+          "end_datetime": "2025-12-24T20:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 24,
+          "hour": 20,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "21.06.2024 20:00 - 21:00",
+        "05.07.2024 20:00 - 21:00",
+        "10.08.2024 20:00 - 21:00",
+        "18.10.2024 20:00 - 21:00",
+        "27.11.2024 20:00 - 21:00",
+        "14.03.2025 20:00 - 20:00",
+        "13.04.2025 20:00 - 20:00",
+        "23.04.2025 20:00 - 20:00",
+        "11.05.2025 20:00 - 20:00",
+        "31.05.2025 20:00 - 20:00",
+        "05.06.2025 20:00 - 20:00",
+        "07.06.2025 20:00 - 20:00",
+        "04.07.2025 20:00 - 20:00",
+        "23.07.2025 20:00 - 20:00",
+        "15.08.2025 20:00 - 20:00",
+        "30.08.2025 20:00 - 20:00",
+        "07.09.2025 20:00 - 20:00",
+        "24.09.2025 20:00 - 20:00",
+        "27.11.2025 20:00 - 20:00",
+        "10.12.2025 20:00 - 20:00",
+        "24.12.2025 20:00 - 20:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 4500 до 7500 рублей"
+      },
+      "price_text": "от 4500 до 7500 рублей",
+      "place": {
+        "id": 55,
+        "title": "Московский планетарий",
+        "address": "ул. Садовая-Кудринская, д. 5, стр. 1",
+        "subway": "Баррикадная",
+        "coords": {
+          "lat": 55.76140599999993,
+          "lon": 37.583660999999985
+        },
+        "phone": "+7 495 221-76-90, +7 495 221-76-92",
+        "site_url": "https://kudago.com/msk/place/planetariy-msk/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Московский планетарий\nАдрес: ул. Садовая-Кудринская, д. 5, стр. 1\nМетро: Баррикадная\nКоординаты: 55.761406, 37.583661\nТелефон: +7 495 221-76-90, +7 495 221-76-92\nСайт: https://kudago.com/msk/place/planetariy-msk/",
+      "url": "https://kudago.com/msk/event/kontsert-muzyika-v-planetarii-jazz-and-stars/",
+      "tags": [
+        "акции и скидки",
+        "классика джаза",
+        "новый год 2026",
+        "концерт года",
+        "романтичные места и события",
+        "12+",
+        "космос",
+        "концерты",
+        "развлечения",
+        "джаз и блюз"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/14/c7/14c7872df583ef577954dea8dc3c9e1e.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "12+",
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:58.487060",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: концерт «Музыка в Планетарии: Jazz&Stars» | Категория: Развлечения | Описание: В этом сезоне гостей Планетария ждут вечера джаза под звёздным куполом. Читателям KudaGo дарят скидку! | Место: Место: Московский планетарий | Теги: акции и скидки, классика джаза, новый год 2026, концерт года, романтичные места и события | Дата: 21.06.2024 20:00 - 21:00 | Город: Москва"
+    }
+  ]
+}

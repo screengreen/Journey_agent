@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "month": "2023-08",
+    "city": "msk",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:06:03.442170"
+  },
+  "events": [
+    {
+      "id": 206118,
+      "title": "викторина «Футбол»",
+      "description": "Команда квиза «Смузи» создала тематическую викторину для истинных любителей футбола. Здесь вы сможете проникнуться спортивным духом, проявить себя настоящим командным игроком и весело провести время в окружении единомышленников.",
+      "short_description": "Команда квиза «Смузи» создала тематическую викторину для истинных любителей футбола. Здесь вы сможете проникнуться спортивным духом, проявить себя настоящим командным игроком и весело провести время в...",
+      "category": "Развлечения",
+      "dates": [
+        {
+          "start_timestamp": 1692810000,
+          "end_timestamp": 1692810000,
+          "start_datetime": "2023-08-23T20:00:00",
+          "end_datetime": "2023-08-23T20:00:00",
+          "year": 2023,
+          "month": 8,
+          "day": 23,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1700154000,
+          "end_timestamp": 1700154000,
+          "start_datetime": "2023-11-16T20:00:00",
+          "end_datetime": "2023-11-16T20:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 16,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1702224000,
+          "end_timestamp": 1702224000,
+          "start_datetime": "2023-12-10T19:00:00",
+          "end_datetime": "2023-12-10T19:00:00",
+          "year": 2023,
+          "month": 12,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1708016400,
+          "end_timestamp": 1708016400,
+          "start_datetime": "2024-02-15T20:00:00",
+          "end_datetime": "2024-02-15T20:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 15,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1710781200,
+          "end_timestamp": 1710781200,
+          "start_datetime": "2024-03-18T20:00:00",
+          "end_datetime": "2024-03-18T20:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 18,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1713200400,
+          "end_timestamp": 1713200400,
+          "start_datetime": "2024-04-15T20:00:00",
+          "end_datetime": "2024-04-15T20:00:00",
+          "year": 2024,
+          "month": 4,
+          "day": 15,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1716224400,
+          "end_timestamp": 1716224400,
+          "start_datetime": "2024-05-20T20:00:00",
+          "end_datetime": "2024-05-20T20:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 20,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1718643600,
+          "end_timestamp": 1718643600,
+          "start_datetime": "2024-06-17T20:00:00",
+          "end_datetime": "2024-06-17T20:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 17,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1721667600,
+          "end_timestamp": 1721667600,
+          "start_datetime": "2024-07-22T20:00:00",
+          "end_datetime": "2024-07-22T20:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 22,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1724086800,
+          "end_timestamp": 1724086800,
+          "start_datetime": "2024-08-19T20:00:00",
+          "end_datetime": "2024-08-19T20:00:00",
+          "year": 2024,
+          "month": 8,
+          "day": 19,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1726506000,
+          "end_timestamp": 1726506000,
+          "start_datetime": "2024-09-16T20:00:00",
+          "end_datetime": "2024-09-16T20:00:00",
+          "year": 2024,
+          "month": 9,
+          "day": 16,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1730134800,
+          "end_timestamp": 1730134800,
+          "start_datetime": "2024-10-28T20:00:00",
+          "end_datetime": "2024-10-28T20:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 28,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1731949200,
+          "end_timestamp": 1731949200,
+          "start_datetime": "2024-11-18T20:00:00",
+          "end_datetime": "2024-11-18T20:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 18,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1734973200,
+          "end_timestamp": 1734973200,
+          "start_datetime": "2024-12-23T20:00:00",
+          "end_datetime": "2024-12-23T20:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 23,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1737392400,
+          "end_timestamp": 1737392400,
+          "start_datetime": "2025-01-20T20:00:00",
+          "end_datetime": "2025-01-20T20:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 20,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740416400,
+          "end_timestamp": 1740416400,
+          "start_datetime": "2025-02-24T20:00:00",
+          "end_datetime": "2025-02-24T20:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 24,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1743440400,
+          "end_timestamp": 1743440400,
+          "start_datetime": "2025-03-31T20:00:00",
+          "end_datetime": "2025-03-31T20:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 31,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745946000,
+          "end_timestamp": 1745946000,
+          "start_datetime": "2025-04-29T20:00:00",
+          "end_datetime": "2025-04-29T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 29,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751302800,
+          "end_timestamp": 1751302800,
+          "start_datetime": "2025-06-30T20:00:00",
+          "end_datetime": "2025-06-30T20:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 30,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753722000,
+          "end_timestamp": 1753722000,
+          "start_datetime": "2025-07-28T20:00:00",
+          "end_datetime": "2025-07-28T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 28,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759165200,
+          "end_timestamp": 1759165200,
+          "start_datetime": "2025-09-29T20:00:00",
+          "end_datetime": "2025-09-29T20:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 29,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761584400,
+          "end_timestamp": 1761584400,
+          "start_datetime": "2025-10-27T20:00:00",
+          "end_datetime": "2025-10-27T20:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 27,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764003600,
+          "end_timestamp": 1764003600,
+          "start_datetime": "2025-11-24T20:00:00",
+          "end_datetime": "2025-11-24T20:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 24,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1767027600,
+          "end_timestamp": 1767027600,
+          "start_datetime": "2025-12-29T20:00:00",
+          "end_datetime": "2025-12-29T20:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 29,
+          "hour": 20,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "23.08.2023 20:00 - 20:00",
+        "16.11.2023 20:00 - 20:00",
+        "10.12.2023 19:00 - 19:00",
+        "15.02.2024 20:00 - 20:00",
+        "18.03.2024 20:00 - 20:00",
+        "15.04.2024 20:00 - 20:00",
+        "20.05.2024 20:00 - 20:00",
+        "17.06.2024 20:00 - 20:00",
+        "22.07.2024 20:00 - 20:00",
+        "19.08.2024 20:00 - 20:00",
+        "16.09.2024 20:00 - 20:00",
+        "28.10.2024 20:00 - 20:00",
+        "18.11.2024 20:00 - 20:00",
+        "23.12.2024 20:00 - 20:00",
+        "20.01.2025 20:00 - 20:00",
+        "24.02.2025 20:00 - 20:00",
+        "31.03.2025 20:00 - 20:00",
+        "29.04.2025 20:00 - 20:00",
+        "30.06.2025 20:00 - 20:00",
+        "28.07.2025 20:00 - 20:00",
+        "29.09.2025 20:00 - 20:00",
+        "27.10.2025 20:00 - 20:00",
+        "24.11.2025 20:00 - 20:00",
+        "29.12.2025 20:00 - 20:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "900 рублей за игрока"
+      },
+      "price_text": "900 рублей за игрока",
+      "place": {
+        "id": 35478,
+        "title": "[цурцум]кафе",
+        "address": "4-й Сыромятнический пер., д. 1/8, стр. 6",
+        "subway": "",
+        "coords": {
+          "lat": 55.75539359999975,
+          "lon": 37.66510610000025
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/msk/place/restoran-tsurtsumkafe/",
+        "description": "",
+        "is_stub": true
+      },
+      "place_text": "Место: [цурцум]кафе\nАдрес: 4-й Сыромятнический пер., д. 1/8, стр. 6\nКоординаты: 55.755394, 37.665106\nСайт: https://kudago.com/msk/place/restoran-tsurtsumkafe/",
+      "url": "https://kudago.com/msk/event/entertainment-ugadajka-futbol/",
+      "tags": [
+        "квизы",
+        "веселье",
+        "развлечения",
+        "игры",
+        "16+",
+        "с друзьями",
+        "в свободное время"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/d2/9b/d29b7c7ab0361680275a5731cf070df6.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/30/ad/30adbb818e239e97d76666164165145f.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/52/cb/52cbb6b00001c87e1147256d199fc514.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:58.623141",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: викторина «Футбол» | Категория: Развлечения | Описание: Команда квиза «Смузи» создала тематическую викторину для истинных любителей футбола. Здесь вы сможете проникнуться спортивным духом, проявить себя настоящим командным игроком и весело провести время в окружении единомышленников. | Место: Место: [цурцум]кафе | Теги: квизы, веселье, развлечения, игры, 16+ | Дата: 23.08.2023 20:00 - 20:00 | Город: Москва"
+    }
+  ]
+}

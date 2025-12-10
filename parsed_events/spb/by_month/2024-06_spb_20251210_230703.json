@@ -1,0 +1,1048 @@
+{
+  "metadata": {
+    "month": "2024-06",
+    "city": "spb",
+    "total_events": 5,
+    "export_date": "2025-12-10T23:07:04.080307"
+  },
+  "events": [
+    {
+      "id": 209852,
+      "title": "новогодний маркет «Светский винтаж decor & design market»",
+      "description": "Новогодний и рождественский маркет продлится два дня и соберёт более 50 участников со всей России. Здесь вы найдёте уникальные подарки, винтажные находки, украшения, аксессуары и работы современных дизайнеров. Гостей ждут эксклюзивные авторские изделия, локальные бренды и тщательно отобранный ассортимент. Это событие, где можно купить то, что давно хотелось, и провести день в атмосфере вдохновения и красоты. Вход на маркет — бесплатный по регистрации.",
+      "short_description": "Новогодний и рождественский маркет продлится два дня и соберёт более 50 участников со всей России. Здесь вы найдёте уникальные подарки, винтажные находки, украшения, аксессуары и работы современных ди...",
+      "category": "Выставки",
+      "dates": [
+        {
+          "start_timestamp": 1717318800,
+          "end_timestamp": 1717351200,
+          "start_datetime": "2024-06-02T12:00:00",
+          "end_datetime": "2024-06-02T21:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 2,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1728205200,
+          "end_timestamp": 1728234000,
+          "start_datetime": "2024-10-06T12:00:00",
+          "end_datetime": "2024-10-06T20:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733562000,
+          "end_timestamp": 1733594400,
+          "start_datetime": "2024-12-07T12:00:00",
+          "end_datetime": "2024-12-07T21:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 7,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744448400,
+          "end_timestamp": 1744477200,
+          "start_datetime": "2025-04-12T12:00:00",
+          "end_datetime": "2025-04-12T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 12,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751792400,
+          "end_timestamp": 1751821200,
+          "start_datetime": "2025-07-06T12:00:00",
+          "end_datetime": "2025-07-06T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759568400,
+          "end_timestamp": 1759597200,
+          "start_datetime": "2025-10-04T12:00:00",
+          "end_datetime": "2025-10-04T20:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 4,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765616400,
+          "end_timestamp": 1765735200,
+          "start_datetime": "2025-12-13T12:00:00",
+          "end_datetime": "2025-12-14T21:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 13,
+          "hour": 12,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "02.06.2024 12:00 - 21:00",
+        "06.10.2024 12:00 - 20:00",
+        "07.12.2024 12:00 - 21:00",
+        "12.04.2025 12:00 - 20:00",
+        "06.07.2025 12:00 - 20:00",
+        "04.10.2025 12:00 - 20:00",
+        "13.12.2025 12:00 - 14.12.2025 21:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "бесплатно, обязательна регистрация"
+      },
+      "price_text": "бесплатно, обязательна регистрация",
+      "place": {
+        "id": 34885,
+        "title": "фуд-пространство VOKZAL 1853",
+        "address": "наб. Обводного канала, д. 118",
+        "subway": "",
+        "coords": {
+          "lat": 59.90694539999988,
+          "lon": 30.30737209999973
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/spb/place/vokzal-1853/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: фуд-пространство VOKZAL 1853\nАдрес: наб. Обводного канала, д. 118\nКоординаты: 59.906945, 30.307372\nСайт: https://kudago.com/spb/place/vokzal-1853/",
+      "url": "https://kudago.com/spb/event/festival-svetskij-vintazh/",
+      "tags": [
+        "ярмарки (развлечения, ярмарки)",
+        "красиво",
+        "новогодние ярмарки и подарки",
+        "новый год 2026",
+        "free",
+        "ретро",
+        "купить подарок",
+        "светский прием",
+        "зима",
+        "выставки"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/51/53/515310954b73e5d8b5b15aa70ec1defa.jpeg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": 0,
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:28.236814",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: новогодний маркет «Светский винтаж decor & design market» | Категория: Выставки | Описание: Новогодний и рождественский маркет продлится два дня и соберёт более 50 участников со всей России. Здесь вы найдёте уникальные подарки, винтажные находки, украшения, аксессуары и работы современных дизайнеров. Гостей ждут эксклюзивные авторские изделия, локальные бренды и тщательно отобранный ассорт | Место: Место: фуд-пространство VOKZAL 1853 | Теги: ярмарки (развлечения, ярмарки), красиво, новогодние ярмарки и подарки, новый год 2026, free | Дата: 02.06.2024 12:00 - 21:00 | Город: Санкт-Петербург"
+    },
+    {
+      "id": 209852,
+      "title": "новогодний маркет «Светский винтаж decor & design market»",
+      "description": "Новогодний и рождественский маркет продлится два дня и соберёт более 50 участников со всей России. Здесь вы найдёте уникальные подарки, винтажные находки, украшения, аксессуары и работы современных дизайнеров. Гостей ждут эксклюзивные авторские изделия, локальные бренды и тщательно отобранный ассортимент. Это событие, где можно купить то, что давно хотелось, и провести день в атмосфере вдохновения и красоты. Вход на маркет — бесплатный по регистрации.",
+      "short_description": "Новогодний и рождественский маркет продлится два дня и соберёт более 50 участников со всей России. Здесь вы найдёте уникальные подарки, винтажные находки, украшения, аксессуары и работы современных ди...",
+      "category": "Фестивали",
+      "dates": [
+        {
+          "start_timestamp": 1717318800,
+          "end_timestamp": 1717351200,
+          "start_datetime": "2024-06-02T12:00:00",
+          "end_datetime": "2024-06-02T21:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 2,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1728205200,
+          "end_timestamp": 1728234000,
+          "start_datetime": "2024-10-06T12:00:00",
+          "end_datetime": "2024-10-06T20:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733562000,
+          "end_timestamp": 1733594400,
+          "start_datetime": "2024-12-07T12:00:00",
+          "end_datetime": "2024-12-07T21:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 7,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744448400,
+          "end_timestamp": 1744477200,
+          "start_datetime": "2025-04-12T12:00:00",
+          "end_datetime": "2025-04-12T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 12,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751792400,
+          "end_timestamp": 1751821200,
+          "start_datetime": "2025-07-06T12:00:00",
+          "end_datetime": "2025-07-06T20:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759568400,
+          "end_timestamp": 1759597200,
+          "start_datetime": "2025-10-04T12:00:00",
+          "end_datetime": "2025-10-04T20:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 4,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765616400,
+          "end_timestamp": 1765735200,
+          "start_datetime": "2025-12-13T12:00:00",
+          "end_datetime": "2025-12-14T21:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 13,
+          "hour": 12,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "02.06.2024 12:00 - 21:00",
+        "06.10.2024 12:00 - 20:00",
+        "07.12.2024 12:00 - 21:00",
+        "12.04.2025 12:00 - 20:00",
+        "06.07.2025 12:00 - 20:00",
+        "04.10.2025 12:00 - 20:00",
+        "13.12.2025 12:00 - 14.12.2025 21:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "бесплатно, обязательна регистрация"
+      },
+      "price_text": "бесплатно, обязательна регистрация",
+      "place": {
+        "id": 34885,
+        "title": "фуд-пространство VOKZAL 1853",
+        "address": "наб. Обводного канала, д. 118",
+        "subway": "",
+        "coords": {
+          "lat": 59.90694539999988,
+          "lon": 30.30737209999973
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/spb/place/vokzal-1853/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: фуд-пространство VOKZAL 1853\nАдрес: наб. Обводного канала, д. 118\nКоординаты: 59.906945, 30.307372\nСайт: https://kudago.com/spb/place/vokzal-1853/",
+      "url": "https://kudago.com/spb/event/festival-svetskij-vintazh/",
+      "tags": [
+        "ярмарки (развлечения, ярмарки)",
+        "красиво",
+        "новогодние ярмарки и подарки",
+        "новый год 2026",
+        "free",
+        "ретро",
+        "купить подарок",
+        "светский прием",
+        "зима",
+        "выставки"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/51/53/515310954b73e5d8b5b15aa70ec1defa.jpeg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": 0,
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:33.886563",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: новогодний маркет «Светский винтаж decor & design market» | Категория: Фестивали | Описание: Новогодний и рождественский маркет продлится два дня и соберёт более 50 участников со всей России. Здесь вы найдёте уникальные подарки, винтажные находки, украшения, аксессуары и работы современных дизайнеров. Гостей ждут эксклюзивные авторские изделия, локальные бренды и тщательно отобранный ассорт | Место: Место: фуд-пространство VOKZAL 1853 | Теги: ярмарки (развлечения, ярмарки), красиво, новогодние ярмарки и подарки, новый год 2026, free | Дата: 02.06.2024 12:00 - 21:00 | Город: Санкт-Петербург"
+    },
+    {
+      "id": 210170,
+      "title": "викторина «Русский рок: новогодний лайт»",
+      "description": "Множество интересных вопросов, популярные и малоизвестные рок-группы и атмосфера азарта — команда квиза «Смузи» приготовила для поклонников рока поистине захватывающую игру.",
+      "short_description": "Множество интересных вопросов, популярные и малоизвестные рок-группы и атмосфера азарта — команда квиза «Смузи» приготовила для поклонников рока поистине захватывающую игру.",
+      "category": "Развлечения",
+      "dates": [
+        {
+          "start_timestamp": 1719419400,
+          "end_timestamp": 1719419400,
+          "start_datetime": "2024-06-26T19:30:00",
+          "end_datetime": "2024-06-26T19:30:00",
+          "year": 2024,
+          "month": 6,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1728405000,
+          "end_timestamp": 1728405000,
+          "start_datetime": "2024-10-08T19:30:00",
+          "end_datetime": "2024-10-08T19:30:00",
+          "year": 2024,
+          "month": 10,
+          "day": 8,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1740414600,
+          "end_timestamp": 1740414600,
+          "start_datetime": "2025-02-24T19:30:00",
+          "end_datetime": "2025-02-24T19:30:00",
+          "year": 2025,
+          "month": 2,
+          "day": 24,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1743006600,
+          "end_timestamp": 1743006600,
+          "start_datetime": "2025-03-26T19:30:00",
+          "end_datetime": "2025-03-26T19:30:00",
+          "year": 2025,
+          "month": 3,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1745512200,
+          "end_timestamp": 1745512200,
+          "start_datetime": "2025-04-24T19:30:00",
+          "end_datetime": "2025-04-24T19:30:00",
+          "year": 2025,
+          "month": 4,
+          "day": 24,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1748449800,
+          "end_timestamp": 1748449800,
+          "start_datetime": "2025-05-28T19:30:00",
+          "end_datetime": "2025-05-28T19:30:00",
+          "year": 2025,
+          "month": 5,
+          "day": 28,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1750696200,
+          "end_timestamp": 1750696200,
+          "start_datetime": "2025-06-23T19:30:00",
+          "end_datetime": "2025-06-23T19:30:00",
+          "year": 2025,
+          "month": 6,
+          "day": 23,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1757953800,
+          "end_timestamp": 1757953800,
+          "start_datetime": "2025-09-15T19:30:00",
+          "end_datetime": "2025-09-15T19:30:00",
+          "year": 2025,
+          "month": 9,
+          "day": 15,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1764520200,
+          "end_timestamp": 1764520200,
+          "start_datetime": "2025-11-30T19:30:00",
+          "end_datetime": "2025-11-30T19:30:00",
+          "year": 2025,
+          "month": 11,
+          "day": 30,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1766939400,
+          "end_timestamp": 1766939400,
+          "start_datetime": "2025-12-28T19:30:00",
+          "end_datetime": "2025-12-28T19:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 28,
+          "hour": 19,
+          "minute": 30
+        }
+      ],
+      "dates_text": [
+        "26.06.2024 19:30 - 19:30",
+        "08.10.2024 19:30 - 19:30",
+        "24.02.2025 19:30 - 19:30",
+        "26.03.2025 19:30 - 19:30",
+        "24.04.2025 19:30 - 19:30",
+        "28.05.2025 19:30 - 19:30",
+        "23.06.2025 19:30 - 19:30",
+        "15.09.2025 19:30 - 19:30",
+        "30.11.2025 19:30 - 19:30",
+        "28.12.2025 19:30 - 19:30"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "700 рублей"
+      },
+      "price_text": "700 рублей",
+      "place": {
+        "id": 35930,
+        "title": "Q-LOFT",
+        "address": "Лиговский просп., д. 50Д",
+        "subway": "",
+        "coords": {
+          "lat": 59.92536670000023,
+          "lon": 30.3580513000004
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/spb/place/attraktsion-q-loft/",
+        "description": "",
+        "is_stub": true
+      },
+      "place_text": "Место: Q-LOFT\nАдрес: Лиговский просп., д. 50Д\nКоординаты: 59.925367, 30.358051\nСайт: https://kudago.com/spb/place/attraktsion-q-loft/",
+      "url": "https://kudago.com/spb/event/entertainment-russkij-rok-top-30/",
+      "tags": [
+        "новый год 2026",
+        "квизы",
+        "новогодние развлечения",
+        "веселье",
+        "развлечения",
+        "игры",
+        "музыка",
+        "старый добрый рок",
+        "с друзьями",
+        "в свободное время"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/14/97/14970805700dd01da5361a7f980117af.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/e0/3f/e03f026c66ba9128389990681bb65f3e.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/3e/87/3e872a148ed71e2583a4e300f894dea3.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "18+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:07:00.415676",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: викторина «Русский рок: новогодний лайт» | Категория: Развлечения | Описание: Множество интересных вопросов, популярные и малоизвестные рок-группы и атмосфера азарта — команда квиза «Смузи» приготовила для поклонников рока поистине захватывающую игру. | Место: Место: Q-LOFT | Теги: новый год 2026, квизы, новогодние развлечения, веселье, развлечения | Дата: 26.06.2024 19:30 - 19:30 | Город: Санкт-Петербург"
+    },
+    {
+      "id": 210171,
+      "title": "викторина «Угадай мелодию: новогодний лайт»",
+      "description": "Квиз «Смузи» приглашает вас зарядиться праздничным настроением и освежить в памяти новогодние хиты. Викторина порадует гостей музыкальными вопросами и мелодиями, которым невозможно не подпевать.",
+      "short_description": "Квиз «Смузи» приглашает вас зарядиться праздничным настроением и освежить в памяти новогодние хиты. Викторина порадует гостей музыкальными вопросами и мелодиями, которым невозможно не подпевать.",
+      "category": "Развлечения",
+      "dates": [
+        {
+          "start_timestamp": 1719673200,
+          "end_timestamp": 1719673200,
+          "start_datetime": "2024-06-29T18:00:00",
+          "end_datetime": "2024-06-29T18:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 29,
+          "hour": 18,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1723825800,
+          "end_timestamp": 1723825800,
+          "start_datetime": "2024-08-16T19:30:00",
+          "end_datetime": "2024-08-16T19:30:00",
+          "year": 2024,
+          "month": 8,
+          "day": 16,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1726930800,
+          "end_timestamp": 1726930800,
+          "start_datetime": "2024-09-21T18:00:00",
+          "end_datetime": "2024-09-21T18:00:00",
+          "year": 2024,
+          "month": 9,
+          "day": 21,
+          "hour": 18,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1730305800,
+          "end_timestamp": 1730305800,
+          "start_datetime": "2024-10-30T19:30:00",
+          "end_datetime": "2024-10-30T19:30:00",
+          "year": 2024,
+          "month": 10,
+          "day": 30,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1732897800,
+          "end_timestamp": 1732897800,
+          "start_datetime": "2024-11-29T19:30:00",
+          "end_datetime": "2024-11-29T19:30:00",
+          "year": 2024,
+          "month": 11,
+          "day": 29,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1737219600,
+          "end_timestamp": 1737219600,
+          "start_datetime": "2025-01-18T20:00:00",
+          "end_datetime": "2025-01-18T20:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 18,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740326400,
+          "end_timestamp": 1740326400,
+          "start_datetime": "2025-02-23T19:00:00",
+          "end_datetime": "2025-02-23T19:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742574600,
+          "end_timestamp": 1742574600,
+          "start_datetime": "2025-03-21T19:30:00",
+          "end_datetime": "2025-03-21T19:30:00",
+          "year": 2025,
+          "month": 3,
+          "day": 21,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1744907400,
+          "end_timestamp": 1744907400,
+          "start_datetime": "2025-04-17T19:30:00",
+          "end_datetime": "2025-04-17T19:30:00",
+          "year": 2025,
+          "month": 4,
+          "day": 17,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1748622600,
+          "end_timestamp": 1748622600,
+          "start_datetime": "2025-05-30T19:30:00",
+          "end_datetime": "2025-05-30T19:30:00",
+          "year": 2025,
+          "month": 5,
+          "day": 30,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1750177800,
+          "end_timestamp": 1750177800,
+          "start_datetime": "2025-06-17T19:30:00",
+          "end_datetime": "2025-06-17T19:30:00",
+          "year": 2025,
+          "month": 6,
+          "day": 17,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1753029000,
+          "end_timestamp": 1753029000,
+          "start_datetime": "2025-07-20T19:30:00",
+          "end_datetime": "2025-07-20T19:30:00",
+          "year": 2025,
+          "month": 7,
+          "day": 20,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1754670600,
+          "end_timestamp": 1754670600,
+          "start_datetime": "2025-08-08T19:30:00",
+          "end_datetime": "2025-08-08T19:30:00",
+          "year": 2025,
+          "month": 8,
+          "day": 8,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1758385800,
+          "end_timestamp": 1758385800,
+          "start_datetime": "2025-09-20T19:30:00",
+          "end_datetime": "2025-09-20T19:30:00",
+          "year": 2025,
+          "month": 9,
+          "day": 20,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1760459400,
+          "end_timestamp": 1760459400,
+          "start_datetime": "2025-10-14T19:30:00",
+          "end_datetime": "2025-10-14T19:30:00",
+          "year": 2025,
+          "month": 10,
+          "day": 14,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1764433800,
+          "end_timestamp": 1764433800,
+          "start_datetime": "2025-11-29T19:30:00",
+          "end_datetime": "2025-11-29T19:30:00",
+          "year": 2025,
+          "month": 11,
+          "day": 29,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1766766600,
+          "end_timestamp": 1766766600,
+          "start_datetime": "2025-12-26T19:30:00",
+          "end_datetime": "2025-12-26T19:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        }
+      ],
+      "dates_text": [
+        "29.06.2024 18:00 - 18:00",
+        "16.08.2024 19:30 - 19:30",
+        "21.09.2024 18:00 - 18:00",
+        "30.10.2024 19:30 - 19:30",
+        "29.11.2024 19:30 - 19:30",
+        "18.01.2025 20:00 - 20:00",
+        "23.02.2025 19:00 - 19:00",
+        "21.03.2025 19:30 - 19:30",
+        "17.04.2025 19:30 - 19:30",
+        "30.05.2025 19:30 - 19:30",
+        "17.06.2025 19:30 - 19:30",
+        "20.07.2025 19:30 - 19:30",
+        "08.08.2025 19:30 - 19:30",
+        "20.09.2025 19:30 - 19:30",
+        "14.10.2025 19:30 - 19:30",
+        "29.11.2025 19:30 - 19:30",
+        "26.12.2025 19:30 - 19:30"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "700 рублей"
+      },
+      "price_text": "700 рублей",
+      "place": {
+        "id": 35930,
+        "title": "Q-LOFT",
+        "address": "Лиговский просп., д. 50Д",
+        "subway": "",
+        "coords": {
+          "lat": 59.92536670000023,
+          "lon": 30.3580513000004
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/spb/place/attraktsion-q-loft/",
+        "description": "",
+        "is_stub": true
+      },
+      "place_text": "Место: Q-LOFT\nАдрес: Лиговский просп., д. 50Д\nКоординаты: 59.925367, 30.358051\nСайт: https://kudago.com/spb/place/attraktsion-q-loft/",
+      "url": "https://kudago.com/spb/event/entertainment-tantsuem-i-poyom-russkie-hityi-2000-h/",
+      "tags": [
+        "новый год 2026",
+        "квизы",
+        "новогодние развлечения",
+        "веселье",
+        "развлечения",
+        "игры",
+        "музыка",
+        "16+",
+        "с друзьями",
+        "в свободное время"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/ea/91/ea919b9a11e756ba214863d13e30b0ee.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/b0/5b/b05bc04765d29a405a1e3ede38f47d67.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/4f/d2/4fd2919c180817f73ff919404cb00a79.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:07:00.416896",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: викторина «Угадай мелодию: новогодний лайт» | Категория: Развлечения | Описание: Квиз «Смузи» приглашает вас зарядиться праздничным настроением и освежить в памяти новогодние хиты. Викторина порадует гостей музыкальными вопросами и мелодиями, которым невозможно не подпевать. | Место: Место: Q-LOFT | Теги: новый год 2026, квизы, новогодние развлечения, веселье, развлечения | Дата: 29.06.2024 18:00 - 18:00 | Город: Санкт-Петербург"
+    },
+    {
+      "id": 210169,
+      "title": "викторина «Футбол»",
+      "description": "Специально для поклонников футбола команда квиза «Смузи» приготовила 75 нетривиальных вопросов различных форматов и механик. Вас ждёт атмосфера азарта и возможность проявить настоящий командный дух.",
+      "short_description": "Специально для поклонников футбола команда квиза «Смузи» приготовила 75 нетривиальных вопросов различных форматов и механик. Вас ждёт атмосфера азарта и возможность проявить настоящий командный дух.",
+      "category": "Развлечения",
+      "dates": [
+        {
+          "start_timestamp": 1719333000,
+          "end_timestamp": 1719333000,
+          "start_datetime": "2024-06-25T19:30:00",
+          "end_datetime": "2024-06-25T19:30:00",
+          "year": 2024,
+          "month": 6,
+          "day": 25,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1722270600,
+          "end_timestamp": 1722270600,
+          "start_datetime": "2024-07-29T19:30:00",
+          "end_datetime": "2024-07-29T19:30:00",
+          "year": 2024,
+          "month": 7,
+          "day": 29,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1724689800,
+          "end_timestamp": 1724689800,
+          "start_datetime": "2024-08-26T19:30:00",
+          "end_datetime": "2024-08-26T19:30:00",
+          "year": 2024,
+          "month": 8,
+          "day": 26,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1726504200,
+          "end_timestamp": 1726504200,
+          "start_datetime": "2024-09-16T19:30:00",
+          "end_datetime": "2024-09-16T19:30:00",
+          "year": 2024,
+          "month": 9,
+          "day": 16,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1729528200,
+          "end_timestamp": 1729528200,
+          "start_datetime": "2024-10-21T19:30:00",
+          "end_datetime": "2024-10-21T19:30:00",
+          "year": 2024,
+          "month": 10,
+          "day": 21,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1732552200,
+          "end_timestamp": 1732552200,
+          "start_datetime": "2024-11-25T19:30:00",
+          "end_datetime": "2024-11-25T19:30:00",
+          "year": 2024,
+          "month": 11,
+          "day": 25,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1734366600,
+          "end_timestamp": 1734366600,
+          "start_datetime": "2024-12-16T19:30:00",
+          "end_datetime": "2024-12-16T19:30:00",
+          "year": 2024,
+          "month": 12,
+          "day": 16,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1738081800,
+          "end_timestamp": 1738081800,
+          "start_datetime": "2025-01-28T19:30:00",
+          "end_datetime": "2025-01-28T19:30:00",
+          "year": 2025,
+          "month": 1,
+          "day": 28,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1742229000,
+          "end_timestamp": 1742229000,
+          "start_datetime": "2025-03-17T19:30:00",
+          "end_datetime": "2025-03-17T19:30:00",
+          "year": 2025,
+          "month": 3,
+          "day": 17,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1744648200,
+          "end_timestamp": 1744648200,
+          "start_datetime": "2025-04-14T19:30:00",
+          "end_datetime": "2025-04-14T19:30:00",
+          "year": 2025,
+          "month": 4,
+          "day": 14,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1747672200,
+          "end_timestamp": 1747672200,
+          "start_datetime": "2025-05-19T19:30:00",
+          "end_datetime": "2025-05-19T19:30:00",
+          "year": 2025,
+          "month": 5,
+          "day": 19,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1750091400,
+          "end_timestamp": 1750091400,
+          "start_datetime": "2025-06-16T19:30:00",
+          "end_datetime": "2025-06-16T19:30:00",
+          "year": 2025,
+          "month": 6,
+          "day": 16,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1753201800,
+          "end_timestamp": 1753201800,
+          "start_datetime": "2025-07-22T19:30:00",
+          "end_datetime": "2025-07-22T19:30:00",
+          "year": 2025,
+          "month": 7,
+          "day": 22,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1758558600,
+          "end_timestamp": 1758558600,
+          "start_datetime": "2025-09-22T19:30:00",
+          "end_datetime": "2025-09-22T19:30:00",
+          "year": 2025,
+          "month": 9,
+          "day": 22,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1760977800,
+          "end_timestamp": 1760977800,
+          "start_datetime": "2025-10-20T19:30:00",
+          "end_datetime": "2025-10-20T19:30:00",
+          "year": 2025,
+          "month": 10,
+          "day": 20,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1763397000,
+          "end_timestamp": 1763397000,
+          "start_datetime": "2025-11-17T19:30:00",
+          "end_datetime": "2025-11-17T19:30:00",
+          "year": 2025,
+          "month": 11,
+          "day": 17,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1765816200,
+          "end_timestamp": 1765816200,
+          "start_datetime": "2025-12-15T19:30:00",
+          "end_datetime": "2025-12-15T19:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 15,
+          "hour": 19,
+          "minute": 30
+        }
+      ],
+      "dates_text": [
+        "25.06.2024 19:30 - 19:30",
+        "29.07.2024 19:30 - 19:30",
+        "26.08.2024 19:30 - 19:30",
+        "16.09.2024 19:30 - 19:30",
+        "21.10.2024 19:30 - 19:30",
+        "25.11.2024 19:30 - 19:30",
+        "16.12.2024 19:30 - 19:30",
+        "28.01.2025 19:30 - 19:30",
+        "17.03.2025 19:30 - 19:30",
+        "14.04.2025 19:30 - 19:30",
+        "19.05.2025 19:30 - 19:30",
+        "16.06.2025 19:30 - 19:30",
+        "22.07.2025 19:30 - 19:30",
+        "22.09.2025 19:30 - 19:30",
+        "20.10.2025 19:30 - 19:30",
+        "17.11.2025 19:30 - 19:30",
+        "15.12.2025 19:30 - 19:30"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "600 рублей"
+      },
+      "price_text": "600 рублей",
+      "place": {
+        "id": 35620,
+        "title": "ресторан «Братцы Кебабцы»",
+        "address": "ул. Восстания, д. 4",
+        "subway": "Площадь Восстания",
+        "coords": {
+          "lat": 59.93298709999981,
+          "lon": 30.35961380000005
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/spb/place/restoran-brattsyi-kebabtsyi/",
+        "description": "",
+        "is_stub": true
+      },
+      "place_text": "Место: ресторан «Братцы Кебабцы»\nАдрес: ул. Восстания, д. 4\nМетро: Площадь Восстания\nКоординаты: 59.932987, 30.359614\nСайт: https://kudago.com/spb/place/restoran-brattsyi-kebabtsyi/",
+      "url": "https://kudago.com/spb/event/entertainment-futbol/",
+      "tags": [
+        "квизы",
+        "футбол для всех",
+        "веселье",
+        "развлечения",
+        "игры",
+        "16+",
+        "с друзьями"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/26/94/26945ecde5c220216cd180090e0525dd.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/35/ec/35ec1d3e2ce7a9e8f6bd3bb32cba6850.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/44/85/4485ca704992f3d5159a051363628bdb.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:07:00.417920",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: викторина «Футбол» | Категория: Развлечения | Описание: Специально для поклонников футбола команда квиза «Смузи» приготовила 75 нетривиальных вопросов различных форматов и механик. Вас ждёт атмосфера азарта и возможность проявить настоящий командный дух. | Место: Место: ресторан «Братцы Кебабцы» | Теги: квизы, футбол для всех, веселье, развлечения, игры | Дата: 25.06.2024 19:30 - 19:30 | Город: Санкт-Петербург"
+    }
+  ]
+}

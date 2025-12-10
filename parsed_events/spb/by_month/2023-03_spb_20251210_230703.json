@@ -1,0 +1,2164 @@
+{
+  "metadata": {
+    "month": "2023-03",
+    "city": "spb",
+    "total_events": 2,
+    "export_date": "2025-12-10T23:07:04.016935"
+  },
+  "events": [
+    {
+      "id": 203206,
+      "title": "спектакль «Номер 13»",
+      "description": "Постановка Сергея Ефремова по мотивам пьесы Рэя Куни — одной из лучших английских комедийных пьес XX века по версии Британского театра.",
+      "short_description": "Постановка Сергея Ефремова по мотивам пьесы Рэя Куни — одной из лучших английских комедийных пьес XX века по версии Британского театра.",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1679238000,
+          "end_timestamp": 1679238000,
+          "start_datetime": "2023-03-19T18:00:00",
+          "end_datetime": "2023-03-19T18:00:00",
+          "year": 2023,
+          "month": 3,
+          "day": 19,
+          "hour": 18,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1680797700,
+          "end_timestamp": 1680797700,
+          "start_datetime": "2023-04-06T19:15:00",
+          "end_datetime": "2023-04-06T19:15:00",
+          "year": 2023,
+          "month": 4,
+          "day": 6,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1685117700,
+          "end_timestamp": 1685117700,
+          "start_datetime": "2023-05-26T19:15:00",
+          "end_datetime": "2023-05-26T19:15:00",
+          "year": 2023,
+          "month": 5,
+          "day": 26,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1689956100,
+          "end_timestamp": 1689956100,
+          "start_datetime": "2023-07-21T19:15:00",
+          "end_datetime": "2023-07-21T19:15:00",
+          "year": 2023,
+          "month": 7,
+          "day": 21,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1692202500,
+          "end_timestamp": 1692202500,
+          "start_datetime": "2023-08-16T19:15:00",
+          "end_datetime": "2023-08-16T19:15:00",
+          "year": 2023,
+          "month": 8,
+          "day": 16,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1695831300,
+          "end_timestamp": 1695831300,
+          "start_datetime": "2023-09-27T19:15:00",
+          "end_datetime": "2023-09-27T19:15:00",
+          "year": 2023,
+          "month": 9,
+          "day": 27,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1696521600,
+          "end_timestamp": 1696521600,
+          "start_datetime": "2023-10-05T19:00:00",
+          "end_datetime": "2023-10-05T19:00:00",
+          "year": 2023,
+          "month": 10,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1700064000,
+          "end_timestamp": 1700064000,
+          "start_datetime": "2023-11-15T19:00:00",
+          "end_datetime": "2023-11-15T19:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1703780100,
+          "end_timestamp": 1703780100,
+          "start_datetime": "2023-12-28T19:15:00",
+          "end_datetime": "2023-12-28T19:15:00",
+          "year": 2023,
+          "month": 12,
+          "day": 28,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1705680000,
+          "end_timestamp": 1705680000,
+          "start_datetime": "2024-01-19T19:00:00",
+          "end_datetime": "2024-01-19T19:00:00",
+          "year": 2024,
+          "month": 1,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1706284800,
+          "end_timestamp": 1706284800,
+          "start_datetime": "2024-01-26T19:00:00",
+          "end_datetime": "2024-01-26T19:00:00",
+          "year": 2024,
+          "month": 1,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1707062400,
+          "end_timestamp": 1707062400,
+          "start_datetime": "2024-02-04T19:00:00",
+          "end_datetime": "2024-02-04T19:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1707926400,
+          "end_timestamp": 1707926400,
+          "start_datetime": "2024-02-14T19:00:00",
+          "end_datetime": "2024-02-14T19:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1709395200,
+          "end_timestamp": 1709395200,
+          "start_datetime": "2024-03-02T19:00:00",
+          "end_datetime": "2024-03-02T19:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1710518400,
+          "end_timestamp": 1710518400,
+          "start_datetime": "2024-03-15T19:00:00",
+          "end_datetime": "2024-03-15T19:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1713628800,
+          "end_timestamp": 1713628800,
+          "start_datetime": "2024-04-20T19:00:00",
+          "end_datetime": "2024-04-20T19:00:00",
+          "year": 2024,
+          "month": 4,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1716480000,
+          "end_timestamp": 1716480000,
+          "start_datetime": "2024-05-23T19:00:00",
+          "end_datetime": "2024-05-23T19:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1718899200,
+          "end_timestamp": 1718899200,
+          "start_datetime": "2024-06-20T19:00:00",
+          "end_datetime": "2024-06-20T19:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1721836800,
+          "end_timestamp": 1721836800,
+          "start_datetime": "2024-07-24T19:00:00",
+          "end_datetime": "2024-07-24T19:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1723132800,
+          "end_timestamp": 1723132800,
+          "start_datetime": "2024-08-08T19:00:00",
+          "end_datetime": "2024-08-08T19:00:00",
+          "year": 2024,
+          "month": 8,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1726243200,
+          "end_timestamp": 1726243200,
+          "start_datetime": "2024-09-13T19:00:00",
+          "end_datetime": "2024-09-13T19:00:00",
+          "year": 2024,
+          "month": 9,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1728831600,
+          "end_timestamp": 1728831600,
+          "start_datetime": "2024-10-13T18:00:00",
+          "end_datetime": "2024-10-13T18:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 13,
+          "hour": 18,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1732550400,
+          "end_timestamp": 1732550400,
+          "start_datetime": "2024-11-25T19:00:00",
+          "end_datetime": "2024-11-25T19:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733328000,
+          "end_timestamp": 1733328000,
+          "start_datetime": "2024-12-04T19:00:00",
+          "end_datetime": "2024-12-04T19:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1734537600,
+          "end_timestamp": 1734537600,
+          "start_datetime": "2024-12-18T19:00:00",
+          "end_datetime": "2024-12-18T19:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1737216000,
+          "end_timestamp": 1737216000,
+          "start_datetime": "2025-01-18T19:00:00",
+          "end_datetime": "2025-01-18T19:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1738414800,
+          "end_timestamp": 1738414800,
+          "start_datetime": "2025-02-01T16:00:00",
+          "end_datetime": "2025-02-01T16:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 1,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1738427400,
+          "end_timestamp": 1738427400,
+          "start_datetime": "2025-02-01T19:30:00",
+          "end_datetime": "2025-02-01T19:30:00",
+          "year": 2025,
+          "month": 2,
+          "day": 1,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1739548800,
+          "end_timestamp": 1739548800,
+          "start_datetime": "2025-02-14T19:00:00",
+          "end_datetime": "2025-02-14T19:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739721600,
+          "end_timestamp": 1739721600,
+          "start_datetime": "2025-02-16T19:00:00",
+          "end_datetime": "2025-02-16T19:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740758400,
+          "end_timestamp": 1740758400,
+          "start_datetime": "2025-02-28T19:00:00",
+          "end_datetime": "2025-02-28T19:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742140800,
+          "end_timestamp": 1742140800,
+          "start_datetime": "2025-03-16T19:00:00",
+          "end_datetime": "2025-03-16T19:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1743868800,
+          "end_timestamp": 1743868800,
+          "start_datetime": "2025-04-05T19:00:00",
+          "end_datetime": "2025-04-05T19:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744905600,
+          "end_timestamp": 1744905600,
+          "start_datetime": "2025-04-17T19:00:00",
+          "end_datetime": "2025-04-17T19:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745683200,
+          "end_timestamp": 1745683200,
+          "start_datetime": "2025-04-26T19:00:00",
+          "end_datetime": "2025-04-26T19:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1747152000,
+          "end_timestamp": 1747152000,
+          "start_datetime": "2025-05-13T19:00:00",
+          "end_datetime": "2025-05-13T19:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749139200,
+          "end_timestamp": 1749139200,
+          "start_datetime": "2025-06-05T19:00:00",
+          "end_datetime": "2025-06-05T19:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1750435200,
+          "end_timestamp": 1750435200,
+          "start_datetime": "2025-06-20T19:00:00",
+          "end_datetime": "2025-06-20T19:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753459200,
+          "end_timestamp": 1753459200,
+          "start_datetime": "2025-07-25T19:00:00",
+          "end_datetime": "2025-07-25T19:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755187200,
+          "end_timestamp": 1755187200,
+          "start_datetime": "2025-08-14T19:00:00",
+          "end_datetime": "2025-08-14T19:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755705600,
+          "end_timestamp": 1755705600,
+          "start_datetime": "2025-08-20T19:00:00",
+          "end_datetime": "2025-08-20T19:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1758902400,
+          "end_timestamp": 1758902400,
+          "start_datetime": "2025-09-26T19:00:00",
+          "end_datetime": "2025-09-26T19:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759593600,
+          "end_timestamp": 1759593600,
+          "start_datetime": "2025-10-04T19:00:00",
+          "end_datetime": "2025-10-04T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760112000,
+          "end_timestamp": 1760112000,
+          "start_datetime": "2025-10-10T19:00:00",
+          "end_datetime": "2025-10-10T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761840000,
+          "end_timestamp": 1761840000,
+          "start_datetime": "2025-10-30T19:00:00",
+          "end_datetime": "2025-10-30T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 30,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1762531200,
+          "end_timestamp": 1762531200,
+          "start_datetime": "2025-11-07T19:00:00",
+          "end_datetime": "2025-11-07T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1762617600,
+          "end_timestamp": 1762617600,
+          "start_datetime": "2025-11-08T19:00:00",
+          "end_datetime": "2025-11-08T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763913600,
+          "end_timestamp": 1763913600,
+          "start_datetime": "2025-11-23T19:00:00",
+          "end_datetime": "2025-11-23T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764950400,
+          "end_timestamp": 1764950400,
+          "start_datetime": "2025-12-05T19:00:00",
+          "end_datetime": "2025-12-05T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765728000,
+          "end_timestamp": 1765728000,
+          "start_datetime": "2025-12-14T19:00:00",
+          "end_datetime": "2025-12-14T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766764800,
+          "end_timestamp": 1766764800,
+          "start_datetime": "2025-12-26T19:00:00",
+          "end_datetime": "2025-12-26T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1768665600,
+          "end_timestamp": 1768665600,
+          "start_datetime": "2026-01-17T19:00:00",
+          "end_datetime": "2026-01-17T19:00:00",
+          "year": 2026,
+          "month": 1,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1769097600,
+          "end_timestamp": 1769097600,
+          "start_datetime": "2026-01-22T19:00:00",
+          "end_datetime": "2026-01-22T19:00:00",
+          "year": 2026,
+          "month": 1,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1769184000,
+          "end_timestamp": 1769184000,
+          "start_datetime": "2026-01-23T19:00:00",
+          "end_datetime": "2026-01-23T19:00:00",
+          "year": 2026,
+          "month": 1,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1769270400,
+          "end_timestamp": 1769270400,
+          "start_datetime": "2026-01-24T19:00:00",
+          "end_datetime": "2026-01-24T19:00:00",
+          "year": 2026,
+          "month": 1,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1769702400,
+          "end_timestamp": 1769702400,
+          "start_datetime": "2026-01-29T19:00:00",
+          "end_datetime": "2026-01-29T19:00:00",
+          "year": 2026,
+          "month": 1,
+          "day": 29,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1770393600,
+          "end_timestamp": 1770393600,
+          "start_datetime": "2026-02-06T19:00:00",
+          "end_datetime": "2026-02-06T19:00:00",
+          "year": 2026,
+          "month": 2,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1770480000,
+          "end_timestamp": 1770480000,
+          "start_datetime": "2026-02-07T19:00:00",
+          "end_datetime": "2026-02-07T19:00:00",
+          "year": 2026,
+          "month": 2,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1770998400,
+          "end_timestamp": 1770998400,
+          "start_datetime": "2026-02-13T19:00:00",
+          "end_datetime": "2026-02-13T19:00:00",
+          "year": 2026,
+          "month": 2,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1772294400,
+          "end_timestamp": 1772294400,
+          "start_datetime": "2026-02-28T19:00:00",
+          "end_datetime": "2026-02-28T19:00:00",
+          "year": 2026,
+          "month": 2,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "19.03.2023 18:00 - 18:00",
+        "06.04.2023 19:15 - 19:15",
+        "26.05.2023 19:15 - 19:15",
+        "21.07.2023 19:15 - 19:15",
+        "16.08.2023 19:15 - 19:15",
+        "27.09.2023 19:15 - 19:15",
+        "05.10.2023 19:00 - 19:00",
+        "15.11.2023 19:00 - 19:00",
+        "28.12.2023 19:15 - 19:15",
+        "19.01.2024 19:00 - 19:00",
+        "26.01.2024 19:00 - 19:00",
+        "04.02.2024 19:00 - 19:00",
+        "14.02.2024 19:00 - 19:00",
+        "02.03.2024 19:00 - 19:00",
+        "15.03.2024 19:00 - 19:00",
+        "20.04.2024 19:00 - 19:00",
+        "23.05.2024 19:00 - 19:00",
+        "20.06.2024 19:00 - 19:00",
+        "24.07.2024 19:00 - 19:00",
+        "08.08.2024 19:00 - 19:00",
+        "13.09.2024 19:00 - 19:00",
+        "13.10.2024 18:00 - 18:00",
+        "25.11.2024 19:00 - 19:00",
+        "04.12.2024 19:00 - 19:00",
+        "18.12.2024 19:00 - 19:00",
+        "18.01.2025 19:00 - 19:00",
+        "01.02.2025 16:00 - 16:00",
+        "01.02.2025 19:30 - 19:30",
+        "14.02.2025 19:00 - 19:00",
+        "16.02.2025 19:00 - 19:00",
+        "28.02.2025 19:00 - 19:00",
+        "16.03.2025 19:00 - 19:00",
+        "05.04.2025 19:00 - 19:00",
+        "17.04.2025 19:00 - 19:00",
+        "26.04.2025 19:00 - 19:00",
+        "13.05.2025 19:00 - 19:00",
+        "05.06.2025 19:00 - 19:00",
+        "20.06.2025 19:00 - 19:00",
+        "25.07.2025 19:00 - 19:00",
+        "14.08.2025 19:00 - 19:00",
+        "20.08.2025 19:00 - 19:00",
+        "26.09.2025 19:00 - 19:00",
+        "04.10.2025 19:00 - 19:00",
+        "10.10.2025 19:00 - 19:00",
+        "30.10.2025 19:00 - 19:00",
+        "07.11.2025 19:00 - 19:00",
+        "08.11.2025 19:00 - 19:00",
+        "23.11.2025 19:00 - 19:00",
+        "05.12.2025 19:00 - 19:00",
+        "14.12.2025 19:00 - 19:00",
+        "26.12.2025 19:00 - 19:00",
+        "17.01.2026 19:00 - 19:00",
+        "22.01.2026 19:00 - 19:00",
+        "23.01.2026 19:00 - 19:00",
+        "24.01.2026 19:00 - 19:00",
+        "29.01.2026 19:00 - 19:00",
+        "06.02.2026 19:00 - 19:00",
+        "07.02.2026 19:00 - 19:00",
+        "13.02.2026 19:00 - 19:00",
+        "28.02.2026 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 1200 рублей"
+      },
+      "price_text": "от 1200 рублей",
+      "place": {
+        "id": null,
+        "title": "Место не указано",
+        "address": "",
+        "subway": "",
+        "coords": null,
+        "phone": "",
+        "site_url": "",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место не указано",
+      "url": "https://kudago.com/spb/event/teatr-nomer-13-2023/",
+      "tags": [
+        "промокод",
+        "акции и скидки",
+        "комедии",
+        "скидки на билеты в театр и специальные предложения",
+        "комедия положений",
+        "спектакли",
+        "лучшее в театрах",
+        "16+"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/33/54/3354a50b0760ced09d164d85c2583e20.JPG",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/2b/45/2b451fe1166cc34971b2c8d25e07d742.JPG",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/7a/52/7a52e8a172540fb7db5a4bbb8a9e66cf.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2250,
+            "title": "Мирослава Карпович",
+            "slug": "miroslava-karpovich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/miroslava-karpovich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14665,
+            "title": "Мария Фурсенко",
+            "slug": "mariya-fursenko",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/mariya-fursenko/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14708,
+            "title": "Валерия Федорович",
+            "slug": "valeriya-fedorovich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/valeriya-fedorovich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14935,
+            "title": "Алина Ланина",
+            "slug": "alina-lanina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/alina-lanina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8262,
+            "title": "Андрей Гайдулян",
+            "slug": "andrej-gajdulyan",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/andrej-gajdulyan/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8728,
+            "title": "Александр Якин",
+            "slug": "aleksandr-yakin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksandr-yakin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 6716,
+            "title": "Андрей Шугов",
+            "slug": "andrej-shugov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/andrej-shugov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14949,
+            "title": "Денис Косяков",
+            "slug": "denis-kosyakov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/denis-kosyakov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 12754,
+            "title": "Павел Рассомахин",
+            "slug": "pavel-rassomahin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/pavel-rassomahin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8960,
+            "title": "Сергей Ефремов",
+            "slug": "sergej-efremov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-efremov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 11908,
+            "title": "Никита Заболотный",
+            "slug": "nikita-zabolotnyij",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/nikita-zabolotnyij/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3266,
+            "title": "Дмитрий Бурукин",
+            "slug": "dmitrij-burukin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/dmitrij-burukin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14471,
+            "title": "Дмитрий Морозов",
+            "slug": "dmitrij-morozov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/dmitrij-morozov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 1002,
+            "title": "Борис Смолкин",
+            "slug": "boris-smolkin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/boris-smolkin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 973,
+            "title": "Тимур Еремеев",
+            "slug": "timur-eremeev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/timur-eremeev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 1444,
+            "title": "Сергей Рост",
+            "slug": "sergej-rost",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-rost/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 5100,
+            "title": "Антон Косточкин",
+            "slug": "anton-kostochkin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anton-kostochkin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 223,
+            "title": "Григорий Сиятвинда",
+            "slug": "grigorij-siyatvinda",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/grigorij-siyatvinda/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 6716,
+            "title": "Андрей Шугов",
+            "slug": "andrej-shugov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/andrej-shugov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14471,
+            "title": "Дмитрий Морозов",
+            "slug": "dmitrij-morozov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/dmitrij-morozov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14948,
+            "title": "Кирилл Краснов",
+            "slug": "kirill-krasnov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/kirill-krasnov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8972,
+            "title": "Никита Барсуков",
+            "slug": "nikita-barsukov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/nikita-barsukov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14472,
+            "title": "Екатерина Ефимова",
+            "slug": "ekaterina-efimova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/ekaterina-efimova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14936,
+            "title": "Ася Калинина",
+            "slug": "asya-kalinina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/asya-kalinina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2762,
+            "title": "Елизавета Мартинес Карденас",
+            "slug": "elizaveta-martines-kardenas",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/elizaveta-martines-kardenas/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2909,
+            "title": "Марина Соколова",
+            "slug": "marina-sokolova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/marina-sokolova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 957,
+            "title": "Сергей Федюшкин",
+            "slug": "sergej-fedyushkin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-fedyushkin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14938,
+            "title": "Алан Габуев",
+            "slug": "alan-gabuev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/alan-gabuev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 11906,
+            "title": "Мария Сластненкова",
+            "slug": "mariya-slastnenkova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/mariya-slastnenkova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 15182,
+            "title": "Людмила Харитонова",
+            "slug": "lyudmila-haritonova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/lyudmila-haritonova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14110,
+            "title": "Татьяна Усатова",
+            "slug": "tatyana-usatova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/tatyana-usatova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 10597,
+            "title": "Ольга Ергина",
+            "slug": "olga-ergina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/olga-ergina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14937,
+            "title": "Надежда Азарова",
+            "slug": "nadezhda-azarova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/nadezhda-azarova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14580,
+            "title": "Анастасия Гребенчук",
+            "slug": "anastasiya-grebenchuk",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anastasiya-grebenchuk/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14474,
+            "title": "Денис Демин",
+            "slug": "denis-demin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/denis-demin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14473,
+            "title": "Владислав Аргун",
+            "slug": "vladislav-argun",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/vladislav-argun/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14968,
+            "title": "Сергей Марченко",
+            "slug": "sergej-marchenko",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-marchenko/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 8960,
+            "title": "Сергей Ефремов",
+            "slug": "sergej-efremov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-efremov/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:21.625964",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Номер 13» | Категория: Театр | Описание: Постановка Сергея Ефремова по мотивам пьесы Рэя Куни — одной из лучших английских комедийных пьес XX века по версии Британского театра. | Теги: промокод, акции и скидки, комедии, скидки на билеты в театр и специальные предложения, комедия положений | Дата: 19.03.2023 18:00 - 18:00 | Город: Санкт-Петербург"
+    },
+    {
+      "id": 203203,
+      "title": "спектакль «Слишком женатый таксист»",
+      "description": "Спектакль по одноимённой пьесе Рэя Куни расскажет зрителям невероятную историю таксиста-двоеженца Джона Смита, попавшего в круговорот нелепых комичных ситуаций.",
+      "short_description": "Спектакль по одноимённой пьесе Рэя Куни расскажет зрителям невероятную историю таксиста-двоеженца Джона Смита, попавшего в круговорот нелепых комичных ситуаций.",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1678464900,
+          "end_timestamp": 1678464900,
+          "start_datetime": "2023-03-10T19:15:00",
+          "end_datetime": "2023-03-10T19:15:00",
+          "year": 2023,
+          "month": 3,
+          "day": 10,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1682007300,
+          "end_timestamp": 1682007300,
+          "start_datetime": "2023-04-20T19:15:00",
+          "end_datetime": "2023-04-20T19:15:00",
+          "year": 2023,
+          "month": 4,
+          "day": 20,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1686759300,
+          "end_timestamp": 1686759300,
+          "start_datetime": "2023-06-14T19:15:00",
+          "end_datetime": "2023-06-14T19:15:00",
+          "year": 2023,
+          "month": 6,
+          "day": 14,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1691856900,
+          "end_timestamp": 1691856900,
+          "start_datetime": "2023-08-12T19:15:00",
+          "end_datetime": "2023-08-12T19:15:00",
+          "year": 2023,
+          "month": 8,
+          "day": 12,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1695572100,
+          "end_timestamp": 1695572100,
+          "start_datetime": "2023-09-24T19:15:00",
+          "end_datetime": "2023-09-24T19:15:00",
+          "year": 2023,
+          "month": 9,
+          "day": 24,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1698336900,
+          "end_timestamp": 1698336900,
+          "start_datetime": "2023-10-26T19:15:00",
+          "end_datetime": "2023-10-26T19:15:00",
+          "year": 2023,
+          "month": 10,
+          "day": 26,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1702484100,
+          "end_timestamp": 1702484100,
+          "start_datetime": "2023-12-13T19:15:00",
+          "end_datetime": "2023-12-13T19:15:00",
+          "year": 2023,
+          "month": 12,
+          "day": 13,
+          "hour": 19,
+          "minute": 15
+        },
+        {
+          "start_timestamp": 1705075200,
+          "end_timestamp": 1705075200,
+          "start_datetime": "2024-01-12T19:00:00",
+          "end_datetime": "2024-01-12T19:00:00",
+          "year": 2024,
+          "month": 1,
+          "day": 12,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1706198400,
+          "end_timestamp": 1706198400,
+          "start_datetime": "2024-01-25T19:00:00",
+          "end_datetime": "2024-01-25T19:00:00",
+          "year": 2024,
+          "month": 1,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1707494400,
+          "end_timestamp": 1707494400,
+          "start_datetime": "2024-02-09T19:00:00",
+          "end_datetime": "2024-02-09T19:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1708693200,
+          "end_timestamp": 1708693200,
+          "start_datetime": "2024-02-23T16:00:00",
+          "end_datetime": "2024-02-23T16:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 23,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1708704000,
+          "end_timestamp": 1708704000,
+          "start_datetime": "2024-02-23T19:00:00",
+          "end_datetime": "2024-02-23T19:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1711814400,
+          "end_timestamp": 1711814400,
+          "start_datetime": "2024-03-30T19:00:00",
+          "end_datetime": "2024-03-30T19:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 30,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1712937600,
+          "end_timestamp": 1712937600,
+          "start_datetime": "2024-04-12T19:00:00",
+          "end_datetime": "2024-04-12T19:00:00",
+          "year": 2024,
+          "month": 4,
+          "day": 12,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1716134400,
+          "end_timestamp": 1716134400,
+          "start_datetime": "2024-05-19T19:00:00",
+          "end_datetime": "2024-05-19T19:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1719504000,
+          "end_timestamp": 1719504000,
+          "start_datetime": "2024-06-27T19:00:00",
+          "end_datetime": "2024-06-27T19:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 27,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1723651200,
+          "end_timestamp": 1723651200,
+          "start_datetime": "2024-08-14T19:00:00",
+          "end_datetime": "2024-08-14T19:00:00",
+          "year": 2024,
+          "month": 8,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1725552000,
+          "end_timestamp": 1725552000,
+          "start_datetime": "2024-09-05T19:00:00",
+          "end_datetime": "2024-09-05T19:00:00",
+          "year": 2024,
+          "month": 9,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1728403200,
+          "end_timestamp": 1728403200,
+          "start_datetime": "2024-10-08T19:00:00",
+          "end_datetime": "2024-10-08T19:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1730995200,
+          "end_timestamp": 1730995200,
+          "start_datetime": "2024-11-07T19:00:00",
+          "end_datetime": "2024-11-07T19:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733846400,
+          "end_timestamp": 1733846400,
+          "start_datetime": "2024-12-10T19:00:00",
+          "end_datetime": "2024-12-10T19:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1738252800,
+          "end_timestamp": 1738252800,
+          "start_datetime": "2025-01-30T19:00:00",
+          "end_datetime": "2025-01-30T19:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 30,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740412800,
+          "end_timestamp": 1740412800,
+          "start_datetime": "2025-02-24T19:00:00",
+          "end_datetime": "2025-02-24T19:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740927600,
+          "end_timestamp": 1740927600,
+          "start_datetime": "2025-03-02T18:00:00",
+          "end_datetime": "2025-03-02T18:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 2,
+          "hour": 18,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742745600,
+          "end_timestamp": 1742745600,
+          "start_datetime": "2025-03-23T19:00:00",
+          "end_datetime": "2025-03-23T19:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751040000,
+          "end_timestamp": 1751040000,
+          "start_datetime": "2025-06-27T19:00:00",
+          "end_datetime": "2025-06-27T19:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 27,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1752854400,
+          "end_timestamp": 1752854400,
+          "start_datetime": "2025-07-18T19:00:00",
+          "end_datetime": "2025-07-18T19:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1754064000,
+          "end_timestamp": 1754064000,
+          "start_datetime": "2025-08-01T19:00:00",
+          "end_datetime": "2025-08-01T19:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 1,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755792000,
+          "end_timestamp": 1755792000,
+          "start_datetime": "2025-08-21T19:00:00",
+          "end_datetime": "2025-08-21T19:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 21,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757606400,
+          "end_timestamp": 1757606400,
+          "start_datetime": "2025-09-11T19:00:00",
+          "end_datetime": "2025-09-11T19:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760025600,
+          "end_timestamp": 1760025600,
+          "start_datetime": "2025-10-09T19:00:00",
+          "end_datetime": "2025-10-09T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760630400,
+          "end_timestamp": 1760630400,
+          "start_datetime": "2025-10-16T19:00:00",
+          "end_datetime": "2025-10-16T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761235200,
+          "end_timestamp": 1761235200,
+          "start_datetime": "2025-10-23T19:00:00",
+          "end_datetime": "2025-10-23T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763049600,
+          "end_timestamp": 1763049600,
+          "start_datetime": "2025-11-13T19:00:00",
+          "end_datetime": "2025-11-13T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765468800,
+          "end_timestamp": 1765468800,
+          "start_datetime": "2025-12-11T19:00:00",
+          "end_datetime": "2025-12-11T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766678400,
+          "end_timestamp": 1766678400,
+          "start_datetime": "2025-12-25T19:00:00",
+          "end_datetime": "2025-12-25T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1771851600,
+          "end_timestamp": 1771851600,
+          "start_datetime": "2026-02-23T16:00:00",
+          "end_datetime": "2026-02-23T16:00:00",
+          "year": 2026,
+          "month": 2,
+          "day": 23,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1774022400,
+          "end_timestamp": 1774022400,
+          "start_datetime": "2026-03-20T19:00:00",
+          "end_datetime": "2026-03-20T19:00:00",
+          "year": 2026,
+          "month": 3,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "10.03.2023 19:15 - 19:15",
+        "20.04.2023 19:15 - 19:15",
+        "14.06.2023 19:15 - 19:15",
+        "12.08.2023 19:15 - 19:15",
+        "24.09.2023 19:15 - 19:15",
+        "26.10.2023 19:15 - 19:15",
+        "13.12.2023 19:15 - 19:15",
+        "12.01.2024 19:00 - 19:00",
+        "25.01.2024 19:00 - 19:00",
+        "09.02.2024 19:00 - 19:00",
+        "23.02.2024 16:00 - 16:00",
+        "23.02.2024 19:00 - 19:00",
+        "30.03.2024 19:00 - 19:00",
+        "12.04.2024 19:00 - 19:00",
+        "19.05.2024 19:00 - 19:00",
+        "27.06.2024 19:00 - 19:00",
+        "14.08.2024 19:00 - 19:00",
+        "05.09.2024 19:00 - 19:00",
+        "08.10.2024 19:00 - 19:00",
+        "07.11.2024 19:00 - 19:00",
+        "10.12.2024 19:00 - 19:00",
+        "30.01.2025 19:00 - 19:00",
+        "24.02.2025 19:00 - 19:00",
+        "02.03.2025 18:00 - 18:00",
+        "23.03.2025 19:00 - 19:00",
+        "27.06.2025 19:00 - 19:00",
+        "18.07.2025 19:00 - 19:00",
+        "01.08.2025 19:00 - 19:00",
+        "21.08.2025 19:00 - 19:00",
+        "11.09.2025 19:00 - 19:00",
+        "09.10.2025 19:00 - 19:00",
+        "16.10.2025 19:00 - 19:00",
+        "23.10.2025 19:00 - 19:00",
+        "13.11.2025 19:00 - 19:00",
+        "11.12.2025 19:00 - 19:00",
+        "25.12.2025 19:00 - 19:00",
+        "23.02.2026 16:00 - 16:00",
+        "20.03.2026 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 1200 рублей"
+      },
+      "price_text": "от 1200 рублей",
+      "place": {
+        "id": null,
+        "title": "Место не указано",
+        "address": "",
+        "subway": "",
+        "coords": null,
+        "phone": "",
+        "site_url": "",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место не указано",
+      "url": "https://kudago.com/spb/event/teatr-slishkom-zhenatyij-taksist-2023/",
+      "tags": [
+        "промокод",
+        "акции и скидки",
+        "комедии",
+        "скидки на билеты в театр и специальные предложения",
+        "комедия положений",
+        "спектакли",
+        "лучшее в театрах",
+        "18+"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/0d/a8/0da8e7f3fd7a43872010e6d435d31c8c.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/fb/7d/fb7de14d304146463c9383e69b05fd4d.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/da/35/da357066b9c5b098cab8f441c0d3feb4.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "18+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 5256,
+            "title": " Светлана Пермякова",
+            "slug": "svetlana-permyakova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/svetlana-permyakova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14935,
+            "title": "Алина Ланина",
+            "slug": "alina-lanina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/alina-lanina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 11906,
+            "title": "Мария Сластненкова",
+            "slug": "mariya-slastnenkova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/mariya-slastnenkova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2909,
+            "title": "Марина Соколова",
+            "slug": "marina-sokolova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/marina-sokolova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 15183,
+            "title": "Маруся Климова",
+            "slug": "marusya-klimova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/marusya-klimova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 973,
+            "title": "Тимур Еремеев",
+            "slug": "timur-eremeev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/timur-eremeev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14949,
+            "title": "Денис Косяков",
+            "slug": "denis-kosyakov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/denis-kosyakov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8960,
+            "title": "Сергей Ефремов",
+            "slug": "sergej-efremov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-efremov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14471,
+            "title": "Дмитрий Морозов",
+            "slug": "dmitrij-morozov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/dmitrij-morozov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2250,
+            "title": "Мирослава Карпович",
+            "slug": "miroslava-karpovich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/miroslava-karpovich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14708,
+            "title": "Валерия Федорович",
+            "slug": "valeriya-fedorovich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/valeriya-fedorovich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8728,
+            "title": "Александр Якин",
+            "slug": "aleksandr-yakin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksandr-yakin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 6716,
+            "title": "Андрей Шугов",
+            "slug": "andrej-shugov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/andrej-shugov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 1142,
+            "title": "Михаил Башкатов",
+            "slug": "mihail-bashkatov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/mihail-bashkatov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 5100,
+            "title": "Антон Косточкин",
+            "slug": "anton-kostochkin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anton-kostochkin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 957,
+            "title": "Сергей Федюшкин",
+            "slug": "sergej-fedyushkin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-fedyushkin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8247,
+            "title": "Виктор Шуралев",
+            "slug": "viktor-shuralev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/viktor-shuralev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8972,
+            "title": "Никита Барсуков",
+            "slug": "nikita-barsukov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/nikita-barsukov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14473,
+            "title": "Владислав Аргун",
+            "slug": "vladislav-argun",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/vladislav-argun/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 11908,
+            "title": "Никита Заболотный",
+            "slug": "nikita-zabolotnyij",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/nikita-zabolotnyij/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14474,
+            "title": "Денис Демин",
+            "slug": "denis-demin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/denis-demin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 8960,
+            "title": "Сергей Ефремов",
+            "slug": "sergej-efremov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-efremov/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:21.643428",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Слишком женатый таксист» | Категория: Театр | Описание: Спектакль по одноимённой пьесе Рэя Куни расскажет зрителям невероятную историю таксиста-двоеженца Джона Смита, попавшего в круговорот нелепых комичных ситуаций. | Теги: промокод, акции и скидки, комедии, скидки на билеты в театр и специальные предложения, комедия положений | Дата: 10.03.2023 19:15 - 19:15 | Город: Санкт-Петербург"
+    }
+  ]
+}

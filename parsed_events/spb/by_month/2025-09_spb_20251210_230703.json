@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "month": "2025-09",
+    "city": "spb",
+    "total_events": 2,
+    "export_date": "2025-12-10T23:07:04.089499"
+  },
+  "events": [
+    {
+      "id": 220220,
+      "title": "встреча книжного клуба «Настояща_Я»",
+      "description": "Интеллектуальный завтрак в Лермонтовке соберёт поклонниц литературы на обсуждение романа «Анна Каренина».",
+      "short_description": "Интеллектуальный завтрак в Лермонтовке соберёт поклонниц литературы на обсуждение романа «Анна Каренина».",
+      "category": "Образование",
+      "dates": [
+        {
+          "start_timestamp": 1758960000,
+          "end_timestamp": 1758965400,
+          "start_datetime": "2025-09-27T11:00:00",
+          "end_datetime": "2025-09-27T12:30:00",
+          "year": 2025,
+          "month": 9,
+          "day": 27,
+          "hour": 11,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760774400,
+          "end_timestamp": 1760774400,
+          "start_datetime": "2025-10-18T11:00:00",
+          "end_datetime": "2025-10-18T11:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 18,
+          "hour": 11,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765612800,
+          "end_timestamp": 1765612800,
+          "start_datetime": "2025-12-13T11:00:00",
+          "end_datetime": "2025-12-13T11:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 13,
+          "hour": 11,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "27.09.2025 11:00 - 12:30",
+        "18.10.2025 11:00 - 11:00",
+        "13.12.2025 11:00 - 11:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": ""
+      },
+      "price_text": "Цена не указана",
+      "place": {
+        "id": 222,
+        "title": "Центральная библиотека имени Лермонтова",
+        "address": "просп. Литейный, д. 19",
+        "subway": "Чернышевская",
+        "coords": {
+          "lat": 59.94354800000001,
+          "lon": 30.34806399999999
+        },
+        "phone": "+7 812 272-75-95",
+        "site_url": "https://kudago.com/spb/place/lermontova/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Центральная библиотека имени Лермонтова\nАдрес: просп. Литейный, д. 19\nМетро: Чернышевская\nКоординаты: 59.943548, 30.348064\nТелефон: +7 812 272-75-95\nСайт: https://kudago.com/spb/place/lermontova/",
+      "url": "https://kudago.com/spb/event/vstrecha-literaturnaya-vstrecha-knizhnogo-kluba-nastoyaschaya/",
+      "tags": [
+        "обучение",
+        "бесплатно",
+        "книги",
+        "free",
+        "культура и искусство",
+        "утро",
+        "18+"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/11/78/11786cddf65e9f5206e53e84d43b32e6.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "18+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:40.386179",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: встреча книжного клуба «Настояща_Я» | Категория: Образование | Описание: Интеллектуальный завтрак в Лермонтовке соберёт поклонниц литературы на обсуждение романа «Анна Каренина». | Место: Место: Центральная библиотека имени Лермонтова | Теги: обучение, бесплатно, книги, free, культура и искусство | Дата: 27.09.2025 11:00 - 12:30 | Город: Санкт-Петербург"
+    },
+    {
+      "id": 220081,
+      "title": "викторина «Караоке-квиз: новогодний лайт» от квиза «Смузи»",
+      "description": "Хоровое пение, весёлая атмосфера и соревновательный дух — участников квиза ждёт интересное путешествие по хитам отечественной музыки.",
+      "short_description": "Хоровое пение, весёлая атмосфера и соревновательный дух — участников квиза ждёт интересное путешествие по хитам отечественной музыки.",
+      "category": "Развлечения",
+      "dates": [
+        {
+          "start_timestamp": 1758994200,
+          "end_timestamp": 1758994200,
+          "start_datetime": "2025-09-27T20:30:00",
+          "end_datetime": "2025-09-27T20:30:00",
+          "year": 2025,
+          "month": 9,
+          "day": 27,
+          "hour": 20,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1764439200,
+          "end_timestamp": 1764439200,
+          "start_datetime": "2025-11-29T21:00:00",
+          "end_datetime": "2025-11-29T21:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 29,
+          "hour": 21,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766858400,
+          "end_timestamp": 1766858400,
+          "start_datetime": "2025-12-27T21:00:00",
+          "end_datetime": "2025-12-27T21:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 27,
+          "hour": 21,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "27.09.2025 20:30 - 20:30",
+        "29.11.2025 21:00 - 21:00",
+        "27.12.2025 21:00 - 21:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "700 рублей за игрока"
+      },
+      "price_text": "700 рублей за игрока",
+      "place": {
+        "id": 35930,
+        "title": "Q-LOFT",
+        "address": "Лиговский просп., д. 50Д",
+        "subway": "",
+        "coords": {
+          "lat": 59.92536670000023,
+          "lon": 30.3580513000004
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/spb/place/attraktsion-q-loft/",
+        "description": "",
+        "is_stub": true
+      },
+      "place_text": "Место: Q-LOFT\nАдрес: Лиговский просп., д. 50Д\nКоординаты: 59.925367, 30.358051\nСайт: https://kudago.com/spb/place/attraktsion-q-loft/",
+      "url": "https://kudago.com/spb/event/entertainment-karaoke-kviz-russkie-hityi-2015-2025/",
+      "tags": [
+        "новый год 2026",
+        "квизы",
+        "новогодние развлечения",
+        "веселье",
+        "развлечения",
+        "музыка",
+        "16+",
+        "с друзьями",
+        "в свободное время"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/1c/f3/1cf310aa336f7a48bb36af45d60ccaf0.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/cd/d0/cdd0f8110d3b1a52fc4cb2ed01ab8d3b.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/22/06/2206c7f24f73b0570ec2ad0a812f7a01.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:07:00.416742",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: викторина «Караоке-квиз: новогодний лайт» от квиза «Смузи» | Категория: Развлечения | Описание: Хоровое пение, весёлая атмосфера и соревновательный дух — участников квиза ждёт интересное путешествие по хитам отечественной музыки. | Место: Место: Q-LOFT | Теги: новый год 2026, квизы, новогодние развлечения, веселье, развлечения | Дата: 27.09.2025 20:30 - 20:30 | Город: Санкт-Петербург"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "metadata": {
+    "month": "2024-05",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:04.170129"
+  },
+  "events": [
+    {
+      "id": 209804,
+      "title": "экскурсия в Зубовский особняк",
+      "description": "Участники экскурсии пройдут по многовековым залам изысканного особняка графов Зубовых, проникнутся его творческой атмосферой и познакомятся с историей здания, в котором сегодня располагается Российский институт истории искусств.",
+      "short_description": "Участники экскурсии пройдут по многовековым залам изысканного особняка графов Зубовых, проникнутся его творческой атмосферой и познакомятся с историей здания, в котором сегодня располагается Российски...",
+      "category": "Экскурсии",
+      "dates": [
+        {
+          "start_timestamp": 1715342400,
+          "end_timestamp": 1715342400,
+          "start_datetime": "2024-05-10T15:00:00",
+          "end_datetime": "2024-05-10T15:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 10,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1716638400,
+          "end_timestamp": 1716638400,
+          "start_datetime": "2024-05-25T15:00:00",
+          "end_datetime": "2024-05-25T15:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 25,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1717837200,
+          "end_timestamp": 1717837200,
+          "start_datetime": "2024-06-08T12:00:00",
+          "end_datetime": "2024-06-08T12:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 8,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1718449200,
+          "end_timestamp": 1718449200,
+          "start_datetime": "2024-06-15T14:00:00",
+          "end_datetime": "2024-06-15T14:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 15,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1719655200,
+          "end_timestamp": 1719655200,
+          "start_datetime": "2024-06-29T13:00:00",
+          "end_datetime": "2024-06-29T13:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 29,
+          "hour": 13,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1720260000,
+          "end_timestamp": 1720260000,
+          "start_datetime": "2024-07-06T13:00:00",
+          "end_datetime": "2024-07-06T13:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 6,
+          "hour": 13,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1737802800,
+          "end_timestamp": 1737802800,
+          "start_datetime": "2025-01-25T14:00:00",
+          "end_datetime": "2025-01-25T14:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 25,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739012400,
+          "end_timestamp": 1739012400,
+          "start_datetime": "2025-02-08T14:00:00",
+          "end_datetime": "2025-02-08T14:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 8,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740222000,
+          "end_timestamp": 1740222000,
+          "start_datetime": "2025-02-22T14:00:00",
+          "end_datetime": "2025-02-22T14:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 22,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1741431600,
+          "end_timestamp": 1741431600,
+          "start_datetime": "2025-03-08T14:00:00",
+          "end_datetime": "2025-03-08T14:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 8,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742641200,
+          "end_timestamp": 1742641200,
+          "start_datetime": "2025-03-22T14:00:00",
+          "end_datetime": "2025-03-22T14:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 22,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1743850800,
+          "end_timestamp": 1743850800,
+          "start_datetime": "2025-04-05T14:00:00",
+          "end_datetime": "2025-04-05T14:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 5,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745060400,
+          "end_timestamp": 1745060400,
+          "start_datetime": "2025-04-19T14:00:00",
+          "end_datetime": "2025-04-19T14:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 19,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1747479600,
+          "end_timestamp": 1747479600,
+          "start_datetime": "2025-05-17T14:00:00",
+          "end_datetime": "2025-05-17T14:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 17,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749898800,
+          "end_timestamp": 1749898800,
+          "start_datetime": "2025-06-14T14:00:00",
+          "end_datetime": "2025-06-14T14:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 14,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751108400,
+          "end_timestamp": 1751108400,
+          "start_datetime": "2025-06-28T14:00:00",
+          "end_datetime": "2025-06-28T14:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 28,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1752318000,
+          "end_timestamp": 1752318000,
+          "start_datetime": "2025-07-12T14:00:00",
+          "end_datetime": "2025-07-12T14:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 12,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753527600,
+          "end_timestamp": 1753527600,
+          "start_datetime": "2025-07-26T14:00:00",
+          "end_datetime": "2025-07-26T14:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 26,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755345600,
+          "end_timestamp": 1755345600,
+          "start_datetime": "2025-08-16T15:00:00",
+          "end_datetime": "2025-08-16T15:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 16,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1756555200,
+          "end_timestamp": 1756555200,
+          "start_datetime": "2025-08-30T15:00:00",
+          "end_datetime": "2025-08-30T15:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 30,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757163600,
+          "end_timestamp": 1757163600,
+          "start_datetime": "2025-09-06T16:00:00",
+          "end_datetime": "2025-09-06T16:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 6,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1758974400,
+          "end_timestamp": 1758974400,
+          "start_datetime": "2025-09-27T15:00:00",
+          "end_datetime": "2025-09-27T15:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 27,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760184000,
+          "end_timestamp": 1760184000,
+          "start_datetime": "2025-10-11T15:00:00",
+          "end_datetime": "2025-10-11T15:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 11,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761393600,
+          "end_timestamp": 1761393600,
+          "start_datetime": "2025-10-25T15:00:00",
+          "end_datetime": "2025-10-25T15:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 25,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1762603200,
+          "end_timestamp": 1762603200,
+          "start_datetime": "2025-11-08T15:00:00",
+          "end_datetime": "2025-11-08T15:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 8,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763812800,
+          "end_timestamp": 1763812800,
+          "start_datetime": "2025-11-22T15:00:00",
+          "end_datetime": "2025-11-22T15:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 22,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765022400,
+          "end_timestamp": 1765022400,
+          "start_datetime": "2025-12-06T15:00:00",
+          "end_datetime": "2025-12-06T15:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 6,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766232000,
+          "end_timestamp": 1766232000,
+          "start_datetime": "2025-12-20T15:00:00",
+          "end_datetime": "2025-12-20T15:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 20,
+          "hour": 15,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "10.05.2024 15:00 - 15:00",
+        "25.05.2024 15:00 - 15:00",
+        "08.06.2024 12:00 - 12:00",
+        "15.06.2024 14:00 - 14:00",
+        "29.06.2024 13:00 - 13:00",
+        "06.07.2024 13:00 - 13:00",
+        "25.01.2025 14:00 - 14:00",
+        "08.02.2025 14:00 - 14:00",
+        "22.02.2025 14:00 - 14:00",
+        "08.03.2025 14:00 - 14:00",
+        "22.03.2025 14:00 - 14:00",
+        "05.04.2025 14:00 - 14:00",
+        "19.04.2025 14:00 - 14:00",
+        "17.05.2025 14:00 - 14:00",
+        "14.06.2025 14:00 - 14:00",
+        "28.06.2025 14:00 - 14:00",
+        "12.07.2025 14:00 - 14:00",
+        "26.07.2025 14:00 - 14:00",
+        "16.08.2025 15:00 - 15:00",
+        "30.08.2025 15:00 - 15:00",
+        "06.09.2025 16:00 - 16:00",
+        "27.09.2025 15:00 - 15:00",
+        "11.10.2025 15:00 - 15:00",
+        "25.10.2025 15:00 - 15:00",
+        "08.11.2025 15:00 - 15:00",
+        "22.11.2025 15:00 - 15:00",
+        "06.12.2025 15:00 - 15:00",
+        "20.12.2025 15:00 - 15:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 2400 до 2600 рублей, детям до 12 лет бесплатно"
+      },
+      "price_text": "от 2400 до 2600 рублей, детям до 12 лет бесплатно",
+      "place": {
+        "id": null,
+        "title": "Место не указано",
+        "address": "",
+        "subway": "",
+        "coords": null,
+        "phone": "",
+        "site_url": "",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место не указано",
+      "url": "https://kudago.com/spb/event/ekskursiya-ekskursiya-v-zubovskij-osobnyak/",
+      "tags": [
+        "6+",
+        "необычный интерьер",
+        "экскурсии",
+        "жаркие скидки",
+        "туристам",
+        "осень",
+        "всей семьёй"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/4d/4e/4d4e44fcdfa81fd8a1c70190381b03df.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "6+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:52.839505",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: экскурсия в Зубовский особняк | Категория: Экскурсии | Описание: Участники экскурсии пройдут по многовековым залам изысканного особняка графов Зубовых, проникнутся его творческой атмосферой и познакомятся с историей здания, в котором сегодня располагается Российский институт истории искусств. | Теги: 6+, необычный интерьер, экскурсии, жаркие скидки, туристам | Дата: 10.05.2024 15:00 - 15:00 | Город: Санкт-Петербург"
+    }
+  ]
+}
