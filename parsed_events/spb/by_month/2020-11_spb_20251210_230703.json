@@ -1,0 +1,1185 @@
+{
+  "metadata": {
+    "month": "2020-11",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:04.042795"
+  },
+  "events": [
+    {
+      "id": 189215,
+      "title": "спектакль «Братья Карамазовы» в МДТ — Театре Европы",
+      "description": "Спектакль Льва Додина по его собственной пьесе на основе Достоевского.",
+      "short_description": "Спектакль Льва Додина по его собственной пьесе на основе Достоевского.",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1605542400,
+          "end_timestamp": 1605643200,
+          "start_datetime": "2020-11-16T19:00:00",
+          "end_datetime": "2020-11-17T23:00:00",
+          "year": 2020,
+          "month": 11,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1607184000,
+          "end_timestamp": 1607284800,
+          "start_datetime": "2020-12-05T19:00:00",
+          "end_datetime": "2020-12-06T23:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1607875200,
+          "end_timestamp": 1607889600,
+          "start_datetime": "2020-12-13T19:00:00",
+          "end_datetime": "2020-12-13T23:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1608652800,
+          "end_timestamp": 1608753600,
+          "start_datetime": "2020-12-22T19:00:00",
+          "end_datetime": "2020-12-23T23:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1611504000,
+          "end_timestamp": 1611518400,
+          "start_datetime": "2021-01-24T19:00:00",
+          "end_datetime": "2021-01-24T23:00:00",
+          "year": 2021,
+          "month": 1,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1612454400,
+          "end_timestamp": 1612555200,
+          "start_datetime": "2021-02-04T19:00:00",
+          "end_datetime": "2021-02-05T23:00:00",
+          "year": 2021,
+          "month": 2,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1613750400,
+          "end_timestamp": 1613851200,
+          "start_datetime": "2021-02-19T19:00:00",
+          "end_datetime": "2021-02-20T23:00:00",
+          "year": 2021,
+          "month": 2,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1614528000,
+          "end_timestamp": 1614542400,
+          "start_datetime": "2021-02-28T19:00:00",
+          "end_datetime": "2021-02-28T23:00:00",
+          "year": 2021,
+          "month": 2,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1614960000,
+          "end_timestamp": 1615060800,
+          "start_datetime": "2021-03-05T19:00:00",
+          "end_datetime": "2021-03-06T23:00:00",
+          "year": 2021,
+          "month": 3,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1615737600,
+          "end_timestamp": 1615752000,
+          "start_datetime": "2021-03-14T19:00:00",
+          "end_datetime": "2021-03-14T23:00:00",
+          "year": 2021,
+          "month": 3,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1618243200,
+          "end_timestamp": 1618257600,
+          "start_datetime": "2021-04-12T19:00:00",
+          "end_datetime": "2021-04-12T23:00:00",
+          "year": 2021,
+          "month": 4,
+          "day": 12,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1618416000,
+          "end_timestamp": 1618430400,
+          "start_datetime": "2021-04-14T19:00:00",
+          "end_datetime": "2021-04-14T23:00:00",
+          "year": 2021,
+          "month": 4,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1618761600,
+          "end_timestamp": 1618776000,
+          "start_datetime": "2021-04-18T19:00:00",
+          "end_datetime": "2021-04-18T23:00:00",
+          "year": 2021,
+          "month": 4,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1625587200,
+          "end_timestamp": 1625688000,
+          "start_datetime": "2021-07-06T19:00:00",
+          "end_datetime": "2021-07-07T23:00:00",
+          "year": 2021,
+          "month": 7,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1631289600,
+          "end_timestamp": 1631390400,
+          "start_datetime": "2021-09-10T19:00:00",
+          "end_datetime": "2021-09-11T23:00:00",
+          "year": 2021,
+          "month": 9,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1633536000,
+          "end_timestamp": 1633636800,
+          "start_datetime": "2021-10-06T19:00:00",
+          "end_datetime": "2021-10-07T23:00:00",
+          "year": 2021,
+          "month": 10,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1634745600,
+          "end_timestamp": 1634846400,
+          "start_datetime": "2021-10-20T19:00:00",
+          "end_datetime": "2021-10-21T23:00:00",
+          "year": 2021,
+          "month": 10,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1639238400,
+          "end_timestamp": 1639339200,
+          "start_datetime": "2021-12-11T19:00:00",
+          "end_datetime": "2021-12-12T23:00:00",
+          "year": 2021,
+          "month": 12,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1640793600,
+          "end_timestamp": 1640808000,
+          "start_datetime": "2021-12-29T19:00:00",
+          "end_datetime": "2021-12-29T23:00:00",
+          "year": 2021,
+          "month": 12,
+          "day": 29,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1641225600,
+          "end_timestamp": 1641240000,
+          "start_datetime": "2022-01-03T19:00:00",
+          "end_datetime": "2022-01-03T23:00:00",
+          "year": 2022,
+          "month": 1,
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1642867200,
+          "end_timestamp": 1642968000,
+          "start_datetime": "2022-01-22T19:00:00",
+          "end_datetime": "2022-01-23T23:00:00",
+          "year": 2022,
+          "month": 1,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1643817600,
+          "end_timestamp": 1643918400,
+          "start_datetime": "2022-02-02T19:00:00",
+          "end_datetime": "2022-02-03T23:00:00",
+          "year": 2022,
+          "month": 2,
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1645891200,
+          "end_timestamp": 1645905600,
+          "start_datetime": "2022-02-26T19:00:00",
+          "end_datetime": "2022-02-26T23:00:00",
+          "year": 2022,
+          "month": 2,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1646582400,
+          "end_timestamp": 1646596800,
+          "start_datetime": "2022-03-06T19:00:00",
+          "end_datetime": "2022-03-06T23:00:00",
+          "year": 2022,
+          "month": 3,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1648051200,
+          "end_timestamp": 1648152000,
+          "start_datetime": "2022-03-23T19:00:00",
+          "end_datetime": "2022-03-24T23:00:00",
+          "year": 2022,
+          "month": 3,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1653408000,
+          "end_timestamp": 1653508800,
+          "start_datetime": "2022-05-24T19:00:00",
+          "end_datetime": "2022-05-25T23:00:00",
+          "year": 2022,
+          "month": 5,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1664294400,
+          "end_timestamp": 1664395200,
+          "start_datetime": "2022-09-27T19:00:00",
+          "end_datetime": "2022-09-28T23:00:00",
+          "year": 2022,
+          "month": 9,
+          "day": 27,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1665417600,
+          "end_timestamp": 1665518400,
+          "start_datetime": "2022-10-10T19:00:00",
+          "end_datetime": "2022-10-11T23:00:00",
+          "year": 2022,
+          "month": 10,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1668441600,
+          "end_timestamp": 1668542400,
+          "start_datetime": "2022-11-14T19:00:00",
+          "end_datetime": "2022-11-15T23:00:00",
+          "year": 2022,
+          "month": 11,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1669996800,
+          "end_timestamp": 1670097600,
+          "start_datetime": "2022-12-02T19:00:00",
+          "end_datetime": "2022-12-03T23:00:00",
+          "year": 2022,
+          "month": 12,
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1675180800,
+          "end_timestamp": 1675195200,
+          "start_datetime": "2023-01-31T19:00:00",
+          "end_datetime": "2023-01-31T23:00:00",
+          "year": 2023,
+          "month": 1,
+          "day": 31,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1677513600,
+          "end_timestamp": 1677614400,
+          "start_datetime": "2023-02-27T19:00:00",
+          "end_datetime": "2023-02-28T23:00:00",
+          "year": 2023,
+          "month": 2,
+          "day": 27,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1678896000,
+          "end_timestamp": 1678996800,
+          "start_datetime": "2023-03-15T19:00:00",
+          "end_datetime": "2023-03-16T23:00:00",
+          "year": 2023,
+          "month": 3,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1681833600,
+          "end_timestamp": 1681848000,
+          "start_datetime": "2023-04-18T19:00:00",
+          "end_datetime": "2023-04-18T23:00:00",
+          "year": 2023,
+          "month": 4,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1682697600,
+          "end_timestamp": 1682712000,
+          "start_datetime": "2023-04-28T19:00:00",
+          "end_datetime": "2023-04-28T23:00:00",
+          "year": 2023,
+          "month": 4,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1683388800,
+          "end_timestamp": 1683403200,
+          "start_datetime": "2023-05-06T19:00:00",
+          "end_datetime": "2023-05-06T23:00:00",
+          "year": 2023,
+          "month": 5,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1684339200,
+          "end_timestamp": 1684353600,
+          "start_datetime": "2023-05-17T19:00:00",
+          "end_datetime": "2023-05-17T23:00:00",
+          "year": 2023,
+          "month": 5,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1686240000,
+          "end_timestamp": 1686254400,
+          "start_datetime": "2023-06-08T19:00:00",
+          "end_datetime": "2023-06-08T23:00:00",
+          "year": 2023,
+          "month": 6,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1686844800,
+          "end_timestamp": 1686859200,
+          "start_datetime": "2023-06-15T19:00:00",
+          "end_datetime": "2023-06-15T23:00:00",
+          "year": 2023,
+          "month": 6,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1689436800,
+          "end_timestamp": 1689451200,
+          "start_datetime": "2023-07-15T19:00:00",
+          "end_datetime": "2023-07-15T23:00:00",
+          "year": 2023,
+          "month": 7,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1690041600,
+          "end_timestamp": 1690056000,
+          "start_datetime": "2023-07-22T19:00:00",
+          "end_datetime": "2023-07-22T23:00:00",
+          "year": 2023,
+          "month": 7,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1694966400,
+          "end_timestamp": 1694980800,
+          "start_datetime": "2023-09-17T19:00:00",
+          "end_datetime": "2023-09-17T23:00:00",
+          "year": 2023,
+          "month": 9,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1695225600,
+          "end_timestamp": 1695240000,
+          "start_datetime": "2023-09-20T19:00:00",
+          "end_datetime": "2023-09-20T23:00:00",
+          "year": 2023,
+          "month": 9,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1697731200,
+          "end_timestamp": 1697745600,
+          "start_datetime": "2023-10-19T19:00:00",
+          "end_datetime": "2023-10-19T23:00:00",
+          "year": 2023,
+          "month": 10,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1698249600,
+          "end_timestamp": 1698264000,
+          "start_datetime": "2023-10-25T19:00:00",
+          "end_datetime": "2023-10-25T23:00:00",
+          "year": 2023,
+          "month": 10,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1698854400,
+          "end_timestamp": 1698868800,
+          "start_datetime": "2023-11-01T19:00:00",
+          "end_datetime": "2023-11-01T23:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 1,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1699027200,
+          "end_timestamp": 1699041600,
+          "start_datetime": "2023-11-03T19:00:00",
+          "end_datetime": "2023-11-03T23:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1701273600,
+          "end_timestamp": 1701288000,
+          "start_datetime": "2023-11-29T19:00:00",
+          "end_datetime": "2023-11-29T23:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 29,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1702483200,
+          "end_timestamp": 1702497600,
+          "start_datetime": "2023-12-13T19:00:00",
+          "end_datetime": "2023-12-13T23:00:00",
+          "year": 2023,
+          "month": 12,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1703260800,
+          "end_timestamp": 1703275200,
+          "start_datetime": "2023-12-22T19:00:00",
+          "end_datetime": "2023-12-22T23:00:00",
+          "year": 2023,
+          "month": 12,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1705420800,
+          "end_timestamp": 1705521600,
+          "start_datetime": "2024-01-16T19:00:00",
+          "end_datetime": "2024-01-17T23:00:00",
+          "year": 2024,
+          "month": 1,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1706889600,
+          "end_timestamp": 1706904000,
+          "start_datetime": "2024-02-02T19:00:00",
+          "end_datetime": "2024-02-02T23:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1708012800,
+          "end_timestamp": 1708027200,
+          "start_datetime": "2024-02-15T19:00:00",
+          "end_datetime": "2024-02-15T23:00:00",
+          "year": 2024,
+          "month": 2,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1709740800,
+          "end_timestamp": 1709755200,
+          "start_datetime": "2024-03-06T19:00:00",
+          "end_datetime": "2024-03-06T23:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1710259200,
+          "end_timestamp": 1710360000,
+          "start_datetime": "2024-03-12T19:00:00",
+          "end_datetime": "2024-03-13T23:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 12,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1713628800,
+          "end_timestamp": 1713643200,
+          "start_datetime": "2024-04-20T19:00:00",
+          "end_datetime": "2024-04-20T23:00:00",
+          "year": 2024,
+          "month": 4,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1715961600,
+          "end_timestamp": 1715976000,
+          "start_datetime": "2024-05-17T19:00:00",
+          "end_datetime": "2024-05-17T23:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1717603200,
+          "end_timestamp": 1717617600,
+          "start_datetime": "2024-06-05T19:00:00",
+          "end_datetime": "2024-06-05T23:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1719676800,
+          "end_timestamp": 1719691200,
+          "start_datetime": "2024-06-29T19:00:00",
+          "end_datetime": "2024-06-29T23:00:00",
+          "year": 2024,
+          "month": 6,
+          "day": 29,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1720195200,
+          "end_timestamp": 1720209600,
+          "start_datetime": "2024-07-05T19:00:00",
+          "end_datetime": "2024-07-05T23:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1721491200,
+          "end_timestamp": 1721505600,
+          "start_datetime": "2024-07-20T19:00:00",
+          "end_datetime": "2024-07-20T23:00:00",
+          "year": 2024,
+          "month": 7,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1726156800,
+          "end_timestamp": 1726171200,
+          "start_datetime": "2024-09-12T19:00:00",
+          "end_datetime": "2024-09-12T23:00:00",
+          "year": 2024,
+          "month": 9,
+          "day": 12,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1729612800,
+          "end_timestamp": 1729627200,
+          "start_datetime": "2024-10-22T19:00:00",
+          "end_datetime": "2024-10-22T23:00:00",
+          "year": 2024,
+          "month": 10,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1731600000,
+          "end_timestamp": 1731614400,
+          "start_datetime": "2024-11-14T19:00:00",
+          "end_datetime": "2024-11-14T23:00:00",
+          "year": 2024,
+          "month": 11,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733068800,
+          "end_timestamp": 1733083200,
+          "start_datetime": "2024-12-01T19:00:00",
+          "end_datetime": "2024-12-01T23:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 1,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1734883200,
+          "end_timestamp": 1734897600,
+          "start_datetime": "2024-12-22T19:00:00",
+          "end_datetime": "2024-12-22T23:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1737820800,
+          "end_timestamp": 1737835200,
+          "start_datetime": "2025-01-25T19:00:00",
+          "end_datetime": "2025-01-25T23:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740499200,
+          "end_timestamp": 1740513600,
+          "start_datetime": "2025-02-25T19:00:00",
+          "end_datetime": "2025-02-25T23:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742054400,
+          "end_timestamp": 1742068800,
+          "start_datetime": "2025-03-15T19:00:00",
+          "end_datetime": "2025-03-15T23:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742572800,
+          "end_timestamp": 1742587200,
+          "start_datetime": "2025-03-21T19:00:00",
+          "end_datetime": "2025-03-21T23:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 21,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744387200,
+          "end_timestamp": 1744401600,
+          "start_datetime": "2025-04-11T19:00:00",
+          "end_datetime": "2025-04-11T23:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744992000,
+          "end_timestamp": 1745006400,
+          "start_datetime": "2025-04-18T19:00:00",
+          "end_datetime": "2025-04-18T23:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1746547200,
+          "end_timestamp": 1746561600,
+          "start_datetime": "2025-05-06T19:00:00",
+          "end_datetime": "2025-05-06T23:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1750348800,
+          "end_timestamp": 1750359600,
+          "start_datetime": "2025-06-19T19:00:00",
+          "end_datetime": "2025-06-19T22:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1751990400,
+          "end_timestamp": 1752001200,
+          "start_datetime": "2025-07-08T19:00:00",
+          "end_datetime": "2025-07-08T22:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1752595200,
+          "end_timestamp": 1752606000,
+          "start_datetime": "2025-07-15T19:00:00",
+          "end_datetime": "2025-07-15T22:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757433600,
+          "end_timestamp": 1757520000,
+          "start_datetime": "2025-09-09T19:00:00",
+          "end_datetime": "2025-09-10T19:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759680000,
+          "end_timestamp": 1759680000,
+          "start_datetime": "2025-10-05T19:00:00",
+          "end_datetime": "2025-10-05T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764691200,
+          "end_timestamp": 1764691200,
+          "start_datetime": "2025-12-02T19:00:00",
+          "end_datetime": "2025-12-02T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 2,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766505600,
+          "end_timestamp": 1766505600,
+          "start_datetime": "2025-12-23T19:00:00",
+          "end_datetime": "2025-12-23T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "16.11.2020 19:00 - 17.11.2020 23:00",
+        "05.12.2020 19:00 - 06.12.2020 23:00",
+        "13.12.2020 19:00 - 23:00",
+        "22.12.2020 19:00 - 23.12.2020 23:00",
+        "24.01.2021 19:00 - 23:00",
+        "04.02.2021 19:00 - 05.02.2021 23:00",
+        "19.02.2021 19:00 - 20.02.2021 23:00",
+        "28.02.2021 19:00 - 23:00",
+        "05.03.2021 19:00 - 06.03.2021 23:00",
+        "14.03.2021 19:00 - 23:00",
+        "12.04.2021 19:00 - 23:00",
+        "14.04.2021 19:00 - 23:00",
+        "18.04.2021 19:00 - 23:00",
+        "06.07.2021 19:00 - 07.07.2021 23:00",
+        "10.09.2021 19:00 - 11.09.2021 23:00",
+        "06.10.2021 19:00 - 07.10.2021 23:00",
+        "20.10.2021 19:00 - 21.10.2021 23:00",
+        "11.12.2021 19:00 - 12.12.2021 23:00",
+        "29.12.2021 19:00 - 23:00",
+        "03.01.2022 19:00 - 23:00",
+        "22.01.2022 19:00 - 23.01.2022 23:00",
+        "02.02.2022 19:00 - 03.02.2022 23:00",
+        "26.02.2022 19:00 - 23:00",
+        "06.03.2022 19:00 - 23:00",
+        "23.03.2022 19:00 - 24.03.2022 23:00",
+        "24.05.2022 19:00 - 25.05.2022 23:00",
+        "27.09.2022 19:00 - 28.09.2022 23:00",
+        "10.10.2022 19:00 - 11.10.2022 23:00",
+        "14.11.2022 19:00 - 15.11.2022 23:00",
+        "02.12.2022 19:00 - 03.12.2022 23:00",
+        "31.01.2023 19:00 - 23:00",
+        "27.02.2023 19:00 - 28.02.2023 23:00",
+        "15.03.2023 19:00 - 16.03.2023 23:00",
+        "18.04.2023 19:00 - 23:00",
+        "28.04.2023 19:00 - 23:00",
+        "06.05.2023 19:00 - 23:00",
+        "17.05.2023 19:00 - 23:00",
+        "08.06.2023 19:00 - 23:00",
+        "15.06.2023 19:00 - 23:00",
+        "15.07.2023 19:00 - 23:00",
+        "22.07.2023 19:00 - 23:00",
+        "17.09.2023 19:00 - 23:00",
+        "20.09.2023 19:00 - 23:00",
+        "19.10.2023 19:00 - 23:00",
+        "25.10.2023 19:00 - 23:00",
+        "01.11.2023 19:00 - 23:00",
+        "03.11.2023 19:00 - 23:00",
+        "29.11.2023 19:00 - 23:00",
+        "13.12.2023 19:00 - 23:00",
+        "22.12.2023 19:00 - 23:00",
+        "16.01.2024 19:00 - 17.01.2024 23:00",
+        "02.02.2024 19:00 - 23:00",
+        "15.02.2024 19:00 - 23:00",
+        "06.03.2024 19:00 - 23:00",
+        "12.03.2024 19:00 - 13.03.2024 23:00",
+        "20.04.2024 19:00 - 23:00",
+        "17.05.2024 19:00 - 23:00",
+        "05.06.2024 19:00 - 23:00",
+        "29.06.2024 19:00 - 23:00",
+        "05.07.2024 19:00 - 23:00",
+        "20.07.2024 19:00 - 23:00",
+        "12.09.2024 19:00 - 23:00",
+        "22.10.2024 19:00 - 23:00",
+        "14.11.2024 19:00 - 23:00",
+        "01.12.2024 19:00 - 23:00",
+        "22.12.2024 19:00 - 23:00",
+        "25.01.2025 19:00 - 23:00",
+        "25.02.2025 19:00 - 23:00",
+        "15.03.2025 19:00 - 23:00",
+        "21.03.2025 19:00 - 23:00",
+        "11.04.2025 19:00 - 23:00",
+        "18.04.2025 19:00 - 23:00",
+        "06.05.2025 19:00 - 23:00",
+        "19.06.2025 19:00 - 22:00",
+        "08.07.2025 19:00 - 22:00",
+        "15.07.2025 19:00 - 22:00",
+        "09.09.2025 19:00 - 10.09.2025 19:00",
+        "05.10.2025 19:00 - 19:00",
+        "02.12.2025 19:00 - 19:00",
+        "23.12.2025 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 1000 рублей"
+      },
+      "price_text": "от 1000 рублей",
+      "place": {
+        "id": 2380,
+        "title": "Малый драматический театр — Театр Европы",
+        "address": "ул. Рубинштейна, д. 18",
+        "subway": "Достоевская",
+        "coords": {
+          "lat": 59.93012400000001,
+          "lon": 30.34535999999999
+        },
+        "phone": "+7 812 400-03-70",
+        "site_url": "https://kudago.com/spb/place/mdt-teatr-evropy/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Малый драматический театр — Театр Европы\nАдрес: ул. Рубинштейна, д. 18\nМетро: Достоевская\nКоординаты: 59.930124, 30.345360\nТелефон: +7 812 400-03-70\nСайт: https://kudago.com/spb/place/mdt-teatr-evropy/",
+      "url": "https://kudago.com/spb/event/teatr-bratya-karamazovyi-oktyabr-2020/",
+      "tags": [
+        "достоевский",
+        "спектакли",
+        "спектакли с известными актёрами",
+        "16+",
+        "драматические постановки"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/31/a8/31a80d899daf6f59a61d3ad43b81d630.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/35/54/35548cba9400c9d51e2cf64c934d2aee.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/82/0b/820b25cb3845595253820a2b06e04ad7.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "16+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 470,
+            "title": "Игорь Иванов",
+            "slug": "igor-ivanov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/igor-ivanov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3862,
+            "title": "Евгений Санников",
+            "slug": "evgenij-sannikov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/evgenij-sannikov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3884,
+            "title": "Игорь Черневич",
+            "slug": "igor-chernevich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/igor-chernevich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3814,
+            "title": "Станислав Никольский",
+            "slug": "stanislav-nikolskij",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/stanislav-nikolskij/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3887,
+            "title": "Олег Рязанцев",
+            "slug": "oleg-ryazancev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/oleg-ryazancev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3874,
+            "title": "Елизавета Боярская",
+            "slug": "elizaveta-boyarskaya",
+            "agent_type": "person",
+            "images": [
+              {
+                "image": "https://media.kudago.com/images/agent/9e/3d/9e3d7aa6784dbd3ee66bb2d5bf27205e.jpg",
+                "thumbnails": {
+                  "640x384": "https://media.kudago.com/thumbs/640x384/images/agent/9e/3d/9e3d7aa6784dbd3ee66bb2d5bf27205e.jpg",
+                  "144x96": "https://media.kudago.com/thumbs/144x96/images/agent/9e/3d/9e3d7aa6784dbd3ee66bb2d5bf27205e.jpg"
+                },
+                "source": {
+                  "name": "games-of-thrones.ru",
+                  "link": "http://games-of-thrones.ru/elizaveta-boyarskaya-80-luchshih-kachestvennyh-foto-iz-fotosessiy-raznyh-let.html"
+                }
+              },
+              {
+                "image": "https://media.kudago.com/images/agent/ab/7b/ab7bc19bedb5251eb812ea7f0a4eee55.jpg",
+                "thumbnails": {
+                  "640x384": "https://media.kudago.com/thumbs/640x384/images/agent/ab/7b/ab7bc19bedb5251eb812ea7f0a4eee55.jpg",
+                  "144x96": "https://media.kudago.com/thumbs/144x96/images/agent/ab/7b/ab7bc19bedb5251eb812ea7f0a4eee55.jpg"
+                },
+                "source": {
+                  "name": "365news.biz",
+                  "link": "http://365news.biz/news/show-business/16908-liza-boyarskaya-spasla-muzha-ot-igromanii.html"
+                }
+              },
+              {
+                "image": "https://media.kudago.com/images/agent/af/7f/af7fc7b8913c9a82bb7a65153c79132c.jpg",
+                "thumbnails": {
+                  "640x384": "https://media.kudago.com/thumbs/640x384/images/agent/af/7f/af7fc7b8913c9a82bb7a65153c79132c.jpg",
+                  "144x96": "https://media.kudago.com/thumbs/144x96/images/agent/af/7f/af7fc7b8913c9a82bb7a65153c79132c.jpg"
+                },
+                "source": {
+                  "name": "all-stars.su",
+                  "link": "http://all-stars.su/400-elizaveta-boyarskaya-oboi.html"
+                }
+              }
+            ],
+            "site_url": "https://kudago.com/follow/elizaveta-boyarskaya/",
+            "is_stub": false
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3786,
+            "title": "Екатерина Тарасова",
+            "slug": "ekaterina-tarasova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/ekaterina-tarasova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 1762,
+            "title": "Лев Додин",
+            "slug": "lev-dodin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/lev-dodin/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:21.630843",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Братья Карамазовы» в МДТ — Театре Европы | Категория: Театр | Описание: Спектакль Льва Додина по его собственной пьесе на основе Достоевского. | Место: Место: Малый драматический театр — Театр Европы | Теги: достоевский, спектакли, спектакли с известными актёрами, 16+, драматические постановки | Дата: 16.11.2020 19:00 - 17.11.2020 23:00 | Город: Санкт-Петербург"
+    }
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "metadata": {
+    "month": "2019-12",
+    "city": "msk",
+    "total_events": 2,
+    "export_date": "2025-12-10T23:06:03.167147"
+  },
+  "events": [
+    {
+      "id": 13732,
+      "title": "балет «Снегурочка» в Театре имени К. С. Станиславского и Вл. И. Немировича­-Данченко",
+      "description": "У этого спектакля непростая история. Он был создан Владимиром Бурмейстером на заказ, на сцену театра Станиславского перенесён уже в 1963 году. Новая редакция балета увидела свет в 2001 году — прежде всего, изменилось оформление спектакля, ставшее более современным. На гастролях балет имел оглушительный успех, став главным событием сезона.",
+      "short_description": "У этого спектакля непростая история. Он был создан Владимиром Бурмейстером на заказ, на сцену театра Станиславского перенесён уже в 1963 году. Новая редакция балета увидела свет в 2001 году — прежде в...",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1577030400,
+          "end_timestamp": 1577030400,
+          "start_datetime": "2019-12-22T19:00:00",
+          "end_datetime": "2019-12-22T19:00:00",
+          "year": 2019,
+          "month": 12,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1577116800,
+          "end_timestamp": 1577116800,
+          "start_datetime": "2019-12-23T19:00:00",
+          "end_datetime": "2019-12-23T19:00:00",
+          "year": 2019,
+          "month": 12,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1578301200,
+          "end_timestamp": 1578301200,
+          "start_datetime": "2020-01-06T12:00:00",
+          "end_datetime": "2020-01-06T12:00:00",
+          "year": 2020,
+          "month": 1,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1578326400,
+          "end_timestamp": 1578326400,
+          "start_datetime": "2020-01-06T19:00:00",
+          "end_datetime": "2020-01-06T19:00:00",
+          "year": 2020,
+          "month": 1,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1580745600,
+          "end_timestamp": 1580745600,
+          "start_datetime": "2020-02-03T19:00:00",
+          "end_datetime": "2020-02-03T19:00:00",
+          "year": 2020,
+          "month": 2,
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1580832000,
+          "end_timestamp": 1580832000,
+          "start_datetime": "2020-02-04T19:00:00",
+          "end_datetime": "2020-02-04T19:00:00",
+          "year": 2020,
+          "month": 2,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1608454800,
+          "end_timestamp": 1608454800,
+          "start_datetime": "2020-12-20T12:00:00",
+          "end_datetime": "2020-12-20T12:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 20,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1608480000,
+          "end_timestamp": 1608480000,
+          "start_datetime": "2020-12-20T19:00:00",
+          "end_datetime": "2020-12-20T19:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1609923600,
+          "end_timestamp": 1610010000,
+          "start_datetime": "2021-01-06T12:00:00",
+          "end_datetime": "2021-01-07T12:00:00",
+          "year": 2021,
+          "month": 1,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1609948800,
+          "end_timestamp": 1610035200,
+          "start_datetime": "2021-01-06T19:00:00",
+          "end_datetime": "2021-01-07T19:00:00",
+          "year": 2021,
+          "month": 1,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1615712400,
+          "end_timestamp": 1615712400,
+          "start_datetime": "2021-03-14T12:00:00",
+          "end_datetime": "2021-03-14T12:00:00",
+          "year": 2021,
+          "month": 3,
+          "day": 14,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1615737600,
+          "end_timestamp": 1615737600,
+          "start_datetime": "2021-03-14T19:00:00",
+          "end_datetime": "2021-03-14T19:00:00",
+          "year": 2021,
+          "month": 3,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1639843200,
+          "end_timestamp": 1640024100,
+          "start_datetime": "2021-12-18T19:00:00",
+          "end_datetime": "2021-12-20T21:15:00",
+          "year": 2021,
+          "month": 12,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1641312000,
+          "end_timestamp": 1641320100,
+          "start_datetime": "2022-01-04T19:00:00",
+          "end_datetime": "2022-01-04T21:15:00",
+          "year": 2022,
+          "month": 1,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1641373200,
+          "end_timestamp": 1641381300,
+          "start_datetime": "2022-01-05T12:00:00",
+          "end_datetime": "2022-01-05T14:15:00",
+          "year": 2022,
+          "month": 1,
+          "day": 5,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1648224000,
+          "end_timestamp": 1648232100,
+          "start_datetime": "2022-03-25T19:00:00",
+          "end_datetime": "2022-03-25T21:15:00",
+          "year": 2022,
+          "month": 3,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1648292400,
+          "end_timestamp": 1648300500,
+          "start_datetime": "2022-03-26T14:00:00",
+          "end_datetime": "2022-03-26T16:15:00",
+          "year": 2022,
+          "month": 3,
+          "day": 26,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1650902400,
+          "end_timestamp": 1650910500,
+          "start_datetime": "2022-04-25T19:00:00",
+          "end_datetime": "2022-04-25T21:15:00",
+          "year": 2022,
+          "month": 4,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1671033600,
+          "end_timestamp": 1671128100,
+          "start_datetime": "2022-12-14T19:00:00",
+          "end_datetime": "2022-12-15T21:15:00",
+          "year": 2022,
+          "month": 12,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1679846400,
+          "end_timestamp": 1679940900,
+          "start_datetime": "2023-03-26T19:00:00",
+          "end_datetime": "2023-03-27T21:15:00",
+          "year": 2023,
+          "month": 3,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1702119600,
+          "end_timestamp": 1702127700,
+          "start_datetime": "2023-12-09T14:00:00",
+          "end_datetime": "2023-12-09T16:15:00",
+          "year": 2023,
+          "month": 12,
+          "day": 9,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1702137600,
+          "end_timestamp": 1702145700,
+          "start_datetime": "2023-12-09T19:00:00",
+          "end_datetime": "2023-12-09T21:15:00",
+          "year": 2023,
+          "month": 12,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1705748400,
+          "end_timestamp": 1705756560,
+          "start_datetime": "2024-01-20T14:00:00",
+          "end_datetime": "2024-01-20T16:16:00",
+          "year": 2024,
+          "month": 1,
+          "day": 20,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1705766400,
+          "end_timestamp": 1705774500,
+          "start_datetime": "2024-01-20T19:00:00",
+          "end_datetime": "2024-01-20T21:15:00",
+          "year": 2024,
+          "month": 1,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1713024000,
+          "end_timestamp": 1713118500,
+          "start_datetime": "2024-04-13T19:00:00",
+          "end_datetime": "2024-04-14T21:15:00",
+          "year": 2024,
+          "month": 4,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1713092400,
+          "end_timestamp": 1713100500,
+          "start_datetime": "2024-04-14T14:00:00",
+          "end_datetime": "2024-04-14T16:15:00",
+          "year": 2024,
+          "month": 4,
+          "day": 14,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733655600,
+          "end_timestamp": 1733655600,
+          "start_datetime": "2024-12-08T14:00:00",
+          "end_datetime": "2024-12-08T14:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 8,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733673600,
+          "end_timestamp": 1733673600,
+          "start_datetime": "2024-12-08T19:00:00",
+          "end_datetime": "2024-12-08T19:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1734105600,
+          "end_timestamp": 1734105600,
+          "start_datetime": "2024-12-13T19:00:00",
+          "end_datetime": "2024-12-13T19:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1738944000,
+          "end_timestamp": 1738952100,
+          "start_datetime": "2025-02-07T19:00:00",
+          "end_datetime": "2025-02-07T21:15:00",
+          "year": 2025,
+          "month": 2,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739012400,
+          "end_timestamp": 1739020500,
+          "start_datetime": "2025-02-08T14:00:00",
+          "end_datetime": "2025-02-08T16:15:00",
+          "year": 2025,
+          "month": 2,
+          "day": 8,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745596800,
+          "end_timestamp": 1745604900,
+          "start_datetime": "2025-04-25T19:00:00",
+          "end_datetime": "2025-04-25T21:15:00",
+          "year": 2025,
+          "month": 4,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745658000,
+          "end_timestamp": 1745666100,
+          "start_datetime": "2025-04-26T12:00:00",
+          "end_datetime": "2025-04-26T14:15:00",
+          "year": 2025,
+          "month": 4,
+          "day": 26,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745856000,
+          "end_timestamp": 1745864100,
+          "start_datetime": "2025-04-28T19:00:00",
+          "end_datetime": "2025-04-28T21:15:00",
+          "year": 2025,
+          "month": 4,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764950400,
+          "end_timestamp": 1764950400,
+          "start_datetime": "2025-12-05T19:00:00",
+          "end_datetime": "2025-12-05T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765011600,
+          "end_timestamp": 1765011600,
+          "start_datetime": "2025-12-06T12:00:00",
+          "end_datetime": "2025-12-06T12:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 6,
+          "hour": 12,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765468800,
+          "end_timestamp": 1765468800,
+          "start_datetime": "2025-12-11T19:00:00",
+          "end_datetime": "2025-12-11T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765710000,
+          "end_timestamp": 1765710000,
+          "start_datetime": "2025-12-14T14:00:00",
+          "end_datetime": "2025-12-14T14:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 14,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765728000,
+          "end_timestamp": 1765728000,
+          "start_datetime": "2025-12-14T19:00:00",
+          "end_datetime": "2025-12-14T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "22.12.2019 19:00 - 19:00",
+        "23.12.2019 19:00 - 19:00",
+        "06.01.2020 12:00 - 12:00",
+        "06.01.2020 19:00 - 19:00",
+        "03.02.2020 19:00 - 19:00",
+        "04.02.2020 19:00 - 19:00",
+        "20.12.2020 12:00 - 12:00",
+        "20.12.2020 19:00 - 19:00",
+        "06.01.2021 12:00 - 07.01.2021 12:00",
+        "06.01.2021 19:00 - 07.01.2021 19:00",
+        "14.03.2021 12:00 - 12:00",
+        "14.03.2021 19:00 - 19:00",
+        "18.12.2021 19:00 - 20.12.2021 21:15",
+        "04.01.2022 19:00 - 21:15",
+        "05.01.2022 12:00 - 14:15",
+        "25.03.2022 19:00 - 21:15",
+        "26.03.2022 14:00 - 16:15",
+        "25.04.2022 19:00 - 21:15",
+        "14.12.2022 19:00 - 15.12.2022 21:15",
+        "26.03.2023 19:00 - 27.03.2023 21:15",
+        "09.12.2023 14:00 - 16:15",
+        "09.12.2023 19:00 - 21:15",
+        "20.01.2024 14:00 - 16:16",
+        "20.01.2024 19:00 - 21:15",
+        "13.04.2024 19:00 - 14.04.2024 21:15",
+        "14.04.2024 14:00 - 16:15",
+        "08.12.2024 14:00 - 14:00",
+        "08.12.2024 19:00 - 19:00",
+        "13.12.2024 19:00 - 19:00",
+        "07.02.2025 19:00 - 21:15",
+        "08.02.2025 14:00 - 16:15",
+        "25.04.2025 19:00 - 21:15",
+        "26.04.2025 12:00 - 14:15",
+        "28.04.2025 19:00 - 21:15",
+        "05.12.2025 19:00 - 19:00",
+        "06.12.2025 12:00 - 12:00",
+        "11.12.2025 19:00 - 19:00",
+        "14.12.2025 14:00 - 14:00",
+        "14.12.2025 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 1500 рублей"
+      },
+      "price_text": "от 1500 рублей",
+      "place": {
+        "id": 845,
+        "title": "Московский академический музыкальный театр имени Станиславского и Немировича­-Данченко",
+        "address": "ул. Большая Дмитровка, д. 17",
+        "subway": "Пушкинская, Тверская, Чеховская",
+        "coords": {
+          "lat": 55.76456099999996,
+          "lon": 37.610512
+        },
+        "phone": "+7 495 650-23-93",
+        "site_url": "https://kudago.com/msk/place/stanislavskymusic/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Московский академический музыкальный театр имени Станиславского и Немировича­-Данченко\nАдрес: ул. Большая Дмитровка, д. 17\nМетро: Пушкинская, Тверская, Чеховская\nКоординаты: 55.764561, 37.610512\nТелефон: +7 495 650-23-93\nСайт: https://kudago.com/msk/place/stanislavskymusic/",
+      "url": "https://kudago.com/msk/event/spektakl-snegurochka-v-teatre-im-stanislavskogo/",
+      "tags": [
+        "детям",
+        "6+",
+        "детские спектакли",
+        "новый год 2026",
+        "балет",
+        "спектакли",
+        "новый год с детьми",
+        "лучшее в театрах",
+        "новогодние ёлки и спектакли"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/cd/63/cd63e48f6f3b6b1d811c3ffd764c0650.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "6+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 7644,
+            "title": "Анастасия Лименько",
+            "slug": "anastasiya-limenko",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anastasiya-limenko/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 7645,
+            "title": "Анастасия Першенкова",
+            "slug": "anastasiya-pershenkova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anastasiya-pershenkova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 6008,
+            "title": "Станислав Бухараев",
+            "slug": "stanislav-buharaev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/stanislav-buharaev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2936,
+            "title": "Никита Кириллов",
+            "slug": "nikita-kirillov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/nikita-kirillov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 4686,
+            "title": "Алексей Любимов",
+            "slug": "aleksej-lyubimov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksej-lyubimov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 7646,
+            "title": "Роман Маленко",
+            "slug": "roman-malenko",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/roman-malenko/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 5998,
+            "title": "Сергей Мануйлов",
+            "slug": "sergej-manujlov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-manujlov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 4827,
+            "title": "Владимир Бурмейстер",
+            "slug": "vladimir-burmejster",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/vladimir-burmejster/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:17.723510",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: балет «Снегурочка» в Театре имени К. С. Станиславского и Вл. И. Немировича­-Данченко | Категория: Театр | Описание: У этого спектакля непростая история. Он был создан Владимиром Бурмейстером на заказ, на сцену театра Станиславского перенесён уже в 1963 году. Новая редакция балета увидела свет в 2001 году — прежде всего, изменилось оформление спектакля, ставшее более современным. На гастролях балет имел оглушитель | Место: Место: Московский академический музыкальный театр имени Станиславского и Немировича­-Данченко | Теги: детям, 6+, детские спектакли, новый год 2026, балет | Дата: 22.12.2019 19:00 - 19:00 | Город: Москва"
+    },
+    {
+      "id": 184052,
+      "title": "Фестиваль «Путешествие в Рождество»",
+      "description": "Главный зимний фестиваль не даст заскучать! Приходите пробовать традиционные новогодние блюда, посетить тематические зоны, кататься на катках и каруселях, выбирать сувениры, принимать поздравления от Деда Мороза и Снегурочки.",
+      "short_description": "Главный зимний фестиваль не даст заскучать! Приходите пробовать традиционные новогодние блюда, посетить тематические зоны, кататься на катках и каруселях, выбирать сувениры, принимать поздравления от ...",
+      "category": "Фестивали",
+      "dates": [
+        {
+          "start_timestamp": 1576220400,
+          "end_timestamp": 1580497200,
+          "start_datetime": "2019-12-13T10:00:00",
+          "end_datetime": "2020-01-31T22:00:00",
+          "year": 2019,
+          "month": 12,
+          "day": 13,
+          "hour": 10,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1639083600,
+          "end_timestamp": 1641762000,
+          "start_datetime": "2021-12-10T00:00:00",
+          "end_datetime": "2022-01-10T00:00:00",
+          "year": 2021,
+          "month": 12,
+          "day": 10,
+          "hour": 0,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1671742800,
+          "end_timestamp": 1673211600,
+          "start_datetime": "2022-12-23T00:00:00",
+          "end_datetime": "2023-01-09T00:00:00",
+          "year": 2022,
+          "month": 12,
+          "day": 23,
+          "hour": 0,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1703192400,
+          "end_timestamp": 1704747600,
+          "start_datetime": "2023-12-22T00:00:00",
+          "end_datetime": "2024-01-09T00:00:00",
+          "year": 2023,
+          "month": 12,
+          "day": 22,
+          "hour": 0,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1734123600,
+          "end_timestamp": 1736715600,
+          "start_datetime": "2024-12-14T00:00:00",
+          "end_datetime": "2025-01-13T00:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 14,
+          "hour": 0,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765486800,
+          "end_timestamp": 1768165200,
+          "start_datetime": "2025-12-12T00:00:00",
+          "end_datetime": "2026-01-12T00:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 12,
+          "hour": 0,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "13.12.2019 10:00 - 31.01.2020 22:00",
+        "10.12.2021 00:00 - 10.01.2022 00:00",
+        "23.12.2022 00:00 - 09.01.2023 00:00",
+        "22.12.2023 00:00 - 09.01.2024 00:00",
+        "14.12.2024 00:00 - 13.01.2025 00:00",
+        "12.12.2025 00:00 - 12.01.2026 00:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": ""
+      },
+      "price_text": "Цена не указана",
+      "place": {
+        "id": null,
+        "title": "Место не указано",
+        "address": "",
+        "subway": "",
+        "coords": null,
+        "phone": "",
+        "site_url": "",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место не указано",
+      "url": "https://kudago.com/msk/event/detyam-puteshestvie-v-rozhdestvo-dekabr-2019/",
+      "tags": [
+        "детям",
+        "новый год 2026",
+        "новогодние ярмарки и подарки",
+        "новогодние развлечения",
+        "новогодние вечеринки",
+        "рождество",
+        "городские",
+        "free",
+        "детские",
+        "новый год с детьми"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/64/98/6498112eaf75e70af8c76ac98efed2b9.JPG",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/8c/9d/8c9d60332460ac0b08d473a1cc21d8c4.JPG",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/98/82/9882edcffb93a6110fade4a42552adad.JPG",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": 0,
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:29.668738",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: Фестиваль «Путешествие в Рождество» | Категория: Фестивали | Описание: Главный зимний фестиваль не даст заскучать! Приходите пробовать традиционные новогодние блюда, посетить тематические зоны, кататься на катках и каруселях, выбирать сувениры, принимать поздравления от Деда Мороза и Снегурочки. | Теги: детям, новый год 2026, новогодние ярмарки и подарки, новогодние развлечения, новогодние вечеринки | Дата: 13.12.2019 10:00 - 31.01.2020 22:00 | Город: Москва"
+    }
+  ]
+}

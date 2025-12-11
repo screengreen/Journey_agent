@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "month": "2020-09",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:03.994069"
+  },
+  "events": [
+    {
+      "id": 188880,
+      "title": "концерт Markul",
+      "description": "Звезда русского рэпа Markul соберёт Ледовый дворец на презентацию альбома Make Depression Great Again.",
+      "short_description": "Звезда русского рэпа Markul соберёт Ледовый дворец на презентацию альбома Make Depression Great Again.",
+      "category": "Концерты",
+      "dates": [
+        {
+          "start_timestamp": 1600448400,
+          "end_timestamp": 1600448400,
+          "start_datetime": "2020-09-18T20:00:00",
+          "end_datetime": "2020-09-18T20:00:00",
+          "year": 2020,
+          "month": 9,
+          "day": 18,
+          "hour": 20,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765728000,
+          "end_timestamp": 1765728000,
+          "start_datetime": "2025-12-14T19:00:00",
+          "end_datetime": "2025-12-14T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "18.09.2020 20:00 - 20:00",
+        "14.12.2025 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 2900 рублей"
+      },
+      "price_text": "от 2900 рублей",
+      "place": {
+        "id": 202,
+        "title": "спортивно-концертный комплекс «Ледовый дворец»",
+        "address": "просп. Пятилеток, д. 1",
+        "subway": "Проспект Большевиков",
+        "coords": {
+          "lat": 59.92143500000002,
+          "lon": 30.467926
+        },
+        "phone": "+7 812 718-44-99",
+        "site_url": "https://kudago.com/spb/place/ledovyy/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: спортивно-концертный комплекс «Ледовый дворец»\nАдрес: просп. Пятилеток, д. 1\nМетро: Проспект Большевиков\nКоординаты: 59.921435, 30.467926\nТелефон: +7 812 718-44-99\nСайт: https://kudago.com/spb/place/ledovyy/",
+      "url": "https://kudago.com/spb/event/kontsert-markul-sentyabr-2020/",
+      "tags": [
+        "интересное",
+        "рэп и хип-хоп",
+        "концерты",
+        "16+",
+        "с друзьями",
+        "в свободное время"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/bd/b2/bdb2060d054252d32436a7b483daf79f.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "16+",
+      "participants": [],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:12.721434",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: концерт Markul | Категория: Концерты | Описание: Звезда русского рэпа Markul соберёт Ледовый дворец на презентацию альбома Make Depression Great Again. | Место: Место: спортивно-концертный комплекс «Ледовый дворец» | Теги: интересное, рэп и хип-хоп, концерты, 16+, с друзьями | Дата: 18.09.2020 20:00 - 20:00 | Город: Санкт-Петербург"
+    }
+  ]
+}

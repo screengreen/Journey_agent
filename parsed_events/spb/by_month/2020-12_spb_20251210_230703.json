@@ -1,0 +1,721 @@
+{
+  "metadata": {
+    "month": "2020-12",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:04.073398"
+  },
+  "events": [
+    {
+      "id": 189859,
+      "title": "спектакль «Киса» в театре «Приют комедианта»",
+      "description": "Персонаж романа «Двенадцать стульев» — не совсем такой, каким мы его знаем, ведь его биография была вырезана советской цензурой. Восстановить справедливость и рассказать об истинном Кисе Воробьянинове решился режиссёр Семён Серзин.",
+      "short_description": "Персонаж романа «Двенадцать стульев» — не совсем такой, каким мы его знаем, ведь его биография была вырезана советской цензурой. Восстановить справедливость и рассказать об истинном Кисе Воробьянинове...",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1608393600,
+          "end_timestamp": 1608393600,
+          "start_datetime": "2020-12-19T19:00:00",
+          "end_datetime": "2020-12-19T19:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1608480000,
+          "end_timestamp": 1608480000,
+          "start_datetime": "2020-12-20T19:00:00",
+          "end_datetime": "2020-12-20T19:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1608566400,
+          "end_timestamp": 1608566400,
+          "start_datetime": "2020-12-21T19:00:00",
+          "end_datetime": "2020-12-21T19:00:00",
+          "year": 2020,
+          "month": 12,
+          "day": 21,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1610985600,
+          "end_timestamp": 1610985600,
+          "start_datetime": "2021-01-18T19:00:00",
+          "end_datetime": "2021-01-18T19:00:00",
+          "year": 2021,
+          "month": 1,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1612800000,
+          "end_timestamp": 1612809000,
+          "start_datetime": "2021-02-08T19:00:00",
+          "end_datetime": "2021-02-08T21:30:00",
+          "year": 2021,
+          "month": 2,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1614009600,
+          "end_timestamp": 1614018600,
+          "start_datetime": "2021-02-22T19:00:00",
+          "end_datetime": "2021-02-22T21:30:00",
+          "year": 2021,
+          "month": 2,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1614873600,
+          "end_timestamp": 1614882600,
+          "start_datetime": "2021-03-04T19:00:00",
+          "end_datetime": "2021-03-04T21:30:00",
+          "year": 2021,
+          "month": 3,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1616688000,
+          "end_timestamp": 1616697000,
+          "start_datetime": "2021-03-25T19:00:00",
+          "end_datetime": "2021-03-25T21:30:00",
+          "year": 2021,
+          "month": 3,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1618070400,
+          "end_timestamp": 1618079400,
+          "start_datetime": "2021-04-10T19:00:00",
+          "end_datetime": "2021-04-10T21:30:00",
+          "year": 2021,
+          "month": 4,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1619366400,
+          "end_timestamp": 1619375400,
+          "start_datetime": "2021-04-25T19:00:00",
+          "end_datetime": "2021-04-25T21:30:00",
+          "year": 2021,
+          "month": 4,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1621008000,
+          "end_timestamp": 1621017000,
+          "start_datetime": "2021-05-14T19:00:00",
+          "end_datetime": "2021-05-14T21:30:00",
+          "year": 2021,
+          "month": 5,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1621699200,
+          "end_timestamp": 1621708200,
+          "start_datetime": "2021-05-22T19:00:00",
+          "end_datetime": "2021-05-22T21:30:00",
+          "year": 2021,
+          "month": 5,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1623686400,
+          "end_timestamp": 1623695400,
+          "start_datetime": "2021-06-14T19:00:00",
+          "end_datetime": "2021-06-14T21:30:00",
+          "year": 2021,
+          "month": 6,
+          "day": 14,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1628524800,
+          "end_timestamp": 1628533800,
+          "start_datetime": "2021-08-09T19:00:00",
+          "end_datetime": "2021-08-09T21:30:00",
+          "year": 2021,
+          "month": 8,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1632153600,
+          "end_timestamp": 1632162600,
+          "start_datetime": "2021-09-20T19:00:00",
+          "end_datetime": "2021-09-20T21:30:00",
+          "year": 2021,
+          "month": 9,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1635177600,
+          "end_timestamp": 1635186600,
+          "start_datetime": "2021-10-25T19:00:00",
+          "end_datetime": "2021-10-25T21:30:00",
+          "year": 2021,
+          "month": 10,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1637251200,
+          "end_timestamp": 1637260200,
+          "start_datetime": "2021-11-18T19:00:00",
+          "end_datetime": "2021-11-18T21:30:00",
+          "year": 2021,
+          "month": 11,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1638720000,
+          "end_timestamp": 1638729000,
+          "start_datetime": "2021-12-05T19:00:00",
+          "end_datetime": "2021-12-05T21:30:00",
+          "year": 2021,
+          "month": 12,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1643212800,
+          "end_timestamp": 1643221800,
+          "start_datetime": "2022-01-26T19:00:00",
+          "end_datetime": "2022-01-26T21:30:00",
+          "year": 2022,
+          "month": 1,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1644163200,
+          "end_timestamp": 1644172200,
+          "start_datetime": "2022-02-06T19:00:00",
+          "end_datetime": "2022-02-06T21:30:00",
+          "year": 2022,
+          "month": 2,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1651248000,
+          "end_timestamp": 1651248000,
+          "start_datetime": "2022-04-29T19:00:00",
+          "end_datetime": "2022-04-29T19:00:00",
+          "year": 2022,
+          "month": 4,
+          "day": 29,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1660579200,
+          "end_timestamp": 1660665600,
+          "start_datetime": "2022-08-15T19:00:00",
+          "end_datetime": "2022-08-16T19:00:00",
+          "year": 2022,
+          "month": 8,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1665676800,
+          "end_timestamp": 1665676800,
+          "start_datetime": "2022-10-13T19:00:00",
+          "end_datetime": "2022-10-13T19:00:00",
+          "year": 2022,
+          "month": 10,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1692633600,
+          "end_timestamp": 1692729000,
+          "start_datetime": "2023-08-21T19:00:00",
+          "end_datetime": "2023-08-22T21:30:00",
+          "year": 2023,
+          "month": 8,
+          "day": 21,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1695744000,
+          "end_timestamp": 1695753000,
+          "start_datetime": "2023-09-26T19:00:00",
+          "end_datetime": "2023-09-26T21:30:00",
+          "year": 2023,
+          "month": 9,
+          "day": 26,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1696348800,
+          "end_timestamp": 1696357800,
+          "start_datetime": "2023-10-03T19:00:00",
+          "end_datetime": "2023-10-03T21:30:00",
+          "year": 2023,
+          "month": 10,
+          "day": 3,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1706716800,
+          "end_timestamp": 1706725800,
+          "start_datetime": "2024-01-31T19:00:00",
+          "end_datetime": "2024-01-31T21:30:00",
+          "year": 2024,
+          "month": 1,
+          "day": 31,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1709222400,
+          "end_timestamp": 1709231400,
+          "start_datetime": "2024-02-29T19:00:00",
+          "end_datetime": "2024-02-29T21:30:00",
+          "year": 2024,
+          "month": 2,
+          "day": 29,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1712332800,
+          "end_timestamp": 1712341800,
+          "start_datetime": "2024-04-05T19:00:00",
+          "end_datetime": "2024-04-05T21:30:00",
+          "year": 2024,
+          "month": 4,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1716566400,
+          "end_timestamp": 1716575400,
+          "start_datetime": "2024-05-24T19:00:00",
+          "end_datetime": "2024-05-24T21:30:00",
+          "year": 2024,
+          "month": 5,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1719158400,
+          "end_timestamp": 1719253800,
+          "start_datetime": "2024-06-23T19:00:00",
+          "end_datetime": "2024-06-24T21:30:00",
+          "year": 2024,
+          "month": 6,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1723305600,
+          "end_timestamp": 1723401000,
+          "start_datetime": "2024-08-10T19:00:00",
+          "end_datetime": "2024-08-11T21:30:00",
+          "year": 2024,
+          "month": 8,
+          "day": 10,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1726675200,
+          "end_timestamp": 1726684200,
+          "start_datetime": "2024-09-18T19:00:00",
+          "end_datetime": "2024-09-18T21:30:00",
+          "year": 2024,
+          "month": 9,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1728144000,
+          "end_timestamp": 1728153000,
+          "start_datetime": "2024-10-05T19:00:00",
+          "end_datetime": "2024-10-05T21:30:00",
+          "year": 2024,
+          "month": 10,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739980800,
+          "end_timestamp": 1739980800,
+          "start_datetime": "2025-02-19T19:00:00",
+          "end_datetime": "2025-02-19T19:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1741190400,
+          "end_timestamp": 1741190400,
+          "start_datetime": "2025-03-05T19:00:00",
+          "end_datetime": "2025-03-05T19:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 5,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745078400,
+          "end_timestamp": 1745087400,
+          "start_datetime": "2025-04-19T19:00:00",
+          "end_datetime": "2025-04-19T21:30:00",
+          "year": 2025,
+          "month": 4,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1747584000,
+          "end_timestamp": 1747593000,
+          "start_datetime": "2025-05-18T19:00:00",
+          "end_datetime": "2025-05-18T21:30:00",
+          "year": 2025,
+          "month": 5,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757952000,
+          "end_timestamp": 1758038400,
+          "start_datetime": "2025-09-15T19:00:00",
+          "end_datetime": "2025-09-16T19:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761667200,
+          "end_timestamp": 1761667200,
+          "start_datetime": "2025-10-28T19:00:00",
+          "end_datetime": "2025-10-28T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766160000,
+          "end_timestamp": 1766160000,
+          "start_datetime": "2025-12-19T19:00:00",
+          "end_datetime": "2025-12-19T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "19.12.2020 19:00 - 19:00",
+        "20.12.2020 19:00 - 19:00",
+        "21.12.2020 19:00 - 19:00",
+        "18.01.2021 19:00 - 19:00",
+        "08.02.2021 19:00 - 21:30",
+        "22.02.2021 19:00 - 21:30",
+        "04.03.2021 19:00 - 21:30",
+        "25.03.2021 19:00 - 21:30",
+        "10.04.2021 19:00 - 21:30",
+        "25.04.2021 19:00 - 21:30",
+        "14.05.2021 19:00 - 21:30",
+        "22.05.2021 19:00 - 21:30",
+        "14.06.2021 19:00 - 21:30",
+        "09.08.2021 19:00 - 21:30",
+        "20.09.2021 19:00 - 21:30",
+        "25.10.2021 19:00 - 21:30",
+        "18.11.2021 19:00 - 21:30",
+        "05.12.2021 19:00 - 21:30",
+        "26.01.2022 19:00 - 21:30",
+        "06.02.2022 19:00 - 21:30",
+        "29.04.2022 19:00 - 19:00",
+        "15.08.2022 19:00 - 16.08.2022 19:00",
+        "13.10.2022 19:00 - 19:00",
+        "21.08.2023 19:00 - 22.08.2023 21:30",
+        "26.09.2023 19:00 - 21:30",
+        "03.10.2023 19:00 - 21:30",
+        "31.01.2024 19:00 - 21:30",
+        "29.02.2024 19:00 - 21:30",
+        "05.04.2024 19:00 - 21:30",
+        "24.05.2024 19:00 - 21:30",
+        "23.06.2024 19:00 - 24.06.2024 21:30",
+        "10.08.2024 19:00 - 11.08.2024 21:30",
+        "18.09.2024 19:00 - 21:30",
+        "05.10.2024 19:00 - 21:30",
+        "19.02.2025 19:00 - 19:00",
+        "05.03.2025 19:00 - 19:00",
+        "19.04.2025 19:00 - 21:30",
+        "18.05.2025 19:00 - 21:30",
+        "15.09.2025 19:00 - 16.09.2025 19:00",
+        "28.10.2025 19:00 - 19:00",
+        "19.12.2025 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 600 рублей"
+      },
+      "price_text": "от 600 рублей",
+      "place": {
+        "id": 12369,
+        "title": "Театр на Садовой («Приют комедианта»)",
+        "address": "ул. Садовая, д. 27/9",
+        "subway": "Садовая, Сенная Площадь, Спасская",
+        "coords": {
+          "lat": 59.92913536741078,
+          "lon": 30.32297372395965
+        },
+        "phone": "+7 812 310-33-09",
+        "site_url": "https://kudago.com/spb/place/teatr-priyut-komedianta/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Театр на Садовой («Приют комедианта»)\nАдрес: ул. Садовая, д. 27/9\nМетро: Садовая, Сенная Площадь, Спасская\nКоординаты: 59.929135, 30.322974\nТелефон: +7 812 310-33-09\nСайт: https://kudago.com/spb/place/teatr-priyut-komedianta/",
+      "url": "https://kudago.com/spb/event/teatr-kisa/",
+      "tags": [
+        "комедии",
+        "16+",
+        "спектакли",
+        "билеты на kudago",
+        "covid-free мероприятия",
+        "драматические постановки"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/48/40/484058c35b6f87b514916a3d7183d3e9.jpeg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/99/32/9932b70a68e6c600e7d6af4e7a2b8ebe.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 2,
+      "age_restriction": "16+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 4119,
+            "title": "Евгений Перевалов",
+            "slug": "evgenij-perevalov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/evgenij-perevalov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3219,
+            "title": "Семен Серзин",
+            "slug": "semen-serzin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/semen-serzin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2490,
+            "title": "Илья Дель",
+            "slug": "ilya-del",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/ilya-del/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 4098,
+            "title": "Алексей Ведерников",
+            "slug": "aleksej-vedernikov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksej-vedernikov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3887,
+            "title": "Олег Рязанцев",
+            "slug": "oleg-ryazancev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/oleg-ryazancev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 4128,
+            "title": "Илья Борисов",
+            "slug": "ilya-borisov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/ilya-borisov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2532,
+            "title": "Татьяна Полонская",
+            "slug": "tatyana-polonskaya",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/tatyana-polonskaya/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 3794,
+            "title": "Юлия Башорина",
+            "slug": "yuliya-bashorina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/yuliya-bashorina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 4124,
+            "title": "Владимир Карпов",
+            "slug": "vladimir-karpov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/vladimir-karpov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 12704,
+            "title": "Яна Оброскова",
+            "slug": "yana-obroskova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/yana-obroskova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 3219,
+            "title": "Семен Серзин",
+            "slug": "semen-serzin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/semen-serzin/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:21.651614",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Киса» в театре «Приют комедианта» | Категория: Театр | Описание: Персонаж романа «Двенадцать стульев» — не совсем такой, каким мы его знаем, ведь его биография была вырезана советской цензурой. Восстановить справедливость и рассказать об истинном Кисе Воробьянинове решился режиссёр Семён Серзин. | Место: Место: Театр на Садовой («Приют комедианта») | Теги: комедии, 16+, спектакли, билеты на kudago, covid-free мероприятия | Дата: 19.12.2020 19:00 - 19:00 | Город: Санкт-Петербург"
+    }
+  ]
+}

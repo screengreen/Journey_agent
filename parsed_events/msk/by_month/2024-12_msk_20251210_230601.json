@@ -1,0 +1,809 @@
+{
+  "metadata": {
+    "month": "2024-12",
+    "city": "msk",
+    "total_events": 3,
+    "export_date": "2025-12-10T23:06:03.209636"
+  },
+  "events": [
+    {
+      "id": 212967,
+      "title": "мастер-класс «Зимние зарисовки»",
+      "description": "На мастер-классе от художника Алима Велитова участники узнают, как замечать красоту в мире и выражать её в своих работах.",
+      "short_description": "На мастер-классе от художника Алима Велитова участники узнают, как замечать красоту в мире и выражать её в своих работах.",
+      "category": "Образование",
+      "dates": [
+        {
+          "start_timestamp": 1733313600,
+          "end_timestamp": 1733313600,
+          "start_datetime": "2024-12-04T15:00:00",
+          "end_datetime": "2024-12-04T15:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 4,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1733918400,
+          "end_timestamp": 1733918400,
+          "start_datetime": "2024-12-11T15:00:00",
+          "end_datetime": "2024-12-11T15:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 11,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1734523200,
+          "end_timestamp": 1734523200,
+          "start_datetime": "2024-12-18T15:00:00",
+          "end_datetime": "2024-12-18T15:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 18,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1735128000,
+          "end_timestamp": 1735128000,
+          "start_datetime": "2024-12-25T15:00:00",
+          "end_datetime": "2024-12-25T15:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 25,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1736942400,
+          "end_timestamp": 1736942400,
+          "start_datetime": "2025-01-15T15:00:00",
+          "end_datetime": "2025-01-15T15:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 15,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1737547200,
+          "end_timestamp": 1737547200,
+          "start_datetime": "2025-01-22T15:00:00",
+          "end_datetime": "2025-01-22T15:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 22,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1738152000,
+          "end_timestamp": 1738152000,
+          "start_datetime": "2025-01-29T15:00:00",
+          "end_datetime": "2025-01-29T15:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 29,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739361600,
+          "end_timestamp": 1739361600,
+          "start_datetime": "2025-02-12T15:00:00",
+          "end_datetime": "2025-02-12T15:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 12,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739966400,
+          "end_timestamp": 1739966400,
+          "start_datetime": "2025-02-19T15:00:00",
+          "end_datetime": "2025-02-19T15:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 19,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740571200,
+          "end_timestamp": 1740571200,
+          "start_datetime": "2025-02-26T15:00:00",
+          "end_datetime": "2025-02-26T15:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 26,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765368000,
+          "end_timestamp": 1765368000,
+          "start_datetime": "2025-12-10T15:00:00",
+          "end_datetime": "2025-12-10T15:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 10,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765972800,
+          "end_timestamp": 1765972800,
+          "start_datetime": "2025-12-17T15:00:00",
+          "end_datetime": "2025-12-17T15:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 17,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766577600,
+          "end_timestamp": 1766577600,
+          "start_datetime": "2025-12-24T15:00:00",
+          "end_datetime": "2025-12-24T15:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 24,
+          "hour": 15,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "04.12.2024 15:00 - 15:00",
+        "11.12.2024 15:00 - 15:00",
+        "18.12.2024 15:00 - 15:00",
+        "25.12.2024 15:00 - 15:00",
+        "15.01.2025 15:00 - 15:00",
+        "22.01.2025 15:00 - 15:00",
+        "29.01.2025 15:00 - 15:00",
+        "12.02.2025 15:00 - 15:00",
+        "19.02.2025 15:00 - 15:00",
+        "26.02.2025 15:00 - 15:00",
+        "10.12.2025 15:00 - 15:00",
+        "17.12.2025 15:00 - 15:00",
+        "24.12.2025 15:00 - 15:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": ""
+      },
+      "price_text": "Цена не указана",
+      "place": {
+        "id": 743,
+        "title": "Российская государственная библиотека для молодёжи",
+        "address": "ул. Большая Черкизовская, д. 4/1",
+        "subway": "Преображенская площадь, Семёновская",
+        "coords": {
+          "lat": 55.79575199999994,
+          "lon": 37.71762699999999
+        },
+        "phone": "+7 499 670-80-01",
+        "site_url": "https://kudago.com/msk/place/rgub/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Российская государственная библиотека для молодёжи\nАдрес: ул. Большая Черкизовская, д. 4/1\nМетро: Преображенская площадь, Семёновская\nКоординаты: 55.795752, 37.717627\nТелефон: +7 499 670-80-01\nСайт: https://kudago.com/msk/place/rgub/",
+      "url": "https://kudago.com/msk/event/master-klass-zimnie-zarisovki/",
+      "tags": [
+        "бесплатно",
+        "своими руками",
+        "обучение",
+        "free",
+        "лекции и мастер-классы",
+        "рисунок",
+        "12+",
+        "творчество"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/87/0e/870e71876822eb113d533a741152f576",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "12+",
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:36.762976",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: мастер-класс «Зимние зарисовки» | Категория: Образование | Описание: На мастер-классе от художника Алима Велитова участники узнают, как замечать красоту в мире и выражать её в своих работах. | Место: Место: Российская государственная библиотека для молодёжи | Теги: бесплатно, своими руками, обучение, free, лекции и мастер-классы | Дата: 04.12.2024 15:00 - 15:00 | Город: Москва"
+    },
+    {
+      "id": 213515,
+      "title": "новогодняя вечеринка «Искры знакомств» от FastLife",
+      "description": "Весёлые игровые активности, осмысленные быстрые свидания и искрящиеся эмоции — компания FastLife проводит праздничную вечеринку в духе Красной Огненной Лошади. Отметьте приближение Нового года новыми интересными знакомствами!",
+      "short_description": "Весёлые игровые активности, осмысленные быстрые свидания и искрящиеся эмоции — компания FastLife проводит праздничную вечеринку в духе Красной Огненной Лошади. Отметьте приближение Нового года новыми ...",
+      "category": "Вечеринки",
+      "dates": [
+        {
+          "start_timestamp": 1735666200,
+          "end_timestamp": 1735695000,
+          "start_datetime": "2024-12-31T20:30:00",
+          "end_datetime": "2025-01-01T04:30:00",
+          "year": 2024,
+          "month": 12,
+          "day": 31,
+          "hour": 20,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1766847600,
+          "end_timestamp": 1766847600,
+          "start_datetime": "2025-12-27T18:00:00",
+          "end_datetime": "2025-12-27T18:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 27,
+          "hour": 18,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "31.12.2024 20:30 - 01.01.2025 04:30",
+        "27.12.2025 18:00 - 18:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "6000 рублей"
+      },
+      "price_text": "6000 рублей",
+      "place": {
+        "id": 36142,
+        "title": "Центр Цифрового Искусства «Внутри»",
+        "address": "ул. Новодмитровская, д. 1, стр. 4",
+        "subway": "Дмитровская",
+        "coords": {
+          "lat": 55.806305648518624,
+          "lon": 37.584772366501134
+        },
+        "phone": "",
+        "site_url": "https://kudago.com/msk/place/attraktsion-vnutri/",
+        "description": "",
+        "is_stub": true
+      },
+      "place_text": "Место: Центр Цифрового Искусства «Внутри»\nАдрес: ул. Новодмитровская, д. 1, стр. 4\nМетро: Дмитровская\nКоординаты: 55.806306, 37.584772\nСайт: https://kudago.com/msk/place/attraktsion-vnutri/",
+      "url": "https://kudago.com/msk/event/vecherinka-novogodnyaya-vecherinka-znakomstv-dekabr-2024/",
+      "tags": [
+        "новый год 2026",
+        "быстрые свидания",
+        "новогодние развлечения",
+        "новогодние вечеринки",
+        "романтичные места и события",
+        "новое на сайте",
+        "новогодняя атмосфера",
+        "любовь",
+        "знакомства",
+        "развлечения"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/e5/c5/e5c50c09f2fac33fde794ba2d5236492.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "18+",
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:43.036112",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: новогодняя вечеринка «Искры знакомств» от FastLife | Категория: Вечеринки | Описание: Весёлые игровые активности, осмысленные быстрые свидания и искрящиеся эмоции — компания FastLife проводит праздничную вечеринку в духе Красной Огненной Лошади. Отметьте приближение Нового года новыми интересными знакомствами! | Место: Место: Центр Цифрового Искусства «Внутри» | Теги: новый год 2026, быстрые свидания, новогодние развлечения, новогодние вечеринки, романтичные места и события | Дата: 31.12.2024 20:30 - 01.01.2025 04:30 | Город: Москва"
+    },
+    {
+      "id": 213188,
+      "title": "экскурсия для детей «На балу императрицы»",
+      "description": "Юные участники экскурсии в сопровождении опытного гида осмотрят экспонаты Государственного исторического музея и откроют для себя много новых занимательных фактов о жизни светской России XVIII-XIX веков.",
+      "short_description": "Юные участники экскурсии в сопровождении опытного гида осмотрят экспонаты Государственного исторического музея и откроют для себя много новых занимательных фактов о жизни светской России XVIII-XIX век...",
+      "category": "Экскурсии",
+      "dates": [
+        {
+          "start_timestamp": 1734267600,
+          "end_timestamp": 1734267600,
+          "start_datetime": "2024-12-15T16:00:00",
+          "end_datetime": "2024-12-15T16:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 15,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1735480800,
+          "end_timestamp": 1735480800,
+          "start_datetime": "2024-12-29T17:00:00",
+          "end_datetime": "2024-12-29T17:00:00",
+          "year": 2024,
+          "month": 12,
+          "day": 29,
+          "hour": 17,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1737291600,
+          "end_timestamp": 1737291600,
+          "start_datetime": "2025-01-19T16:00:00",
+          "end_datetime": "2025-01-19T16:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 19,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739617200,
+          "end_timestamp": 1739617200,
+          "start_datetime": "2025-02-15T14:00:00",
+          "end_datetime": "2025-02-15T14:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 15,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740834000,
+          "end_timestamp": 1740834000,
+          "start_datetime": "2025-03-01T16:00:00",
+          "end_datetime": "2025-03-01T16:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 1,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1741525200,
+          "end_timestamp": 1741525200,
+          "start_datetime": "2025-03-09T16:00:00",
+          "end_datetime": "2025-03-09T16:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 9,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1742648400,
+          "end_timestamp": 1742648400,
+          "start_datetime": "2025-03-22T16:00:00",
+          "end_datetime": "2025-03-22T16:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 22,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745067600,
+          "end_timestamp": 1745067600,
+          "start_datetime": "2025-04-19T16:00:00",
+          "end_datetime": "2025-04-19T16:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 19,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1745751600,
+          "end_timestamp": 1745751600,
+          "start_datetime": "2025-04-27T14:00:00",
+          "end_datetime": "2025-04-27T14:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 27,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1747573200,
+          "end_timestamp": 1747573200,
+          "start_datetime": "2025-05-18T16:00:00",
+          "end_datetime": "2025-05-18T16:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 18,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1748178000,
+          "end_timestamp": 1748178000,
+          "start_datetime": "2025-05-25T16:00:00",
+          "end_datetime": "2025-05-25T16:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 25,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749384000,
+          "end_timestamp": 1749384000,
+          "start_datetime": "2025-06-08T15:00:00",
+          "end_datetime": "2025-06-08T15:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 8,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749906000,
+          "end_timestamp": 1749906000,
+          "start_datetime": "2025-06-14T16:00:00",
+          "end_datetime": "2025-06-14T16:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 14,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1752411600,
+          "end_timestamp": 1752411600,
+          "start_datetime": "2025-07-13T16:00:00",
+          "end_datetime": "2025-07-13T16:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 13,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1752926400,
+          "end_timestamp": 1752926400,
+          "start_datetime": "2025-07-19T15:00:00",
+          "end_datetime": "2025-07-19T15:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 19,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753617600,
+          "end_timestamp": 1753617600,
+          "start_datetime": "2025-07-27T15:00:00",
+          "end_datetime": "2025-07-27T15:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 27,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1754222400,
+          "end_timestamp": 1754222400,
+          "start_datetime": "2025-08-03T15:00:00",
+          "end_datetime": "2025-08-03T15:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 3,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1754827200,
+          "end_timestamp": 1754827200,
+          "start_datetime": "2025-08-10T15:00:00",
+          "end_datetime": "2025-08-10T15:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 10,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1755432000,
+          "end_timestamp": 1755432000,
+          "start_datetime": "2025-08-17T15:00:00",
+          "end_datetime": "2025-08-17T15:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 17,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1756036800,
+          "end_timestamp": 1756036800,
+          "start_datetime": "2025-08-24T15:00:00",
+          "end_datetime": "2025-08-24T15:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 24,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757156400,
+          "end_timestamp": 1757156400,
+          "start_datetime": "2025-09-06T14:00:00",
+          "end_datetime": "2025-09-06T14:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 6,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1757847600,
+          "end_timestamp": 1757847600,
+          "start_datetime": "2025-09-14T14:00:00",
+          "end_datetime": "2025-09-14T14:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 14,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1758369600,
+          "end_timestamp": 1758369600,
+          "start_datetime": "2025-09-20T15:00:00",
+          "end_datetime": "2025-09-20T15:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 20,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759057200,
+          "end_timestamp": 1759057200,
+          "start_datetime": "2025-09-28T14:00:00",
+          "end_datetime": "2025-09-28T14:00:00",
+          "year": 2025,
+          "month": 9,
+          "day": 28,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1759665600,
+          "end_timestamp": 1759665600,
+          "start_datetime": "2025-10-05T15:00:00",
+          "end_datetime": "2025-10-05T15:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 5,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760270400,
+          "end_timestamp": 1760270400,
+          "start_datetime": "2025-10-12T15:00:00",
+          "end_datetime": "2025-10-12T15:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 12,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760785200,
+          "end_timestamp": 1760785200,
+          "start_datetime": "2025-10-18T14:00:00",
+          "end_datetime": "2025-10-18T14:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 18,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761397200,
+          "end_timestamp": 1761397200,
+          "start_datetime": "2025-10-25T16:00:00",
+          "end_datetime": "2025-10-25T16:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 25,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1762686000,
+          "end_timestamp": 1762686000,
+          "start_datetime": "2025-11-09T14:00:00",
+          "end_datetime": "2025-11-09T14:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 9,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763208000,
+          "end_timestamp": 1763208000,
+          "start_datetime": "2025-11-15T15:00:00",
+          "end_datetime": "2025-11-15T15:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 15,
+          "hour": 15,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763895600,
+          "end_timestamp": 1763895600,
+          "start_datetime": "2025-11-23T14:00:00",
+          "end_datetime": "2025-11-23T14:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 23,
+          "hour": 14,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764421200,
+          "end_timestamp": 1764421200,
+          "start_datetime": "2025-11-29T16:00:00",
+          "end_datetime": "2025-11-29T16:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 29,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765112400,
+          "end_timestamp": 1765112400,
+          "start_datetime": "2025-12-07T16:00:00",
+          "end_datetime": "2025-12-07T16:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 7,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765630800,
+          "end_timestamp": 1765630800,
+          "start_datetime": "2025-12-13T16:00:00",
+          "end_datetime": "2025-12-13T16:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 13,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766322000,
+          "end_timestamp": 1766322000,
+          "start_datetime": "2025-12-21T16:00:00",
+          "end_datetime": "2025-12-21T16:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 21,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766928600,
+          "end_timestamp": 1766928600,
+          "start_datetime": "2025-12-28T16:30:00",
+          "end_datetime": "2025-12-28T16:30:00",
+          "year": 2025,
+          "month": 12,
+          "day": 28,
+          "hour": 16,
+          "minute": 30
+        }
+      ],
+      "dates_text": [
+        "15.12.2024 16:00 - 16:00",
+        "29.12.2024 17:00 - 17:00",
+        "19.01.2025 16:00 - 16:00",
+        "15.02.2025 14:00 - 14:00",
+        "01.03.2025 16:00 - 16:00",
+        "09.03.2025 16:00 - 16:00",
+        "22.03.2025 16:00 - 16:00",
+        "19.04.2025 16:00 - 16:00",
+        "27.04.2025 14:00 - 14:00",
+        "18.05.2025 16:00 - 16:00",
+        "25.05.2025 16:00 - 16:00",
+        "08.06.2025 15:00 - 15:00",
+        "14.06.2025 16:00 - 16:00",
+        "13.07.2025 16:00 - 16:00",
+        "19.07.2025 15:00 - 15:00",
+        "27.07.2025 15:00 - 15:00",
+        "03.08.2025 15:00 - 15:00",
+        "10.08.2025 15:00 - 15:00",
+        "17.08.2025 15:00 - 15:00",
+        "24.08.2025 15:00 - 15:00",
+        "06.09.2025 14:00 - 14:00",
+        "14.09.2025 14:00 - 14:00",
+        "20.09.2025 15:00 - 15:00",
+        "28.09.2025 14:00 - 14:00",
+        "05.10.2025 15:00 - 15:00",
+        "12.10.2025 15:00 - 15:00",
+        "18.10.2025 14:00 - 14:00",
+        "25.10.2025 16:00 - 16:00",
+        "09.11.2025 14:00 - 14:00",
+        "15.11.2025 15:00 - 15:00",
+        "23.11.2025 14:00 - 14:00",
+        "29.11.2025 16:00 - 16:00",
+        "07.12.2025 16:00 - 16:00",
+        "13.12.2025 16:00 - 16:00",
+        "21.12.2025 16:00 - 16:00",
+        "28.12.2025 16:30 - 16:30"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "2700 рублей"
+      },
+      "price_text": "2700 рублей",
+      "place": {
+        "id": 1520,
+        "title": "Исторический музей",
+        "address": "пл. Красная, д. 1",
+        "subway": "Охотный Ряд",
+        "coords": {
+          "lat": 55.7534523775232,
+          "lon": 37.61873189947469
+        },
+        "phone": "+7 495 692-37-31",
+        "site_url": "https://kudago.com/msk/place/gos-istoricheskij-muze/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Исторический музей\nАдрес: пл. Красная, д. 1\nМетро: Охотный Ряд\nКоординаты: 55.753452, 37.618732\nТелефон: +7 495 692-37-31\nСайт: https://kudago.com/msk/place/gos-istoricheskij-muze/",
+      "url": "https://kudago.com/msk/event/detyam-na-balu-imperatritsyi/",
+      "tags": [
+        "история",
+        "детям",
+        "это лето",
+        "6+",
+        "экскурсии",
+        "дети на каникулах",
+        "новое на сайте",
+        "экскурсии для детей",
+        "для детей",
+        "обучающие экскурсии"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/d9/f8/d9f881280e636f842be0b19ae4ed41e3.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "6+",
+      "participants": [],
+      "city": "msk",
+      "city_name": "Москва",
+      "parsed_at": "2025-12-10T23:05:49.322441",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: экскурсия для детей «На балу императрицы» | Категория: Экскурсии | Описание: Юные участники экскурсии в сопровождении опытного гида осмотрят экспонаты Государственного исторического музея и откроют для себя много новых занимательных фактов о жизни светской России XVIII-XIX веков. | Место: Место: Исторический музей | Теги: история, детям, это лето, 6+, экскурсии | Дата: 15.12.2024 16:00 - 16:00 | Город: Москва"
+    }
+  ]
+}

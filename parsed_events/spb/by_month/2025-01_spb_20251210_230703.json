@@ -1,0 +1,554 @@
+{
+  "metadata": {
+    "month": "2025-01",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:04.020607"
+  },
+  "events": [
+    {
+      "id": 213361,
+      "title": "спектакль «Боинг-Боинг»",
+      "description": "Постановка Сергея Ефремова расскажет зрителям комедийную историю любвеобильного французского архитектора, у которого однажды всё пошло не по плану.",
+      "short_description": "Постановка Сергея Ефремова расскажет зрителям комедийную историю любвеобильного французского архитектора, у которого однажды всё пошло не по плану.",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1737648000,
+          "end_timestamp": 1737648000,
+          "start_datetime": "2025-01-23T19:00:00",
+          "end_datetime": "2025-01-23T19:00:00",
+          "year": 2025,
+          "month": 1,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740315600,
+          "end_timestamp": 1740315600,
+          "start_datetime": "2025-02-23T16:00:00",
+          "end_datetime": "2025-02-23T16:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 23,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1740328200,
+          "end_timestamp": 1740328200,
+          "start_datetime": "2025-02-23T19:30:00",
+          "end_datetime": "2025-02-23T19:30:00",
+          "year": 2025,
+          "month": 2,
+          "day": 23,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1741276800,
+          "end_timestamp": 1741276800,
+          "start_datetime": "2025-03-06T19:00:00",
+          "end_datetime": "2025-03-06T19:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749398400,
+          "end_timestamp": 1749398400,
+          "start_datetime": "2025-06-08T19:00:00",
+          "end_datetime": "2025-06-08T19:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1753372800,
+          "end_timestamp": 1753372800,
+          "start_datetime": "2025-07-24T19:00:00",
+          "end_datetime": "2025-07-24T19:00:00",
+          "year": 2025,
+          "month": 7,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1754582400,
+          "end_timestamp": 1754582400,
+          "start_datetime": "2025-08-07T19:00:00",
+          "end_datetime": "2025-08-07T19:00:00",
+          "year": 2025,
+          "month": 8,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1760716800,
+          "end_timestamp": 1760716800,
+          "start_datetime": "2025-10-17T19:00:00",
+          "end_datetime": "2025-10-17T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1761321600,
+          "end_timestamp": 1761321600,
+          "start_datetime": "2025-10-24T19:00:00",
+          "end_datetime": "2025-10-24T19:00:00",
+          "year": 2025,
+          "month": 10,
+          "day": 24,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763211600,
+          "end_timestamp": 1763211600,
+          "start_datetime": "2025-11-15T16:00:00",
+          "end_datetime": "2025-11-15T16:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 15,
+          "hour": 16,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763224200,
+          "end_timestamp": 1763224200,
+          "start_datetime": "2025-11-15T19:30:00",
+          "end_datetime": "2025-11-15T19:30:00",
+          "year": 2025,
+          "month": 11,
+          "day": 15,
+          "hour": 19,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1764259200,
+          "end_timestamp": 1764259200,
+          "start_datetime": "2025-11-27T19:00:00",
+          "end_datetime": "2025-11-27T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 27,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1764864000,
+          "end_timestamp": 1764864000,
+          "start_datetime": "2025-12-04T19:00:00",
+          "end_datetime": "2025-12-04T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1766073600,
+          "end_timestamp": 1766073600,
+          "start_datetime": "2025-12-18T19:00:00",
+          "end_datetime": "2025-12-18T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1771849800,
+          "end_timestamp": 1771849800,
+          "start_datetime": "2026-02-23T15:30:00",
+          "end_datetime": "2026-02-23T15:30:00",
+          "year": 2026,
+          "month": 2,
+          "day": 23,
+          "hour": 15,
+          "minute": 30
+        },
+        {
+          "start_timestamp": 1771862400,
+          "end_timestamp": 1771862400,
+          "start_datetime": "2026-02-23T19:00:00",
+          "end_datetime": "2026-02-23T19:00:00",
+          "year": 2026,
+          "month": 2,
+          "day": 23,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "23.01.2025 19:00 - 19:00",
+        "23.02.2025 16:00 - 16:00",
+        "23.02.2025 19:30 - 19:30",
+        "06.03.2025 19:00 - 19:00",
+        "08.06.2025 19:00 - 19:00",
+        "24.07.2025 19:00 - 19:00",
+        "07.08.2025 19:00 - 19:00",
+        "17.10.2025 19:00 - 19:00",
+        "24.10.2025 19:00 - 19:00",
+        "15.11.2025 16:00 - 16:00",
+        "15.11.2025 19:30 - 19:30",
+        "27.11.2025 19:00 - 19:00",
+        "04.12.2025 19:00 - 19:00",
+        "18.12.2025 19:00 - 19:00",
+        "23.02.2026 15:30 - 15:30",
+        "23.02.2026 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "от 2000 рублей"
+      },
+      "price_text": "от 2000 рублей",
+      "place": {
+        "id": null,
+        "title": "Место не указано",
+        "address": "",
+        "subway": "",
+        "coords": null,
+        "phone": "",
+        "site_url": "",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место не указано",
+      "url": "https://kudago.com/spb/event/teatr-boing-boing-2025/",
+      "tags": [
+        "промокод",
+        "комедии",
+        "скидки на билеты в театр и специальные предложения",
+        "спектакли",
+        "лучшее в театрах",
+        "16+",
+        "вечером"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/39/89/3989bdd91e9d530a8053d0eac8cc55b5.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 1,
+      "age_restriction": "16+",
+      "participants": [
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14949,
+            "title": "Денис Косяков",
+            "slug": "denis-kosyakov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/denis-kosyakov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 973,
+            "title": "Тимур Еремеев",
+            "slug": "timur-eremeev",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/timur-eremeev/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 4552,
+            "title": "Павел Савинков",
+            "slug": "pavel-savinkov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/pavel-savinkov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8960,
+            "title": "Сергей Ефремов",
+            "slug": "sergej-efremov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-efremov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 8728,
+            "title": "Александр Якин",
+            "slug": "aleksandr-yakin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksandr-yakin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 957,
+            "title": "Сергей Федюшкин",
+            "slug": "sergej-fedyushkin",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-fedyushkin/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 1142,
+            "title": "Михаил Башкатов",
+            "slug": "mihail-bashkatov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/mihail-bashkatov/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2250,
+            "title": "Мирослава Карпович",
+            "slug": "miroslava-karpovich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/miroslava-karpovich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14665,
+            "title": "Мария Фурсенко",
+            "slug": "mariya-fursenko",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/mariya-fursenko/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2762,
+            "title": "Елизавета Мартинес Карденас",
+            "slug": "elizaveta-martines-kardenas",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/elizaveta-martines-kardenas/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 15183,
+            "title": "Маруся Климова",
+            "slug": "marusya-klimova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/marusya-klimova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14935,
+            "title": "Алина Ланина",
+            "slug": "alina-lanina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/alina-lanina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14936,
+            "title": "Ася Калинина",
+            "slug": "asya-kalinina",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/asya-kalinina/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 15249,
+            "title": "Арина Постникова",
+            "slug": "arina-postnikova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/arina-postnikova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14708,
+            "title": "Валерия Федорович",
+            "slug": "valeriya-fedorovich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/valeriya-fedorovich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 2909,
+            "title": "Марина Соколова",
+            "slug": "marina-sokolova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/marina-sokolova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 15250,
+            "title": "Анастасия Морозюк",
+            "slug": "anastasiya-morozyuk",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/anastasiya-morozyuk/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14709,
+            "title": "Александра Велескевич",
+            "slug": "aleksandra-veleskevich",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/aleksandra-veleskevich/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14472,
+            "title": "Екатерина Ефимова",
+            "slug": "ekaterina-efimova",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/ekaterina-efimova/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "actors"
+          },
+          "agent": {
+            "id": 14578,
+            "title": "Алиса Шидловская",
+            "slug": "alisa-shidlovskaya",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/alisa-shidlovskaya/",
+            "is_stub": true
+          }
+        },
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 8960,
+            "title": "Сергей Ефремов",
+            "slug": "sergej-efremov",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/sergej-efremov/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:21.626573",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Боинг-Боинг» | Категория: Театр | Описание: Постановка Сергея Ефремова расскажет зрителям комедийную историю любвеобильного французского архитектора, у которого однажды всё пошло не по плану. | Теги: промокод, комедии, скидки на билеты в театр и специальные предложения, спектакли, лучшее в театрах | Дата: 23.01.2025 19:00 - 19:00 | Город: Санкт-Петербург"
+    }
+  ]
+}

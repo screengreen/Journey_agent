@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "month": "2021-03",
+    "city": "spb",
+    "total_events": 1,
+    "export_date": "2025-12-10T23:07:04.062410"
+  },
+  "events": [
+    {
+      "id": 191013,
+      "title": "спектакль «Его женский род» в Большом театре кукол",
+      "description": "Четыре истории любви, из которых становится ясно: мужчина начинается с женщины.",
+      "short_description": "Четыре истории любви, из которых становится ясно: мужчина начинается с женщины.",
+      "category": "Театр",
+      "dates": [
+        {
+          "start_timestamp": 1615996800,
+          "end_timestamp": 1615996800,
+          "start_datetime": "2021-03-17T19:00:00",
+          "end_datetime": "2021-03-17T19:00:00",
+          "year": 2021,
+          "month": 3,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1616083200,
+          "end_timestamp": 1616083200,
+          "start_datetime": "2021-03-18T19:00:00",
+          "end_datetime": "2021-03-18T19:00:00",
+          "year": 2021,
+          "month": 3,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1621958400,
+          "end_timestamp": 1621962000,
+          "start_datetime": "2021-05-25T19:00:00",
+          "end_datetime": "2021-05-25T20:00:00",
+          "year": 2021,
+          "month": 5,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1631203200,
+          "end_timestamp": 1631206800,
+          "start_datetime": "2021-09-09T19:00:00",
+          "end_datetime": "2021-09-09T20:00:00",
+          "year": 2021,
+          "month": 9,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1639670400,
+          "end_timestamp": 1639674000,
+          "start_datetime": "2021-12-16T19:00:00",
+          "end_datetime": "2021-12-16T20:00:00",
+          "year": 2021,
+          "month": 12,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1644595200,
+          "end_timestamp": 1644598800,
+          "start_datetime": "2022-02-11T19:00:00",
+          "end_datetime": "2022-02-11T20:00:00",
+          "year": 2022,
+          "month": 2,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1648224000,
+          "end_timestamp": 1648227600,
+          "start_datetime": "2022-03-25T19:00:00",
+          "end_datetime": "2022-03-25T20:00:00",
+          "year": 2022,
+          "month": 3,
+          "day": 25,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1651161600,
+          "end_timestamp": 1651165200,
+          "start_datetime": "2022-04-28T19:00:00",
+          "end_datetime": "2022-04-28T20:00:00",
+          "year": 2022,
+          "month": 4,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1655913600,
+          "end_timestamp": 1655917200,
+          "start_datetime": "2022-06-22T19:00:00",
+          "end_datetime": "2022-06-22T20:00:00",
+          "year": 2022,
+          "month": 6,
+          "day": 22,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1668787200,
+          "end_timestamp": 1668790800,
+          "start_datetime": "2022-11-18T19:00:00",
+          "end_datetime": "2022-11-18T20:00:00",
+          "year": 2022,
+          "month": 11,
+          "day": 18,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1671120000,
+          "end_timestamp": 1671123600,
+          "start_datetime": "2022-12-15T19:00:00",
+          "end_datetime": "2022-12-15T20:00:00",
+          "year": 2022,
+          "month": 12,
+          "day": 15,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1676822400,
+          "end_timestamp": 1676826000,
+          "start_datetime": "2023-02-19T19:00:00",
+          "end_datetime": "2023-02-19T20:00:00",
+          "year": 2023,
+          "month": 2,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1679414400,
+          "end_timestamp": 1679418000,
+          "start_datetime": "2023-03-21T19:00:00",
+          "end_datetime": "2023-03-21T20:00:00",
+          "year": 2023,
+          "month": 3,
+          "day": 21,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1684339200,
+          "end_timestamp": 1684342800,
+          "start_datetime": "2023-05-17T19:00:00",
+          "end_datetime": "2023-05-17T20:00:00",
+          "year": 2023,
+          "month": 5,
+          "day": 17,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1686153600,
+          "end_timestamp": 1686157200,
+          "start_datetime": "2023-06-07T19:00:00",
+          "end_datetime": "2023-06-07T20:00:00",
+          "year": 2023,
+          "month": 6,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1697731200,
+          "end_timestamp": 1697734800,
+          "start_datetime": "2023-10-19T19:00:00",
+          "end_datetime": "2023-10-19T20:00:00",
+          "year": 2023,
+          "month": 10,
+          "day": 19,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1699372800,
+          "end_timestamp": 1699376400,
+          "start_datetime": "2023-11-07T19:00:00",
+          "end_datetime": "2023-11-07T20:00:00",
+          "year": 2023,
+          "month": 11,
+          "day": 7,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1702137600,
+          "end_timestamp": 1702141200,
+          "start_datetime": "2023-12-09T19:00:00",
+          "end_datetime": "2023-12-09T20:00:00",
+          "year": 2023,
+          "month": 12,
+          "day": 9,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1710345600,
+          "end_timestamp": 1710349200,
+          "start_datetime": "2024-03-13T19:00:00",
+          "end_datetime": "2024-03-13T20:00:00",
+          "year": 2024,
+          "month": 3,
+          "day": 13,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1715184000,
+          "end_timestamp": 1715187600,
+          "start_datetime": "2024-05-08T19:00:00",
+          "end_datetime": "2024-05-08T20:00:00",
+          "year": 2024,
+          "month": 5,
+          "day": 8,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1724860800,
+          "end_timestamp": 1724864400,
+          "start_datetime": "2024-08-28T19:00:00",
+          "end_datetime": "2024-08-28T20:00:00",
+          "year": 2024,
+          "month": 8,
+          "day": 28,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1739376000,
+          "end_timestamp": 1739379600,
+          "start_datetime": "2025-02-12T19:00:00",
+          "end_datetime": "2025-02-12T20:00:00",
+          "year": 2025,
+          "month": 2,
+          "day": 12,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1741276800,
+          "end_timestamp": 1741280400,
+          "start_datetime": "2025-03-06T19:00:00",
+          "end_datetime": "2025-03-06T20:00:00",
+          "year": 2025,
+          "month": 3,
+          "day": 6,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1744387200,
+          "end_timestamp": 1744390800,
+          "start_datetime": "2025-04-11T19:00:00",
+          "end_datetime": "2025-04-11T20:00:00",
+          "year": 2025,
+          "month": 4,
+          "day": 11,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1747756800,
+          "end_timestamp": 1747760400,
+          "start_datetime": "2025-05-20T19:00:00",
+          "end_datetime": "2025-05-20T20:00:00",
+          "year": 2025,
+          "month": 5,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1749052800,
+          "end_timestamp": 1749056400,
+          "start_datetime": "2025-06-04T19:00:00",
+          "end_datetime": "2025-06-04T20:00:00",
+          "year": 2025,
+          "month": 6,
+          "day": 4,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1763654400,
+          "end_timestamp": 1763654400,
+          "start_datetime": "2025-11-20T19:00:00",
+          "end_datetime": "2025-11-20T19:00:00",
+          "year": 2025,
+          "month": 11,
+          "day": 20,
+          "hour": 19,
+          "minute": 0
+        },
+        {
+          "start_timestamp": 1765900800,
+          "end_timestamp": 1765900800,
+          "start_datetime": "2025-12-16T19:00:00",
+          "end_datetime": "2025-12-16T19:00:00",
+          "year": 2025,
+          "month": 12,
+          "day": 16,
+          "hour": 19,
+          "minute": 0
+        }
+      ],
+      "dates_text": [
+        "17.03.2021 19:00 - 19:00",
+        "18.03.2021 19:00 - 19:00",
+        "25.05.2021 19:00 - 20:00",
+        "09.09.2021 19:00 - 20:00",
+        "16.12.2021 19:00 - 20:00",
+        "11.02.2022 19:00 - 20:00",
+        "25.03.2022 19:00 - 20:00",
+        "28.04.2022 19:00 - 20:00",
+        "22.06.2022 19:00 - 20:00",
+        "18.11.2022 19:00 - 20:00",
+        "15.12.2022 19:00 - 20:00",
+        "19.02.2023 19:00 - 20:00",
+        "21.03.2023 19:00 - 20:00",
+        "17.05.2023 19:00 - 20:00",
+        "07.06.2023 19:00 - 20:00",
+        "19.10.2023 19:00 - 20:00",
+        "07.11.2023 19:00 - 20:00",
+        "09.12.2023 19:00 - 20:00",
+        "13.03.2024 19:00 - 20:00",
+        "08.05.2024 19:00 - 20:00",
+        "28.08.2024 19:00 - 20:00",
+        "12.02.2025 19:00 - 20:00",
+        "06.03.2025 19:00 - 20:00",
+        "11.04.2025 19:00 - 20:00",
+        "20.05.2025 19:00 - 20:00",
+        "04.06.2025 19:00 - 20:00",
+        "20.11.2025 19:00 - 19:00",
+        "16.12.2025 19:00 - 19:00"
+      ],
+      "price": {
+        "is_free": false,
+        "min_price": null,
+        "max_price": null,
+        "currency": "руб.",
+        "description": "1300 рублей"
+      },
+      "price_text": "1300 рублей",
+      "place": {
+        "id": 1050,
+        "title": "Большой театр кукол",
+        "address": "ул. Некрасова, д. 10",
+        "subway": "Чернышевская",
+        "coords": {
+          "lat": 59.93905899999998,
+          "lon": 30.35205200000001
+        },
+        "phone": "+7 812 273-66-72",
+        "site_url": "https://kudago.com/spb/place/bolshoj-teatr-kukol/",
+        "description": "",
+        "is_stub": false
+      },
+      "place_text": "Место: Большой театр кукол\nАдрес: ул. Некрасова, д. 10\nМетро: Чернышевская\nКоординаты: 59.939059, 30.352052\nТелефон: +7 812 273-66-72\nСайт: https://kudago.com/spb/place/bolshoj-teatr-kukol/",
+      "url": "https://kudago.com/spb/event/teatr-ego-zhenskij-rod/",
+      "tags": [
+        "кукольные",
+        "18+",
+        "спектакли"
+      ],
+      "images": [
+        {
+          "url": "https://media.kudago.com/images/event/09/3b/093b1dadb7a2179a6d931e8753a5e45a.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/f8/cb/f8cb6782dc56a6b2ad53895c0b82ecf5.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        },
+        {
+          "url": "https://media.kudago.com/images/event/73/79/73796e7c7b19108626d41fe40c084ccd.jpg",
+          "thumbnail": "",
+          "source": "kudago"
+        }
+      ],
+      "image_count": 3,
+      "age_restriction": "18+",
+      "participants": [
+        {
+          "role": {
+            "slug": "director"
+          },
+          "agent": {
+            "id": 12960,
+            "title": "Дарья Левингер",
+            "slug": "darya-levinger",
+            "agent_type": "person",
+            "images": [],
+            "site_url": "https://kudago.com/follow/darya-levinger/",
+            "is_stub": true
+          }
+        }
+      ],
+      "city": "spb",
+      "city_name": "Санкт-Петербург",
+      "parsed_at": "2025-12-10T23:06:21.641037",
+      "source": "kudago",
+      "is_real_data": true,
+      "embedding_text": "Название: спектакль «Его женский род» в Большом театре кукол | Категория: Театр | Описание: Четыре истории любви, из которых становится ясно: мужчина начинается с женщины. | Место: Место: Большой театр кукол | Теги: кукольные, 18+, спектакли | Дата: 17.03.2021 19:00 - 19:00 | Город: Санкт-Петербург"
+    }
+  ]
+}
