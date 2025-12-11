@@ -11,6 +11,13 @@ pydantic==2.9.2
 python-dotenv==1.0.1
 requests==2.32.3
 
+# Telegram и Vector DB
+telethon
+weaviate-client>=4.6,<5
+
+# OpenAI
+openai
+
 # Внешние API и утилиты
 tavily-python==0.3.7
 cohere==5.5.8
