@@ -23,3 +23,5 @@ tavily-python==0.3.7
 cohere==5.5.8
 pymongo==4.7.2
 beautifulsoup4==4.12.3
+python-dotenv
+aiogram

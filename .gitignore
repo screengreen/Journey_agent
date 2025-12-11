@@ -211,3 +211,7 @@ __marimo__/
 tg_session.session
 journey_agent_channels.db
 data/
+
+# Bot database
+bot/users_channels.db
+bot/users_channels.db-journal
