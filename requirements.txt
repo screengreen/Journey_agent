@@ -1,10 +1,17 @@
+# LangChain и LangGraph (новые версии)
 langchain==0.3.7
 langchain-openai==0.2.5
 langchain-mistralai==0.2.0
 langgraph==0.2.45
+langchain-core==0.1.46
+langchain-community==0.0.34
+
+# Основные зависимости
 pydantic==2.9.2
 python-dotenv==1.0.1
-requests==2.31.0
+requests==2.32.3
+
+# Внешние API и утилиты
 tavily-python==0.3.7
 cohere==5.5.8
 pymongo==4.7.2
