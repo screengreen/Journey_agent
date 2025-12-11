@@ -13,6 +13,8 @@ class Event(BaseModel):
     source: Optional[str] = Field(default=None, description="Источник события")
     country: Optional[str] = Field(default=None, description="Страна события")
     location: Optional[str] = Field(default=None, description="Местоположение события")
+    latitude: Optional[float] = Field(default=None, description="Широта события")
+    longitude: Optional[float] = Field(default=None, description="Долгота события")
     date: Optional[str] = Field(default=None, description="Дата события")
     url: Optional[str] = Field(default=None, description="URL события")
 

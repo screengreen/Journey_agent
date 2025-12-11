@@ -12,3 +12,19 @@ langchain-openai>=0.2.0
 # Pydantic для валидации данных
 pydantic>=2.0.0
 
+# Telegram бот
+python-telegram-bot>=20.0
+
+# Парсинг HTML
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Геолокация
+geopy>=2.4.0
+
+# Планировщик задач
+APScheduler>=3.10.0
+
+# Парсинг Telegram (опционально, для парсинга каналов)
+# telethon>=1.30.0  # Раскомментируйте, если нужен парсинг Telegram каналов
+

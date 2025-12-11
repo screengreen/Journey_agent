@@ -109,19 +109,6 @@ class EventRetriever:
             # В случае ошибки возвращаем пустой список
             import warnings
             warnings.warn(f"Ошибка при поиске в Weaviate: {e}")
-            # Попробуем поиск без фильтра для отладки
-            if where_filter is not None:
-                try:
-                    result_no_filter = collection.query.near_text(
-                        query=query,
-                        limit=limit,
-                        return_metadata=wvc.query.MetadataQuery(distance=True),
-                    )
-                    # Если без фильтра нашли, значит проблема в фильтре
-                    if result_no_filter.objects:
-                        warnings.warn(f"Найдено {len(result_no_filter.objects)} событий без фильтра, но 0 с фильтром")
-                except Exception:
-                    pass
             return []
 
     def format_events_for_context(self, events: List[Event]) -> str:
