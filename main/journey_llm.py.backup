@@ -1,0 +1,97 @@
+from __future__ import annotations
+
+# === ДОБАВЛЕНО: Загрузка .env и активация LangSmith ===
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
+# Активация трассировки LangSmith если есть ключ
+if os.getenv("LANGCHAIN_API_KEY"):
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    if not os.getenv("LANGCHAIN_PROJECT"):
+        os.environ["LANGCHAIN_PROJECT"] = "journey-planer-agent"
+    print(f"🔍 LangSmith трассировка активирована")
+# ======================================================
+
+import os
+from typing import Any, List, Optional, Type, TypeVar, Literal
+
+from pydantic import BaseModel
+from langchain_core.messages import SystemMessage, HumanMessage, BaseMessage, AIMessage, ToolMessage
+from langchain_openai import ChatOpenAI
+from langchain_mistralai import ChatMistralAI
+# === ДОБАВЛЕНО: Загрузка .env и активация LangSmith ===
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
+# Активация трассировки LangSmith если есть ключ
+if os.getenv("LANGCHAIN_API_KEY"):
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    if not os.getenv("LANGCHAIN_PROJECT"):
+        os.environ["LANGCHAIN_PROJECT"] = "journey-planer-agent"
+    print(f"🔍 LangSmith трассировка активирована")
+# ======================================================
+
+import os
+from typing import Any, List, Optional, Type, TypeVar, Literal
+
+from pydantic import BaseModel
+from langchain_core.messages import SystemMessage, HumanMessage, BaseMessage, AIMessage, ToolMessage
+from langchain_openai import ChatOpenAI
+from langchain_mistralai import ChatMistralAI
+# === ДОБАВЛЕНО: Загрузка .env и активация LangSmith ===
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+
+# Активация трассировки LangSmith если есть ключ
+if os.getenv("LANGCHAIN_API_KEY"):
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    if not os.getenv("LANGCHAIN_PROJECT"):
+        os.environ["LANGCHAIN_PROJECT"] = "journey-planer-agent"
+    print(f"🔍 LangSmith трассировка активирована")
+# ======================================================
+
+from typing import Any, List, Optional, Type, TypeVar, Literal
+
+from pydantic import BaseModel
+from langchain_core.messages import SystemMessage, HumanMessage, BaseMessage, AIMessage, ToolMessage
+from langchain_openai import ChatOpenAI
+from langchain_mistralai import ChatMistralAI
+
+
+T = TypeVar("T", bound=BaseModel)
+
+
+class JourneyLLM:
+    """
+    Универсальная LLM-модель для проекта:
+    - сама выбирает провайдера по env:
+        * если есть только OPENAI_API_KEY → openai
+        * если есть только MISTRAL_API_KEY → mistral
+    if not os.getenv("LANGCHAIN_PROJECT"):
+        os.environ["LANGCHAIN_PROJECT"] = "journey-planer-agent"
+    print(f"🔍 LangSmith трассировка активирована")
+# ======================================================
+
+from typing import Any, List, Optional, Type, TypeVar, Literal
+
+from pydantic import BaseModel
+from langchain_core.messages import SystemMessage, HumanMessage, BaseMessage, AIMessage, ToolMessage
+from langchain_openai import ChatOpenAI
+from langchain_mistralai import ChatMistralAI
+
+
+T = TypeVar("T", bound=BaseModel)
+
+
+class JourneyLLM:
+    """
+    Универсальная LLM-модель для проекта:
+    - сама выбирает провайдера по env:
+        * если есть только OPENAI_API_KEY → openai
+        * если есть только MISTRAL_API_KEY → mistral
