@@ -29,6 +29,11 @@ services:
       CLUSTER_HOSTNAME: node1
     volumes:
       - weaviate-data:/var/lib/weaviate
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/v1/.well-known/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   sync-worker:
     build: .
@@ -37,7 +42,7 @@ services:
         condition: service_healthy
     restart: unless-stopped
     environment:
-      JOURNEY_AGENT_DB_PATH: /app/data/journey_agent_channels.db
+      JOURNEY_AGENT_DB_PATH: /app/data/channels_db/users_channels.db
       CHANNEL_SYNC_INTERVAL_HOURS: "6"
       CHANNEL_MESSAGES_LIMIT: "10"
       WEAVIATE_URL: http://weaviate:8080
@@ -47,27 +52,32 @@ services:
       OPENAI_API_KEY: "${OPENAI_API_KEY}"
 
     volumes:
-      - ./data:/app/data
+      - ./data/channels_db:/app/data/channels_db
       - ./sessions:/app/sessions
 
-    command: ["python", "-m", "db_scripts.run_sync"]
+    command: ["python", "-m", "src.sync_worker.run_sync"]
 
-  # Заготовка под сервис бота (который будет читать из Events и общаться с пользователем)
-  # bot:
-  #   build: .
-  #   depends_on:
-  #     - weaviate
-  #   restart: unless-stopped
-  #   environment:
-  #     JOURNEY_AGENT_DB_PATH: /app/data/journey_agent_channels.db
-  #     WEAVIATE_URL: http://weaviate:8080
-  #     TELEGRAM_BOT_TOKEN: "${TELEGRAM_BOT_TOKEN}"
-  #     OPENAI_API_KEY: "${OPENAI_API_KEY}"
-  #   volumes:
-  #     - ./data:/app/data
-  #     - ./sessions:/app/sessions
-  #   command: ["python", "-m", "your_bot_module"]
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    depends_on:
+      - weaviate
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      JOURNEY_AGENT_DB_PATH: /app/data/channels_db/users_channels.db
+      CHANNEL_SYNC_INTERVAL_HOURS: "6"
+      CHANNEL_MESSAGES_LIMIT: "10"
+      WEAVIATE_URL: http://weaviate:8080
+      JOURNEY_AGENT_SEED_TEST_CHANNELS: "true"
+      TELEGRAM_APP_API_ID: "${TELEGRAM_APP_API_ID}"
+      TELEGRAM_APP_API_HASH: "${TELEGRAM_APP_API_HASH}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
+    volumes:
+      - ./data/channels_db:/app/data/channels_db
+      - ./data/tg_sessions:/app/sessions
 
 volumes:
   weaviate-data:
-
