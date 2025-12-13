@@ -1,14 +1,3 @@
-"""
-Event Miner Agent
-LangGraph агент для извлечения событий (лекции, встречи и т.д.) из сообщений Telegram
-
-ВАЖНО:
-Оригинальный файл принят за эталон.
-Бизнес-логика, LLM-код, fallback-и и поведение НЕ ИЗМЕНЕНЫ.
-Добавлено ТОЛЬКО:
-- safe import langsmith
-- @traceable декораторы
-"""
 
 import json
 from typing import List, Dict, Optional, TypedDict, Union
@@ -38,7 +27,7 @@ class Event(BaseModel):
     title: Optional[str] = None
     description: Optional[str] = None
     event_type: Optional[str] = None  
-    is_online: Optional[bool] = None  # True - онлайн, False - офлайн, None - неизвестно
+    is_online: Optional[bool] = None  
     location: Optional[str] = None  # место проведения
     date: Optional[str] = None  # дата события
     time: Optional[str] = None  # время события
