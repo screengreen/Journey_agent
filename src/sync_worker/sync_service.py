@@ -43,7 +43,7 @@ class ChannelSyncServiceAsync:
                 raw_messages = await parser.get_channel_messages(
                     ch.channel_url,
                     limit=self.limit,
-                    reverse=True,
+                    reverse=False,
                 )
 
                 if not raw_messages:
@@ -71,9 +71,6 @@ class ChannelSyncServiceAsync:
                 if ch.last_synced_at:
                     try:
                         cutoff_dt = datetime.fromisoformat(ch.last_synced_at)
-                        # делаем aware, если надо
-                        if cutoff_dt.tzinfo is None:
-                            cutoff_dt = cutoff_dt.replace(tzinfo=timezone.utc)
                         cutoff_ts = cutoff_dt.timestamp()
                     except Exception as e:
                         print(f"  ⚠️ Не удалось распарсить last_synced_at='{ch.last_synced_at}': {e}")
@@ -95,7 +92,6 @@ class ChannelSyncServiceAsync:
 
                 if not filtered_messages:
                     print("  ↳ Нет новых сообщений, пропускаю канал")
-                    update_last_synced(self.db_path, ch.id)
                     continue
 
                 # 1) извлекаем события из Telegram
@@ -107,7 +103,6 @@ class ChannelSyncServiceAsync:
 
                 if not extracted_events:
                     print("  ↳ Событий не найдено, пропускаю загрузку в Weaviate")
-                    update_last_synced(self.db_path, ch.id)
                     continue
 
                 # 2) конвертируем в VectorEvent для векторной БД
