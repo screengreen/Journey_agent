@@ -15,7 +15,6 @@ class TelegramParser:
         self,
         api_id: Optional[Union[int, str]] = None,
         api_hash: Optional[str] = None,
-        bot_token: Optional[str] = None,
         session_name: str = 'tg_session',
         load_env: bool = True
     ):
@@ -34,7 +33,6 @@ class TelegramParser:
         # Получаем credentials из параметров или переменных окружения
         self.api_id = int(api_id) if api_id else int(os.getenv("TELEGRAM_APP_API_ID", "0"))
         self.api_hash = api_hash or os.getenv("TELEGRAM_APP_API_HASH", "")
-        self.bot_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
         self.session_name = session_name
         
         if not self.api_id or not self.api_hash:
@@ -57,10 +55,6 @@ class TelegramParser:
         if not self._is_connected:
             self.client = TelegramClient(self.session_name, self.api_id, self.api_hash)
 
-            if self.bot_token:
-                await self.client.start(bot_token=self.bot_token)
-            else:
-                await self.client.start()
             self._is_connected = True
     
     async def disconnect(self) -> None:
