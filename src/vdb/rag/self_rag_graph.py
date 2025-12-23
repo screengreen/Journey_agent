@@ -7,9 +7,19 @@ from typing import List, Literal, Optional, Tuple, TypedDict, Union
 
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_openai import ChatOpenAI
+try:
+    from langchain_mistralai import ChatMistralAI
+except ImportError:
+    ChatMistralAI = None
 from langgraph.graph import END, StateGraph
 
-from src.vdb.config import OPENAI_API_KEY, OPENAI_MODEL, MAX_ITERATIONS
+from src.vdb.config import (
+    OPENAI_API_KEY,
+    OPENAI_MODEL,
+    MISTRAL_API_KEY,
+    MISTRAL_MODEL,
+    MAX_ITERATIONS,
+)
 from src.models.event import Event
 from src.vdb.rag.memory import check_memory
 from src.vdb.rag.prompts import (
@@ -17,6 +27,7 @@ from src.vdb.rag.prompts import (
     RELEVANCE_EVALUATION_PROMPT,
 )
 from src.vdb.rag.retriever import EventRetriever
+from src.vdb.rag.query_parser import parse_query_filters
 from src.planner_agent.models import InputData, Constraints
 
 
@@ -43,6 +54,10 @@ class SelfRAGState(TypedDict):
     user_query: str
     owner: Optional[str]
 
+    # filters
+    city: Optional[str]
+    date: Optional[str]
+
     # retrieval loop
     retrieved_events: List[Event]
     reformulated_queries: List[str]
@@ -63,6 +78,34 @@ class SelfRAGState(TypedDict):
 
 # ---------------- Nodes ----------------
 
+def parse_filters_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAGState:
+    """Узел парсинга города и даты из запроса пользователя."""
+    user_query = state["user_query"]
+    logs = state.get("logs", [])
+
+    try:
+        filters = parse_query_filters(user_query, llm=llm)
+        city = filters.city
+        date = filters.date
+
+        logs.append(
+            f"🔍 Парсинг фильтров: город={city or 'не указан'}, дата={date or 'не указана'}"
+        )
+    except Exception as e:
+        import warnings
+        warnings.warn(f"Ошибка при парсинге фильтров: {e}")
+        city = None
+        date = None
+        logs.append(f"⚠️ Ошибка при парсинге фильтров: {e}")
+
+    return {
+        **state,
+        "city": city,
+        "date": date,
+        "logs": logs,
+    }
+
+
 def check_memory_node(state: SelfRAGState) -> SelfRAGState:
     """Узел проверки памяти (не прерывает граф, только логирует)."""
     has_memory = check_memory(state["user_query"], state.get("owner"))
@@ -78,14 +121,28 @@ def check_memory_node(state: SelfRAGState) -> SelfRAGState:
 
 
 def retrieve_events_node(state: SelfRAGState, retriever: EventRetriever) -> SelfRAGState:
-    """Узел поиска событий."""
+    """Узел поиска событий с фильтрацией по городу и дате."""
     query = state.get("current_query") or state["user_query"]
     owner = state.get("owner")
+    city = state.get("city")
+    date = state.get("date")
 
-    events = retriever.retrieve(query, owner=owner)
+    events = retriever.retrieve(query, owner=owner, city=city, date=date)
 
     logs = state.get("logs", [])
-    logs.append(f"🔎 Поиск событий: запрос='{query}', владелец='{owner}', найдено={len(events)}")
+    log_msg = f"🔎 Поиск событий: запрос='{query}', владелец='{owner}'"
+    if city:
+        log_msg += f", город='{city}'"
+    if date:
+        log_msg += f", дата='{date}'"
+    log_msg += f", найдено={len(events)}"
+    logs.append(log_msg)
+
+    # Логируем распределение событий
+    if owner:
+        user_count = sum(1 for e in events if e.tags and owner in e.tags)
+        common_count = len(events) - user_count
+        logs.append(f"   События пользователя: {user_count}, общие: {common_count}")
 
     return {
         **state,
@@ -229,15 +286,37 @@ def should_reformulate_or_finish(state: SelfRAGState) -> Literal["reformulate", 
 
 # ---------------- Graph factory ----------------
 
+def _create_llm() -> BaseChatModel:
+    """
+    Создает LLM модель в зависимости от доступных API ключей.
+    Приоритет: Mistral (если доступен ключ), иначе OpenAI.
+    """
+    if MISTRAL_API_KEY and ChatMistralAI is not None:
+        return ChatMistralAI(
+            model=MISTRAL_MODEL,
+            api_key=MISTRAL_API_KEY,
+            temperature=0,
+        )
+    elif OPENAI_API_KEY:
+        return ChatOpenAI(
+            model=OPENAI_MODEL,
+            api_key=OPENAI_API_KEY,
+            temperature=0,
+        )
+    else:
+        raise ValueError(
+            "Не установлен ни один API ключ. "
+            "Установите MISTRAL_API_KEY или OPENAI_API_KEY"
+        )
+
+
 def create_self_rag_graph(
     llm: Optional[BaseChatModel] = None,
     retriever: Optional[EventRetriever] = None,
 ) -> Tuple[StateGraph, Optional[EventRetriever]]:
     """Создает граф Self-RAG."""
     if llm is None:
-        if not OPENAI_API_KEY:
-            raise ValueError("OPENAI_API_KEY не установлен")
-        llm = ChatOpenAI(model=OPENAI_MODEL, api_key=OPENAI_API_KEY, temperature=0)
+        llm = _create_llm()
 
     created_retriever = None
     if retriever is None:
@@ -246,6 +325,7 @@ def create_self_rag_graph(
 
     workflow = StateGraph(SelfRAGState)
 
+    workflow.add_node("parse_filters", lambda state: parse_filters_node(state, llm))
     workflow.add_node("check_memory", check_memory_node)
     workflow.add_node("retrieve_events", lambda state: retrieve_events_node(state, retriever))
     workflow.add_node("evaluate_relevance", lambda state: evaluate_relevance_node(state, llm, retriever))
@@ -254,8 +334,9 @@ def create_self_rag_graph(
     workflow.add_node("build_input_data", build_input_data_node)
 
     # Flow:
-    # check_memory -> retrieve -> evaluate -> (reformulate loop) -> extract_constraints -> build_input_data -> END
-    workflow.set_entry_point("check_memory")
+    # parse_filters -> check_memory -> retrieve -> evaluate -> (reformulate loop) -> extract_constraints -> build_input_data -> END
+    workflow.set_entry_point("parse_filters")
+    workflow.add_edge("parse_filters", "check_memory")
     workflow.add_edge("check_memory", "retrieve_events")
     workflow.add_edge("retrieve_events", "evaluate_relevance")
 
@@ -290,6 +371,9 @@ def run_self_rag(
     initial_state: SelfRAGState = {
         "user_query": user_query,
         "owner": owner,
+
+        "city": None,
+        "date": None,
 
         "retrieved_events": [],
         "reformulated_queries": [],
