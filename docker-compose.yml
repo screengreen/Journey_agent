@@ -52,7 +52,6 @@ services:
     volumes:
       - ./data/channels_db:/app/data/channels_db
       - ./sessions:/app/sessions
-      - ./data/tg_sessions/tg_session.session:/app/tg_session.session
 
     command: ["python", "-m", "src.sync_worker.run_sync"]
 
