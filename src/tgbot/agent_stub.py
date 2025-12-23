@@ -20,7 +20,7 @@ def process_route_request(prompt: str, username: str, conversation_history: list
     """
     try:
         response = main_pipeline(prompt)
-        
+
         return {
             "response": response,
             "status": "success"
@@ -36,4 +36,3 @@ def process_route_request(prompt: str, username: str, conversation_history: list
             "response": f"Произошла ошибка при обработке вашего запроса: {str(e)}",
             "status": "error"
         }
-
