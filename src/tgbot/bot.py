@@ -18,8 +18,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # Импорты модулей бота
 from src.tgbot.database import Database
 from src.tgbot.agent_stub import process_route_request
+from src.utils.safety import moderate_text, SafetyLabel
 from src.utils.paths import project_root
-
 
 
 env_path = Path(project_root()) / ".env"
@@ -38,6 +38,7 @@ logger = logging.getLogger(__name__)
 
 # Инициализация БД
 db = Database()
+
 
 # FSM состояния
 class BotStates(StatesGroup):
@@ -206,6 +207,18 @@ async def handle_route_creation(message: Message, state: FSMContext):
     """Обработка создания маршрута - первый промпт"""
     user = message.from_user
     message_text = message.text
+
+    # Toxic INPUT guardrail
+    decision = moderate_text(message_text, context="user_input")
+    if decision.label == SafetyLabel.block:
+        await message.answer(
+            "Я не могу помочь с запросом, содержащим токсичный/опасный контент. "
+            "Сформулируй запрос как план выходных: город, даты, интересы, бюджет, транспорт.",
+            reply_markup=get_exit_menu_keyboard(),
+        )
+        return
+    if decision.label == SafetyLabel.soft and decision.sanitized_text:
+        message_text = decision.sanitized_text
     
     # Получаем данные из состояния
     data = await state.get_data()
@@ -252,6 +265,18 @@ async def handle_route_comment(message: Message, state: FSMContext):
     """Обработка комментария к результату маршрута"""
     user = message.from_user
     comment = message.text
+    
+    # Toxic INPUT guardrail for comment
+    decision = moderate_text(comment, context="user_comment")
+    if decision.label == SafetyLabel.block:
+        await message.answer(
+            "Я не могу обработать такой комментарий. "
+            "Опиши, что улучшить в плане (темп, бюджет, районы, типы мест), без токсичных формулировок.",
+            reply_markup=get_exit_menu_keyboard(),
+        )
+        return
+    if decision.label == SafetyLabel.soft and decision.sanitized_text:
+        comment = decision.sanitized_text
     
     # Получаем данные из состояния
     data = await state.get_data()
