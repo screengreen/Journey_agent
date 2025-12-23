@@ -20,6 +20,7 @@ from src.sync_worker.sync_service import ChannelSyncServiceAsync
 from src.sync_worker.tg_parser import TelegramParser
 from src.sync_worker.event_miner_agent import EventMinerAgent
 from src.vdb import get_weaviate_client, create_collection_if_not_exists, COLLECTION_NAME
+from utils.journey_llm import JourneyLLM
 
 
 app = FastAPI(
@@ -337,7 +338,7 @@ async def _run_sync_task():
         event_agent = EventMinerAgent(llm=JourneyLLM())
         
         # Подключаемся к Weaviate
-        weaviate_client = get_weaviate_client(url=settings.weaviate_url)
+        weaviate_client = get_weaviate_client()
         create_collection_if_not_exists()
         collection = weaviate_client.collections.get(COLLECTION_NAME)
         

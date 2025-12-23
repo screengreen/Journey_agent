@@ -20,3 +20,7 @@ weaviate-client==4.4.0
 # Utilities
 python-dotenv==1.0.0
 requests==2.31.0
+
+langchain-mistralai==1.1.1
+aiogram==3.23.0
+beautifulsoup4==4.12.3

@@ -1,0 +1,25 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# System deps (keep minimal; add others only if you need them)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    ca-certificates \
+ && rm -rf /var/lib/apt/lists/*
+
+# Install python deps
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir --upgrade pip \
+ && pip install --no-cache-dir -r /app/requirements.txt
+
+# Copy project
+COPY . /app
+
+ENV PYTHONPATH=/app
+
+# Create runtime dirs
+RUN mkdir -p /app/data /app/sessions
+
+# Run bot
+CMD ["python", "-m", "src.tgbot.bot"]

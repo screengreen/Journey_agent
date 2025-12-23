@@ -2,35 +2,21 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Устанавливаем системные зависимости
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/*
 
-# Копируем requirements (если есть) или устанавливаем необходимые пакеты
-COPY requirements.txt* ./
-RUN pip install --no-cache-dir \
-    fastapi \
-    uvicorn[standard] \
-    pydantic \
-    telethon \
-    openai \
-    langchain \
-    langchain-openai \
-    weaviate-client \
-    pydantic-settings \
-    python-dotenv \
-    || echo "requirements.txt not found, installing basic packages"
+# Install dependencies
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Копируем весь код проекта
-COPY . .
+# Copy code
+COPY . /app
 
-# Создаем директории для данных
+ENV PYTHONPATH=/app
+
 RUN mkdir -p /app/data/channels_db /app/sessions
 
-# Открываем порт для FastAPI
 EXPOSE 8000
 
-# Запускаем FastAPI приложение
 CMD ["uvicorn", "src.sync_worker.api:app", "--host", "0.0.0.0", "--port", "8000"]
-
