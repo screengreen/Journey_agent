@@ -13,6 +13,9 @@ pip install -r ../requirements.txt
 
 1. Создайте файл `.env` в корне проекта (используйте `.env.example` как шаблон)
 2. Добавьте токен бота: `TELEGRAM_BOT_TOKEN=your_bot_token_here`
+3. Убедитесь, что VDB API сервис запущен (по умолчанию на `http://localhost:8001`)
+   - Для локальной разработки: `VDB_API_URL=http://localhost:8001` (по умолчанию)
+   - Для Docker Compose: `VDB_API_URL=http://vdb:8001`
 
 ## Запуск
 
@@ -30,7 +33,7 @@ python bot/bot.py
 
 - `bot.py` - основной файл бота (использует aiogram)
 - `database.py` - работа с БД
-- `agent_stub.py` - заглушка агентской системы (в будущем будет заменена на langgraph)
+- `agent_stub.py` - интеграция с VDB API для поиска событий и форматирования результатов для Telegram
 
 ## Технологии
 

@@ -244,7 +244,8 @@ async def handle_route_creation(message: Message, state: FSMContext):
     response_text = f"{result['response']}\n\n💬 Можешь написать комментарий к этому результату, или нажми 'Выход в меню'"
     await message.answer(
         response_text,
-        reply_markup=get_exit_menu_keyboard()
+        reply_markup=get_exit_menu_keyboard(),
+        parse_mode="HTML"
     )
 
 
@@ -299,7 +300,8 @@ async def handle_route_comment(message: Message, state: FSMContext):
     response_text = f"{result['response']}\n\n💬 Можешь написать еще комментарий, или нажми 'Выход в меню'"
     await message.answer(
         response_text,
-        reply_markup=get_exit_menu_keyboard()
+        reply_markup=get_exit_menu_keyboard(),
+        parse_mode="HTML"
     )
 
 

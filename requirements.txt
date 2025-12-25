@@ -12,12 +12,14 @@ openai==2.11.0
 langchain==1.1.3
 langchain-core==1.2.0
 langchain-openai==1.1.3
-langchain-mistralai==0.1.0
+# langchain-mistralai опционален - установите отдельно если нужен: pip install langchain-mistralai
+# langchain-mistralai==0.1.13
 langgraph==1.0.5
 
 # Vector DB
-weaviate-client==4.4.0
+weaviate-client==4.19.0
 
 # Utilities
 python-dotenv==1.0.0
 requests==2.31.0
+beautifulsoup4==4.12.3

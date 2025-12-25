@@ -1,0 +1,33 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Устанавливаем системные зависимости
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    wget \
+    && rm -rf /var/lib/apt/lists/*
+
+# Копируем requirements.txt
+COPY requirements.txt ./
+
+# Устанавливаем зависимости из requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Пытаемся установить langchain-mistralai (опционально, может конфликтовать с langchain-core 1.2.0)
+# Если установка не удастся, код будет использовать только OpenAI
+RUN pip install --no-cache-dir langchain-mistralai || echo "Warning: langchain-mistralai installation failed, continuing without it"
+
+# Копируем код проекта
+COPY src/ ./src/
+COPY .env* ./
+
+# Устанавливаем PYTHONPATH
+ENV PYTHONPATH=/app
+
+# Открываем порт для API
+EXPOSE 8001
+
+# Команда по умолчанию - запуск API сервера
+CMD ["uvicorn", "src.vdb.api:app", "--host", "0.0.0.0", "--port", "8001"]
+

@@ -6,20 +6,10 @@ import json
 from typing import List, Literal, Optional, Tuple, TypedDict, Union
 
 from langchain_core.language_models.chat_models import BaseChatModel
-from langchain_openai import ChatOpenAI
-try:
-    from langchain_mistralai import ChatMistralAI
-except ImportError:
-    ChatMistralAI = None
 from langgraph.graph import END, StateGraph
 
-from src.vdb.config import (
-    OPENAI_API_KEY,
-    OPENAI_MODEL,
-    MISTRAL_API_KEY,
-    MISTRAL_MODEL,
-    MAX_ITERATIONS,
-)
+from src.vdb.config import MAX_ITERATIONS
+from src.utils.journey_llm import JourneyLLM
 from src.models.event import Event
 from src.vdb.rag.memory import check_memory
 from src.vdb.rag.prompts import (
@@ -286,37 +276,13 @@ def should_reformulate_or_finish(state: SelfRAGState) -> Literal["reformulate", 
 
 # ---------------- Graph factory ----------------
 
-def _create_llm() -> BaseChatModel:
-    """
-    Создает LLM модель в зависимости от доступных API ключей.
-    Приоритет: Mistral (если доступен ключ), иначе OpenAI.
-    """
-    if MISTRAL_API_KEY and ChatMistralAI is not None:
-        return ChatMistralAI(
-            model=MISTRAL_MODEL,
-            api_key=MISTRAL_API_KEY,
-            temperature=0,
-        )
-    elif OPENAI_API_KEY:
-        return ChatOpenAI(
-            model=OPENAI_MODEL,
-            api_key=OPENAI_API_KEY,
-            temperature=0,
-        )
-    else:
-        raise ValueError(
-            "Не установлен ни один API ключ. "
-            "Установите MISTRAL_API_KEY или OPENAI_API_KEY"
-        )
-
-
 def create_self_rag_graph(
     llm: Optional[BaseChatModel] = None,
     retriever: Optional[EventRetriever] = None,
 ) -> Tuple[StateGraph, Optional[EventRetriever]]:
     """Создает граф Self-RAG."""
     if llm is None:
-        llm = _create_llm()
+        llm = JourneyLLM(temperature=0).llm
 
     created_retriever = None
     if retriever is None:

@@ -35,6 +35,29 @@ services:
       timeout: 5s
       retries: 5
 
+  vdb:
+    build:
+      context: .
+      dockerfile: Dockerfile.vdb
+    depends_on:
+      weaviate:
+        condition: service_healthy
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    environment:
+      WEAVIATE_URL: http://weaviate:8080
+      COLLECTION_NAME: ${COLLECTION_NAME:-Events}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      MISTRAL_API_KEY: ${MISTRAL_API_KEY:-}
+      MISTRAL_MODEL: ${MISTRAL_MODEL:-mistral-small-latest}
+    volumes:
+      - ./src:/app/src
+    # Запускает FastAPI сервер на порту 8001
+    # Можно переопределить через command в docker-compose.override.yml
+    command: ["uvicorn", "src.vdb.api:app", "--host", "0.0.0.0", "--port", "8001"]
+
   # sync-worker:
   #   build: .
   #   depends_on:
