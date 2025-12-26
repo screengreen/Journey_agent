@@ -490,6 +490,19 @@ By LLM as a Judge
 
 ---
 
+**Prod metrics**
+With langsmith we Obtained prod metrics for whole system:
+
+avg token count per query: 15 846
+P50 cost (open ai api) per query: 0.0025 $
+P99 cost (open ai api) per query: 0.005 $
+error rate: 0%
+P50 latency: 31 sec
+P99: 43 sec
+P50 LLM latency: 1.6 sec
+P99 LLM latency: 17 sec
+LLM uses per query: 124 times
+
 ## 📝 Данные
 
 ### Источники данных
