@@ -136,6 +136,11 @@ def create_collection_if_not_exists(force_recreate: bool = False) -> None:
             # Можно указать, какие поля использовать для векторизации
             # По умолчанию используются все TEXT поля
         ),
+
+        # use openai for vectorization
+        # vectorizer_config=wvc.config.Configure.Vectorizer.text2vec_openai(
+        #     model="text-embedding-3-small",  # или text-embedding-3-large, text-embedding-ada-002
+        # ),
     )
     print(f"✅ Коллекция '{COLLECTION_NAME}' создана")
 
