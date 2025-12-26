@@ -84,49 +84,24 @@ class EventExtractor:
 
         try:
             if hasattr(self.llm, 'chat') and hasattr(self.llm.chat, 'completions'):
-                # Используем встроенный парсинг OpenAI с Pydantic моделью
-                # Проверяем наличие метода parse в beta или в основном API
-                parse_method = None
-                if hasattr(self.llm, 'beta') and hasattr(self.llm.beta, 'chat') and hasattr(self.llm.beta.chat.completions, 'parse'):
-                    parse_method = self.llm.beta.chat.completions.parse
-                elif hasattr(self.llm.chat.completions, 'parse'):
-                    parse_method = self.llm.chat.completions.parse
-                
-                if parse_method:
-                    # Используем метод parse для автоматического парсинга через Pydantic
-                    response = parse_method(
-                        model="gpt-4o",
-                        messages=[
-                            {
-                                "role": "system",
-                                "content": "Ты помощник для извлечения событий из текстовых сообщений."
-                            },
-                            {"role": "user", "content": prompt}
-                        ],
-                        response_format=EventsList,
-                        temperature=0.3
-                    )
-                    # Парсинг происходит автоматически через Pydantic модель
-                    events_list = response.choices[0].message.parsed
-                    events = events_list.events if events_list else []
-                else:
-                    # Fallback: используем create с response_format через JSON schema
-                    response = self.llm.chat.completions.create(
-                        model="gpt-4o",
-                        messages=[
-                            {
-                                "role": "system",
-                                "content": "Ты помощник для извлечения событий из текстовых сообщений. Отвечаешь только валидным JSON."
-                            },
-                            {"role": "user", "content": prompt}
-                        ],
-                        temperature=0.3,
-                        response_format={"type": "json_object"}
-                    )
-                    result_text = response.choices[0].message.content.strip()
-                    result_text = self._clean_json_response(result_text)
-                    # Используем parse_from_json для парсинга через Pydantic
-                    events = self._parse_from_json(result_text)
+                # Используем json_object формат (более надёжный способ)
+                # Structured outputs (parse) несовместимы с extra="allow" в Pydantic
+                response = self.llm.chat.completions.create(
+                    model="gpt-4o",
+                    messages=[
+                        {
+                            "role": "system",
+                            "content": "Ты помощник для извлечения событий из текстовых сообщений. Отвечаешь только валидным JSON."
+                        },
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=0.3,
+                    response_format={"type": "json_object"}
+                )
+                result_text = response.choices[0].message.content.strip()
+                result_text = self._clean_json_response(result_text)
+                # Используем parse_from_json для парсинга через Pydantic
+                events = self._parse_from_json(result_text)
             else:
                 # Fallback для других LLM провайдеров
                 try:
