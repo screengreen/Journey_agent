@@ -22,12 +22,12 @@ services:
     environment:
       QUERY_DEFAULTS_LIMIT: "25"
       AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
-      DEFAULT_VECTORIZER_MODULE: text2vec-contextionary
-      ENABLE_MODULES: text2vec-contextionary
+      # DEFAULT_VECTORIZER_MODULE: text2vec-contextionary
+      # ENABLE_MODULES: text2vec-contextionary
       # use openai for vectorization
-      # DEFAULT_VECTORIZER_MODULE: text2vec-openai
-      # ENABLE_MODULES: text2vec-openai
-      # OPENAI_APIKEY: ${OPENAI_API_KEY}
+      DEFAULT_VECTORIZER_MODULE: text2vec-openai
+      ENABLE_MODULES: text2vec-openai
+      OPENAI_APIKEY: ${OPENAI_API_KEY}
       PERSISTENCE_DATA_PATH: /var/lib/weaviate
       CONTEXTIONARY_URL: contextionary:9999
       CLUSTER_HOSTNAME: node1
@@ -84,11 +84,14 @@ services:
     depends_on:
       weaviate:
         condition: service_healthy
+      api:
+        condition: service_started
     restart: unless-stopped
     env_file: .env
     environment:
       JOURNEY_AGENT_DB_PATH: /app/data/channels_db/users_channels.db
       WEAVIATE_URL: http://weaviate:8080
+      SYNC_API_URL: http://api:8000
     volumes:
       - ./data/channels_db:/app/data/channels_db
       - ./sessions:/app/sessions

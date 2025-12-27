@@ -3,6 +3,8 @@ import sys
 import logging
 from pathlib import Path
 
+import aiohttp
+
 # Добавляем корень проекта в sys.path для правильного импорта модулей
 project_root_path = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root_path))
@@ -21,6 +23,9 @@ from src.tgbot.agent_stub import process_route_request
 from src.utils.safety import moderate_text, SafetyLabel
 from src.utils.paths import project_root
 
+# URL для sync API (в Docker - имя сервиса, локально - localhost)
+SYNC_API_URL = os.getenv("SYNC_API_URL", "http://api:8000")
+
 
 env_path = Path(project_root()) / ".env"
 if env_path.exists():
@@ -38,6 +43,37 @@ logger = logging.getLogger(__name__)
 
 # Инициализация БД
 db = Database()
+
+
+async def trigger_sync_worker() -> bool:
+    """
+    Вызывает API sync-worker для немедленной синхронизации канала.
+    
+    Returns:
+        True если синхронизация запущена, False если ошибка
+    """
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.post(
+                f"{SYNC_API_URL}/sync/trigger",
+                timeout=aiohttp.ClientTimeout(total=10)
+            ) as response:
+                if response.status == 200:
+                    logger.info("✅ Sync trigger successful")
+                    return True
+                elif response.status == 409:
+                    # Синхронизация уже выполняется
+                    logger.info("ℹ️ Sync already in progress")
+                    return True
+                else:
+                    logger.warning(f"⚠️ Sync trigger failed: {response.status}")
+                    return False
+    except aiohttp.ClientError as e:
+        logger.error(f"❌ Failed to trigger sync: {e}")
+        return False
+    except Exception as e:
+        logger.error(f"❌ Unexpected error triggering sync: {e}")
+        return False
 
 
 # FSM состояния
@@ -181,6 +217,9 @@ async def handle_add_channel(message: Message, state: FSMContext):
         # Сокращенная ссылка
         channel_url = f"https://{channel_input}"
         channel_name = channel_input.split("/")[-1]
+    else:
+        # Просто название канала
+        channel_url = f"https://t.me/{channel_name}"
     
     # Сохраняем канал в БД
     success = db.add_channel(message.from_user.id, channel_name, channel_url)
@@ -189,16 +228,31 @@ async def handle_add_channel(message: Message, state: FSMContext):
         response_text = f"""✅ Канал успешно добавлен!
 
 Название: {channel_name}
-Ссылка: {channel_url or 'не указана'}
-"""
+Ссылка: {channel_url}
+
+🔄 Запускаю синхронизацию..."""
+        
+        await message.answer(response_text)
+        
+        # Триггерим немедленную синхронизацию
+        sync_triggered = await trigger_sync_worker()
+        
+        if sync_triggered:
+            sync_status = "✅ Синхронизация запущена! События из канала скоро будут доступны."
+        else:
+            sync_status = "⚠️ Не удалось запустить синхронизацию. Канал будет обработан при следующей плановой синхронизации."
+        
+        await message.answer(
+            sync_status,
+            reply_markup=get_exit_menu_keyboard()
+        )
     else:
         response_text = f"""⚠️ Канал "{channel_name}" уже был добавлен ранее или произошла ошибка.
 """
-    
-    await message.answer(
-        response_text,
-        reply_markup=get_exit_menu_keyboard()
-    )
+        await message.answer(
+            response_text,
+            reply_markup=get_exit_menu_keyboard()
+        )
     
     # Остаемся в режиме добавления канала для возможности добавить еще
 

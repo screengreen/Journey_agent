@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from typing import List, Optional
 
 import weaviate
@@ -9,6 +10,9 @@ from src.vdb import get_weaviate_client, create_collection_if_not_exists
 from src.vdb import COLLECTION_NAME
 from src.models.event import Event as VectorEvent
 from src.sync_worker.event_miner_agent import Event as ExtractedEvent
+
+# Настройка логирования
+logger = logging.getLogger("sync-weaviate")
 
 
 def get_weaviate_client_and_collection(
@@ -131,14 +135,26 @@ def upload_events_to_collection(
     Загружает события в Weaviate-коллекцию с тегом юзернэйма.
     """
     if not events:
+        logger.info(f"📭 [WEAVIATE] Нет событий для загрузки (username={username})")
         return
 
+    logger.info(f"📤 [WEAVIATE] Начинаем загрузку {len(events)} событий в коллекцию (username={username})")
+    
+    uploaded_count = 0
     with collection.batch.dynamic() as batch:
         for ev in events:
-            data = ev.dict()
+            data = ev.model_dump()
             tags = list(data.get("tags") or [])
             if username not in tags:
                 tags.append(username)
             data["tags"] = tags
 
             batch.add_object(properties=data)
+            uploaded_count += 1
+            
+            # Логируем каждое событие
+            title = data.get("title", "Без названия")[:50]
+            logger.debug(f"  📝 [WEAVIATE] Добавлено: {title}...")
+    
+    logger.info(f"✅ [WEAVIATE] Успешно загружено {uploaded_count} событий в базу данных")
+    logger.info(f"📊 [WEAVIATE] Теги событий: {username}, source=telegram")

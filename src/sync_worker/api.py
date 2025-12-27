@@ -1,13 +1,29 @@
 """FastAPI приложение для управления синхронизацией каналов."""
 from __future__ import annotations
 
+import warnings
+
+# Подавляем ворнинги
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=ResourceWarning)
+warnings.filterwarnings("ignore", message=".*weaviate-client.*")
+warnings.filterwarnings("ignore", message=".*Pydantic.*")
+
 import asyncio
+import logging
 import sqlite3
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
+
+# Настройка логирования
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger("sync-api")
 
 from src.sync_worker.config import AppSettings
 from src.sync_worker.db_channels import (
@@ -286,8 +302,11 @@ async def trigger_sync() -> SyncResponse:
     """
     global sync_in_progress
     
+    logger.info("📥 Получен запрос на триггер синхронизации")
+    
     async with sync_lock:
         if sync_in_progress:
+            logger.warning("⏳ Синхронизация уже выполняется, отклоняем запрос")
             raise HTTPException(
                 status_code=409,
                 detail="Синхронизация уже выполняется. Дождитесь завершения."
@@ -296,6 +315,8 @@ async def trigger_sync() -> SyncResponse:
         sync_in_progress = True
     
     started_at = datetime.utcnow().isoformat()
+    
+    logger.info(f"🚀 Запуск внеочередной синхронизации в {started_at}")
     
     # Запускаем синхронизацию в фоновой задаче
     asyncio.create_task(_run_sync_task())
@@ -324,6 +345,45 @@ async def get_sync_status() -> Dict[str, Any]:
     }
 
 
+@app.get("/weaviate/stats", tags=["Weaviate"])
+async def get_weaviate_stats() -> Dict[str, Any]:
+    """
+    Получить статистику из Weaviate.
+    
+    Показывает количество объектов в коллекции и последние добавленные события.
+    """
+    try:
+        weaviate_client = get_weaviate_client()
+        collection = weaviate_client.collections.get(COLLECTION_NAME)
+        
+        # Получаем общее количество объектов
+        aggregate_result = collection.aggregate.over_all(total_count=True)
+        total_count = aggregate_result.total_count
+        
+        # Получаем последние 10 событий
+        recent_events = []
+        result = collection.query.fetch_objects(limit=10)
+        for obj in result.objects:
+            props = obj.properties
+            recent_events.append({
+                "title": props.get("title", ""),
+                "tags": props.get("tags", []),
+                "source": props.get("source", ""),
+                "date": props.get("date", ""),
+            })
+        
+        logger.info(f"📊 [WEAVIATE-STATS] Всего объектов: {total_count}")
+        
+        return {
+            "collection_name": COLLECTION_NAME,
+            "total_events": total_count,
+            "recent_events": recent_events,
+        }
+    except Exception as e:
+        logger.error(f"❌ Ошибка при получении статистики Weaviate: {e}")
+        raise HTTPException(status_code=500, detail=f"Ошибка Weaviate: {str(e)}")
+
+
 async def _run_sync_task():
     """
     Внутренняя функция для выполнения синхронизации.
@@ -331,16 +391,21 @@ async def _run_sync_task():
     global sync_in_progress
     
     try:
-        print("🚀 Запуск внеочередной синхронизации...")
+        logger.info("🚀 [SYNC] Начало внеочередной синхронизации...")
         
         # Инициализируем компоненты
+        logger.info("🔧 [SYNC] Инициализация TelegramParser...")
         parser = TelegramParser()
+        
+        logger.info("🔧 [SYNC] Инициализация EventMinerAgent...")
         event_agent = EventMinerAgent(llm=JourneyLLM())
         
         # Подключаемся к Weaviate
+        logger.info(f"🔧 [SYNC] Подключение к Weaviate: {settings.weaviate_url}")
         weaviate_client = get_weaviate_client()
         create_collection_if_not_exists()
         collection = weaviate_client.collections.get(COLLECTION_NAME)
+        logger.info(f"✅ [SYNC] Подключено к коллекции: {COLLECTION_NAME}")
         
         # Создаем сервис синхронизации
         sync_service = ChannelSyncServiceAsync(
@@ -351,18 +416,22 @@ async def _run_sync_task():
             weaviate_collection=collection,
         )
         
+        logger.info(f"📂 [SYNC] БД каналов: {settings.db_path}")
+        logger.info(f"📊 [SYNC] Лимит сообщений: {settings.channel_messages_limit}")
+        
         # Выполняем синхронизацию
         await sync_service.sync_once()
         
-        print("✅ Внеочередная синхронизация завершена")
+        logger.info("✅ [SYNC] Внеочередная синхронизация успешно завершена")
         
     except Exception as e:
-        print(f"❌ Ошибка при синхронизации: {e}")
+        logger.error(f"❌ [SYNC] Ошибка при синхронизации: {e}")
         import traceback
         traceback.print_exc()
     finally:
         async with sync_lock:
             sync_in_progress = False
+            logger.info("🔓 [SYNC] Флаг синхронизации сброшен")
 
 
 if __name__ == "__main__":

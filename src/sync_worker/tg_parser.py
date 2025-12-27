@@ -54,7 +54,7 @@ class TelegramParser:
         """Подключение к Telegram"""
         if not self._is_connected:
             self.client = TelegramClient(self.session_name, self.api_id, self.api_hash)
-
+            await self.client.connect()
             self._is_connected = True
     
     async def disconnect(self) -> None:
