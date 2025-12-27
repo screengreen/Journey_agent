@@ -361,39 +361,114 @@ class PlannerAgent:
 
         return self.create_plan(state)
     def render_telegram_message(self, state: GraphState) -> str:
-        """Финальный текст для Telegram: только содержание плана (без доп. инфы)."""
+        """Красивый форматированный текст маршрута для Telegram."""
         plan = _sget(state, "final_plan") or _sget(state, "plan")
         if not plan:
-            return "Не удалось составить план."
+            return "❌ Не удалось составить план."
 
-        # если модель вернула пустой items — верни хотя бы summary (это и есть “содержание” в твоём кейсе)
+        # если модель вернула пустой items — верни хотя бы summary
         if not getattr(plan, "items", None):
-            return getattr(plan, "summary", None) or "Не удалось составить план."
+            return getattr(plan, "summary", None) or "❌ Не удалось составить план."
 
         lines: list[str] = []
+        
+        # Заголовок
+        lines.append("🗺 ТВОЙ МАРШРУТ НА СЕГОДНЯ")
+        lines.append("━" * 28)
+        lines.append("")
+        
+        # Эмодзи для разных видов транспорта
+        transport_emoji = {
+            "walking": "🚶",
+            "walk": "🚶",
+            "пешком": "🚶",
+            "bus": "🚌",
+            "автобус": "🚌",
+            "car": "🚗",
+            "машина": "🚗",
+            "такси": "🚕",
+            "taxi": "🚕",
+            "metro": "🚇",
+            "метро": "🚇",
+            "bike": "🚲",
+            "велосипед": "🚲",
+        }
+        
+        # Эмодзи для нумерации
+        number_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
-        for i, item in enumerate(plan.items, 1):
-            # 1) Время
-            time_part = f"{item.start_time}–{item.end_time}"
-
-            # 2) Событие + адрес
-            place_part = f"{item.event_name}"
-            if getattr(item, "event_address", None):
-                place_part += f" — {item.event_address}"
-
-            # 3) Лаконично про транспорт/путь (но без статистики)
-            travel_part = ""
-            if getattr(item, "transport_mode", None):
-                travel_part = f" ({item.transport_mode}"
-                if getattr(item, "travel_time_minutes", None) is not None:
-                    travel_part += f", {item.travel_time_minutes} мин"
-                travel_part += ")"
-
-            # 4) Заметки — только если есть
+        for i, item in enumerate(plan.items):
+            # Номер с эмодзи
+            num = number_emoji[i] if i < len(number_emoji) else f"▸ {i + 1}."
+            
+            # Форматирование времени
+            start = str(item.start_time)[:5] if item.start_time else "—"
+            end = str(item.end_time)[:5] if item.end_time else "—"
+            time_str = f"🕐 {start} — {end}"
+            
+            # Название события
+            event_name = item.event_name or "Без названия"
+            
+            # Адрес
+            address = getattr(item, "event_address", None)
+            address_line = f"📍 {address}" if address else ""
+            
+            # Транспорт
+            transport = getattr(item, "transport_mode", None) or ""
+            transport_lower = transport.lower() if transport else ""
+            t_emoji = transport_emoji.get(transport_lower, "➡️")
+            
+            travel_time = getattr(item, "travel_time_minutes", None)
+            if travel_time and i > 0:
+                transport_line = f"{t_emoji} {transport}, {travel_time} мин в пути"
+            elif transport and i > 0:
+                transport_line = f"{t_emoji} {transport}"
+            else:
+                transport_line = ""
+            
+            # Заметки
             notes = getattr(item, "notes", None)
-            notes_part = f"\n   {notes}" if notes else ""
-
-            lines.append(f"{i}. {time_part} — {place_part}{travel_part}{notes_part}")
+            notes_line = f"💡 {notes}" if notes else ""
+            
+            # Собираем блок
+            lines.append(f"{num}  {event_name}")
+            lines.append(f"    {time_str}")
+            if address_line:
+                lines.append(f"    {address_line}")
+            if transport_line:
+                lines.append(f"    {transport_line}")
+            if notes_line:
+                lines.append(f"    {notes_line}")
+            lines.append("")
+        
+        # Итоговая статистика
+        lines.append("━" * 28)
+        lines.append("📊 ИТОГО:")
+        
+        total_duration = getattr(plan, "total_duration_minutes", None)
+        total_travel = getattr(plan, "total_travel_time_minutes", None)
+        
+        if total_duration:
+            hours = total_duration // 60
+            mins = total_duration % 60
+            if hours > 0:
+                lines.append(f"⏱ Общее время: {hours}ч {mins}мин")
+            else:
+                lines.append(f"⏱ Общее время: {mins} мин")
+        
+        if total_travel:
+            lines.append(f"🚶 В пути: {total_travel} мин")
+        
+        lines.append(f"📍 Мест в маршруте: {len(plan.items)}")
+        
+        # Краткое описание плана, если есть
+        summary = getattr(plan, "summary", None)
+        if summary:
+            lines.append("")
+            lines.append(f"💬 {summary}")
+        
+        lines.append("")
+        lines.append("✨ Хорошего дня!")
 
         return "\n".join(lines)
 
