@@ -375,32 +375,44 @@ JOURNEY_AGENT_SEED_TEST_CHANNELS=true    # Добавить тестовые к�
 
 ## 📊 Метрики качества
 
-RAG:
-📊 MRR (Mean Reciprocal Rank): 0.6862
+## 📊 RAG Evaluation Metrics
 
-📈 Recall@K:
-   Recall@1: 0.5978
-   Recall@3: 0.7609
-   Recall@5: 0.8043
-   Recall@10: 0.8804
+### 🔁 MRR (Mean Reciprocal Rank)
+- **MRR:** 0.6862
 
-🎯 Precision@K:
-   Precision@1: 0.5978
-   Precision@3: 0.2536
-   Precision@5: 0.1609
-   Precision@10: 0.0880
+---
 
-📉 NDCG@K:
-   NDCG@1: 0.5978
-   NDCG@3: 0.7688
-   NDCG@5: 0.7917
-   NDCG@10: 0.8163
+### 📈 Recall@K
+- **Recall@1:** 0.5978  
+- **Recall@3:** 0.7609  
+- **Recall@5:** 0.8043  
+- **Recall@10:** 0.8804  
 
-✅ Hit Rate@K:
-   Hit@1: 0.5978
-   Hit@3: 0.7609
-   Hit@5: 0.8043
-   Hit@10: 0.8804
+---
+
+### 🎯 Precision@K
+(падает, потому что на каждый запрос у нас был только один правильный вариант ответа, а не несколько)
+- **Precision@1:** 0.5978  
+- **Precision@3:** 0.2536  
+- **Precision@5:** 0.1609  
+- **Precision@10:** 0.0880  
+
+---
+
+### 📉 NDCG@K
+- **NDCG@1:** 0.5978  
+- **NDCG@3:** 0.7688  
+- **NDCG@5:** 0.7917  
+- **NDCG@10:** 0.8163  
+
+---
+
+### ✅ Hit Rate@K
+- **Hit@1:** 0.5978  
+- **Hit@3:** 0.7609  
+- **Hit@5:** 0.8043  
+- **Hit@10:** 0.8804  
+
 
 ---
 **Whole system:**
