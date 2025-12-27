@@ -13,6 +13,7 @@ from src.vdb.config import OPENAI_API_KEY, OPENAI_MODEL, MAX_ITERATIONS
 from src.models.event import Event
 from src.vdb.rag.memory import check_memory
 from src.vdb.rag.prompts import (
+    CITY_EXTRACTION_PROMPT,
     QUERY_REFORMULATION_PROMPT,
     RELEVANCE_EVALUATION_PROMPT,
 )
@@ -42,6 +43,9 @@ class SelfRAGState(TypedDict):
 
     user_query: str
     owner: Optional[str]
+
+    # extracted city for filtering public events
+    city: Optional[str]
 
     # retrieval loop
     retrieved_events: List[Event]
@@ -77,15 +81,45 @@ def check_memory_node(state: SelfRAGState) -> SelfRAGState:
     }
 
 
+def extract_city_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAGState:
+    """Узел извлечения города из запроса пользователя."""
+    logs = state.get("logs", [])
+
+    prompt = CITY_EXTRACTION_PROMPT.format_messages(user_query=state["user_query"])
+
+    try:
+        response = llm.invoke(prompt)
+        city_text = (response.content or "").strip()
+
+        # Если модель вернула null или пустую строку, город не найден
+        if city_text.lower() in ("null", "", "none", "не указан"):
+            city = None
+            logs.append("🏙️ Город не указан в запросе")
+        else:
+            city = city_text
+            logs.append(f"🏙️ Извлечён город: {city}")
+    except Exception as e:
+        city = None
+        logs.append(f"🏙️ Ошибка извлечения города: {e}")
+
+    return {
+        **state,
+        "city": city,
+        "logs": logs,
+    }
+
+
 def retrieve_events_node(state: SelfRAGState, retriever: EventRetriever) -> SelfRAGState:
     """Узел поиска событий."""
     query = state.get("current_query") or state["user_query"]
     owner = state.get("owner")
+    city = state.get("city")
 
-    events = retriever.retrieve(query, owner=owner)
+    events = retriever.retrieve(query, owner=owner, city=city)
 
     logs = state.get("logs", [])
-    logs.append(f"🔎 Поиск событий: запрос='{query}', владелец='{owner}', найдено={len(events)}")
+    city_info = f", город='{city}'" if city else ""
+    logs.append(f"🔎 Поиск событий: запрос='{query}', владелец='{owner}'{city_info}, найдено={len(events)}")
 
     return {
         **state,
@@ -247,6 +281,7 @@ def create_self_rag_graph(
     workflow = StateGraph(SelfRAGState)
 
     workflow.add_node("check_memory", check_memory_node)
+    workflow.add_node("extract_city", lambda state: extract_city_node(state, llm))
     workflow.add_node("retrieve_events", lambda state: retrieve_events_node(state, retriever))
     workflow.add_node("evaluate_relevance", lambda state: evaluate_relevance_node(state, llm, retriever))
     workflow.add_node("reformulate_queries", lambda state: reformulate_queries_node(state, llm, retriever))
@@ -254,9 +289,10 @@ def create_self_rag_graph(
     workflow.add_node("build_input_data", build_input_data_node)
 
     # Flow:
-    # check_memory -> retrieve -> evaluate -> (reformulate loop) -> extract_constraints -> build_input_data -> END
+    # check_memory -> extract_city -> retrieve -> evaluate -> (reformulate loop) -> extract_constraints -> build_input_data -> END
     workflow.set_entry_point("check_memory")
-    workflow.add_edge("check_memory", "retrieve_events")
+    workflow.add_edge("check_memory", "extract_city")
+    workflow.add_edge("extract_city", "retrieve_events")
     workflow.add_edge("retrieve_events", "evaluate_relevance")
 
     workflow.add_conditional_edges(
@@ -290,6 +326,7 @@ def run_self_rag(
     initial_state: SelfRAGState = {
         "user_query": user_query,
         "owner": owner,
+        "city": None,
 
         "retrieved_events": [],
         "reformulated_queries": [],

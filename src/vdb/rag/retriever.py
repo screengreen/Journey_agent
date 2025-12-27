@@ -55,14 +55,16 @@ class EventRetriever:
         query: str,
         limit: int = MAX_EVENTS,
         owner: Optional[str] = None,
+        city: Optional[str] = None,
     ) -> List[Event]:
         """
-        Поиск событий по запросу с фильтрацией по тегам.
+        Поиск событий по запросу с фильтрацией по владельцу и городу.
 
         Args:
             query: Поисковый запрос
-            user_tag: Тег пользователя для фильтрации (события с этим тегом или 'all')
             limit: Максимальное количество результатов
+            owner: Владелец события для фильтрации
+            city: Город для фильтрации (применяется только для публичных событий owner="all")
 
         Returns:
             Список найденных событий
@@ -81,17 +83,30 @@ class EventRetriever:
             # Используем двухэтапный подход: сначала семантический поиск, затем фильтрация
             result = collection.query.near_text(
                 query=query,
-                limit=limit * 2,  # Берем больше результатов для последующей фильтрации
+                limit=limit * 3,  # Берем больше результатов для фильтрации по городу
                 return_metadata=wvc.query.MetadataQuery(distance=True),
             )
 
             events = []
             for obj in result.objects:
                 try:
+                    obj_owner = obj.properties.get("owner")
+                    
                     # Фильтруем по владельцу программно
                     if owner:
                         # Проверяем, соответствует ли владелец объекта запрошенному
-                        if owner != obj.properties.get("owner"):
+                        if owner != obj_owner:
+                            continue
+                    
+                    # Фильтрация по городу применяется ТОЛЬКО для публичных событий (owner="all")
+                    # Личные события пользователя не фильтруются по городу
+                    if city and obj_owner == "all":
+                        obj_location = obj.properties.get("location") or ""
+                        obj_country = obj.properties.get("country") or ""
+                        
+                        # Проверяем наличие города в location или country (без учёта регистра)
+                        city_lower = city.lower()
+                        if city_lower not in obj_location.lower() and city_lower not in obj_country.lower():
                             continue
                     
                     event = Event(**obj.properties)
