@@ -80,7 +80,6 @@ async def trigger_sync_worker() -> bool:
 class BotStates(StatesGroup):
     adding_channel = State()
     route_creation = State()
-    route_comment = State()
 
 
 def get_main_menu_keyboard():
@@ -304,82 +303,22 @@ async def handle_route_creation(message: Message, state: FSMContext):
     # Сохраняем обновленную историю
     await state.update_data(history=history)
     
-    # Переходим в режим ожидания комментария
-    await state.set_state(BotStates.route_comment)
+    # Отправляем маршрут пользователю
+    await message.answer(result["response"])
     
-    # Отправляем ответ пользователю одним сообщением
-    response_text = f"{result['response']}\n\n💬 Можешь написать комментарий к этому результату, или нажми 'Выход в меню'"
+    # Сбрасываем состояние и возвращаем в главное меню
+    await state.clear()
+    
+    # Отправляем сообщение с кнопками главного меню
+    menu_text = """🏠 Главное меню
+
+Выбери действие:"""
     await message.answer(
-        response_text,
-        reply_markup=get_exit_menu_keyboard()
+        menu_text,
+        reply_markup=get_main_menu_keyboard()
     )
 
 
-async def handle_route_comment(message: Message, state: FSMContext):
-    """Обработка комментария к результату маршрута"""
-    user = message.from_user
-    comment = message.text
-    
-    # Toxic INPUT guardrail for comment
-    decision = moderate_text(comment, context="user_comment")
-    if decision.label == SafetyLabel.block:
-        await message.answer(
-            "Я не могу обработать такой комментарий. "
-            "Опиши, что улучшить в плане (темп, бюджет, районы, типы мест), без токсичных формулировок.",
-            reply_markup=get_exit_menu_keyboard(),
-        )
-        return
-    if decision.label == SafetyLabel.soft and decision.sanitized_text:
-        comment = decision.sanitized_text
-    
-    # Получаем данные из состояния
-    data = await state.get_data()
-    history = data.get("history", [])
-    original_prompt = data.get("current_prompt", "")
-    
-    # Получаем последний ответ модели
-    last_assistant_response = ""
-    if history and history[-1].get("role") == "assistant":
-        last_assistant_response = history[-1].get("content", "")
-    
-    updated_prompt = f"""
-Исходный запрос: {original_prompt}
-
-Результат модели:
-{last_assistant_response}
-
-Комментарий пользователя: {comment}
-"""
-    
-    # Добавляем комментарий в историю
-    history.append({
-        "role": "user",
-        "content": f"Комментарий: {comment}"
-    })
-    
-    # Отправляем обновленный запрос в заглушку
-    username = user.username or user.first_name
-    result = process_route_request(
-        prompt=updated_prompt,
-        username=username,
-        conversation_history=history
-    )
-    
-    # Добавляем новый ответ в историю
-    history.append({
-        "role": "assistant",
-        "content": result["response"]
-    })
-    
-    # Сохраняем обновленную историю
-    await state.update_data(history=history)
-    
-    # Отправляем ответ пользователю одним сообщением
-    response_text = f"{result['response']}\n\n💬 Можешь написать еще комментарий, или нажми 'Выход в меню'"
-    await message.answer(
-        response_text,
-        reply_markup=get_exit_menu_keyboard()
-    )
 
 
 async def handle_unknown_message(message: Message):
@@ -415,7 +354,6 @@ async def main():
     # Регистрируем обработчики сообщений по состояниям
     dp.message.register(handle_add_channel, BotStates.adding_channel)
     dp.message.register(handle_route_creation, BotStates.route_creation)
-    dp.message.register(handle_route_comment, BotStates.route_comment)
     
     # Обработчик для сообщений вне активной сессии (должен быть последним)
     dp.message.register(handle_unknown_message)
