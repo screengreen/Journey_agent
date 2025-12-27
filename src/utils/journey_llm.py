@@ -38,7 +38,7 @@ class JourneyLLM:
         self.provider = provider or self._detect_provider_from_env()
 
         if self.provider == "openai":
-            self.model = model or "gpt-4o-mini"
+            self.model = model or "gpt-4o"
             self.llm = ChatOpenAI(
                 model=self.model,
                 temperature=temperature,
