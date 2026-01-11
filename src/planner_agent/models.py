@@ -1,9 +1,9 @@
 """
 Pydantic модели для агентской системы планирования.
 """
-from typing import List, Optional, Dict, Any
-from pydantic import BaseModel, Field
-from datetime import time
+from typing import List, Optional, Dict, Any, Union
+from pydantic import BaseModel, Field, field_validator
+from datetime import time, datetime
 
 from src.models.event import Event
 
@@ -44,6 +44,38 @@ class PlanItem(BaseModel):
     transport_mode: str = Field(description="Режим транспорта")
     travel_time_minutes: Optional[int] = Field(description="Время в пути до события в минутах", default=None)
     notes: str = Field(description="Заметки", default="")
+    
+    @field_validator('start_time', 'end_time', mode='before')
+    @classmethod
+    def parse_time(cls, v: Union[str, time, datetime, None]) -> time:
+        """Парсит время из различных форматов."""
+        # Обрабатываем None значения
+        if v is None:
+            raise ValueError("Время не может быть None. Укажи время в формате 'HH:MM' (например, '18:00')")
+        
+        if isinstance(v, time):
+            return v
+        if isinstance(v, datetime):
+            return v.time()
+        if isinstance(v, str):
+            # Пробуем разные форматы
+            # Формат "2024-12-25 18:00" или "2024-12-25T18:00"
+            if ' ' in v or 'T' in v:
+                try:
+                    # Парсим datetime и извлекаем время
+                    dt = datetime.fromisoformat(v.replace(' ', 'T'))
+                    return dt.time()
+                except (ValueError, AttributeError):
+                    pass
+            # Формат "18:00" или "18:00:00"
+            try:
+                return datetime.strptime(v, "%H:%M").time()
+            except ValueError:
+                try:
+                    return datetime.strptime(v, "%H:%M:%S").time()
+                except ValueError:
+                    pass
+        raise ValueError(f"Не удалось распарсить время из '{v}'. Используй формат 'HH:MM' (например, '18:00')")
 
 
 class Plan(BaseModel):
