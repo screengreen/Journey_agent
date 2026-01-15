@@ -71,69 +71,9 @@ class PlanningGraph:
         if isinstance(state, dict):
             state = GraphState(**state)
         
-        try:
-            # Планировщик использует LLM с инструментами для создания плана
-            plan = self.planner.create_plan(state)
-            
-            # Проверяем, что план не None
-            if plan is None:
-                print("⚠️ План равен None после создания")
-                from src.planner_agent.models import Plan
-                error_plan = Plan(
-                    items=[],
-                    total_duration_minutes=0,
-                    total_travel_time_minutes=0,
-                    summary="План не был создан (вернул None)",
-                    included_events=[],
-                    excluded_events=[]
-                )
-                return state.model_copy(update={"plan": error_plan})
-            
-            # Проверяем, что план не пустой
-            if not plan.items or len(plan.items) == 0:
-                print("⚠️ План создан, но пустой (нет items)")
-                # Создаем план с информацией об ошибке
-                from src.planner_agent.models import Plan
-                error_plan = Plan(
-                    items=[],
-                    total_duration_minutes=0,
-                    total_travel_time_minutes=0,
-                    summary="План создан, но LLM не добавил события в план",
-                    included_events=[],
-                    excluded_events=[]
-                )
-                return state.model_copy(update={"plan": error_plan})
-            
-            return state.model_copy(update={"plan": plan})
-        except Exception as e:
-            # Обработка ошибок валидации или других ошибок при создании плана
-            import traceback
-            from pydantic import ValidationError
-            from src.planner_agent.models import Plan
-            
-            error_msg = str(e)
-            error_trace = traceback.format_exc()
-            print(f"❌ Ошибка при создании плана: {error_msg}")
-            print(f"Детали: {error_trace[:500]}")  # Ограничиваем вывод
-            
-            # Если это ошибка валидации Pydantic, создаем пустой план
-            if isinstance(e, ValidationError):
-                print("⚠️ Ошибка валидации: LLM вернул неполные данные для плана")
-                error_summary = f"Ошибка валидации: {error_msg[:100]}"
-            else:
-                error_summary = f"Ошибка при создании плана: {error_msg[:100]}"
-            
-            # Создаем минимальный пустой план со всеми обязательными полями
-            error_plan = Plan(
-                items=[],
-                total_duration_minutes=0,
-                total_travel_time_minutes=0,
-                summary=error_summary,
-                included_events=[],
-                excluded_events=[]
-            )
-            
-            return state.model_copy(update={"plan": error_plan})
+        # Планировщик использует LLM с инструментами для создания плана
+        plan = self.planner.create_plan(state)
+        return state.model_copy(update={"plan": plan})
     
     def _critic_node(self, state) -> GraphState:
         """Узел критики."""
@@ -144,35 +84,7 @@ class PlanningGraph:
         if isinstance(state, dict):
             state = GraphState(**state)
         print(f"Итерация: {state.iteration + 1}/{state.max_iterations}")
-        
-        try:
-            critique = self.critic.critique_plan(state)
-        except Exception as e:
-            import warnings
-            from src.planner_agent.models import Critique
-            warnings.warn(f"Ошибка при получении критики: {e}")
-            # Создаем минимальную критику в случае ошибки
-            critique = Critique(
-                overall_assessment="Не удалось получить критику из-за ошибки",
-                strengths=[],
-                weaknesses=[],
-                suggestions=[],
-                critical_issues=[],
-                needs_revision=False
-            )
-        
-        # Убеждаемся, что critique не None
-        if critique is None:
-            from src.planner_agent.models import Critique
-            critique = Critique(
-                overall_assessment="Критика не получена",
-                strengths=[],
-                weaknesses=[],
-                suggestions=[],
-                critical_issues=[],
-                needs_revision=False
-            )
-        
+        critique = self.critic.critique_plan(state)
         # Создаем новое состояние с обновленными данными
         return state.model_copy(update={
             "critique": critique,
@@ -200,11 +112,8 @@ class PlanningGraph:
             print("\n⚠️  Нет критики, завершаю работу")
             return "finish"
         
-        # Безопасная проверка needs_revision
-        needs_revision = getattr(state.critique, 'needs_revision', False) if state.critique else False
-        
         # Пересматриваем, если есть критические проблемы или требуется пересмотр
-        if needs_revision and state.iteration < state.max_iterations:
+        if state.critique.needs_revision and state.iteration < state.max_iterations:
             print(f"\n🔄 Требуется пересмотр плана (итерация {state.iteration + 1}/{state.max_iterations})")
             return "revise"
         
@@ -214,7 +123,7 @@ class PlanningGraph:
             return "finish"
         
         # Завершаем, если критик не требует пересмотра
-        if not needs_revision:
+        if not state.critique.needs_revision:
             print("\n✅ Критик не требует пересмотра, план принят")
             return "finish"
         
@@ -258,59 +167,10 @@ class PlanningGraph:
         print("ЗАВЕРШЕНИЕ РАБОТЫ ГРАФА")
         print("🏁"*30)
         print(f"Итоговое количество итераций: {final_state.iteration}")
-        
-        # Проверяем, есть ли план
-        if not final_state.plan or not final_state.plan.items:
-            # Проверяем, были ли события для планирования
-            events_count = len(final_state.input_data.events) if final_state.input_data else 0
-            if events_count == 0:
-                result_text = (
-                    "❌ Не найдено мероприятий для планирования.\n\n"
-                    "Возможные причины:\n"
-                    "• В базе данных нет событий для указанного города и даты\n"
-                    "• События еще не загружены в систему\n"
-                    "• Попробуй указать другую дату или город"
-                )
-            else:
-                # Проверяем, есть ли план с ошибкой
-                plan_summary = ""
-                if final_state.plan and final_state.plan.summary:
-                    plan_summary = final_state.plan.summary
-                
-                result_text = (
-                    f"❌ Не удалось создать план похода из {events_count} найденных событий.\n\n"
-                )
-                
-                # Добавляем информацию об ошибке, если есть
-                if plan_summary and "ошибка" in plan_summary.lower():
-                    result_text += f"Причина: {plan_summary}\n\n"
-                
-                result_text += (
-                    "Возможные причины:\n"
-                    "• Ошибка при обработке данных планировщиком\n"
-                    "• Проблемы с валидацией плана\n"
-                    "• Недостаточно информации для создания плана\n"
-                    "• LLM не смог сформировать корректный план\n\n"
-                    "Попробуй переформулировать запрос или указать больше деталей."
-                )
-        else:
-            result_text = self.planner.render_telegram_message(final_state)
-        
-        # Убеждаемся, что план существует (создаем пустой если нет)
-        final_plan = final_state.plan
-        if not final_plan:
-            from src.planner_agent.models import Plan
-            final_plan = Plan(
-                items=[],
-                total_duration_minutes=0,
-                total_travel_time_minutes=0,
-                summary="План не был создан",
-                included_events=[],
-                excluded_events=[]
-            )
+        result_text = self.planner.render_telegram_message(final_state)
         
         result = OutputResult(
-            final_plan=final_plan,
+            final_plan=final_state.plan,
             reasoning=final_state.reasoning,
             critique=final_state.critique,
             iterations=final_state.iteration,
@@ -320,4 +180,3 @@ class PlanningGraph:
             final_text=result_text
         )
         return result
-
