@@ -235,6 +235,9 @@ def extract_constraints_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAG
 
 def _classify_relevance_llm(event: Event, user_query: str, llm: BaseChatModel) -> bool:
     """Использует LLM для классификации релевантности одного события (без keyword-хардкода)."""
+    import logging
+    logger = logging.getLogger(__name__)
+    
     try:
         messages = EVENT_RELEVANCE_PROMPT.format_messages(
             user_query=user_query,
@@ -245,32 +248,44 @@ def _classify_relevance_llm(event: Event, user_query: str, llm: BaseChatModel) -
         )
         resp = llm.invoke(messages)
         text = (resp.content or "").strip().upper()
-        return text.startswith("YES")
-    except Exception:
+        is_relevant = text.startswith("YES")
+        
+        logger.info(f"🔍 LLM релевантность для '{event.title}': {text[:50]} → {'✅ ДА' if is_relevant else '❌ НЕТ'}")
+        return is_relevant
+    except Exception as e:
         # В случае ошибки считаем нерелевантным
+        logger.warning(f"⚠️ Ошибка при классификации '{event.title}': {e}")
         return False
 
 
 def build_input_data_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAGState:
     """Собираем финальный InputData, применяя LLM-фильтр релевантности."""
+    import logging
+    logger = logging.getLogger(__name__)
+    
     logs = state.get("logs", [])
     constraints = state.get("constraints") or Constraints()
     user_query = state.get("user_query", "")
     all_events = state.get("retrieved_events", [])
 
+    logger.info(f"🔍 Начинаем LLM-фильтрацию релевантности для {len(all_events)} событий")
+    
     relevant_events: List[Event] = []
     for ev in all_events:
         is_rel = _classify_relevance_llm(ev, user_query, llm)
         if is_rel:
             relevant_events.append(ev)
+            logs.append(f"✅ LLM: событие релевантно '{ev.title}'")
         else:
             logs.append(f"❌ LLM: событие нерелевантно '{ev.title}'")
 
     if not relevant_events and all_events:
         relevant_events = all_events[:1]
         logs.append("⚠️ LLM отфильтровал все события, берём первое как fallback")
+        logger.warning(f"⚠️ LLM отфильтровал все {len(all_events)} событий, используем fallback: {all_events[0].title}")
     else:
         logs.append(f"🔍 Релевантность LLM: {len(all_events)} → {len(relevant_events)}")
+        logger.info(f"✅ После LLM-фильтра осталось {len(relevant_events)}/{len(all_events)} событий")
 
     input_data = InputData(
         events=relevant_events,
