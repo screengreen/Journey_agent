@@ -101,6 +101,61 @@ def get_exit_menu_keyboard():
     return InlineKeyboardMarkup(inline_keyboard=keyboard)
 
 
+async def send_long_message(message: Message, text: str, max_length: int = 4096):
+    """
+    Отправляет длинное сообщение, разбивая его на части если необходимо.
+    
+    Args:
+        message: Объект сообщения для ответа
+        text: Текст для отправки
+        max_length: Максимальная длина одного сообщения (по умолчанию 4096 для Telegram)
+    """
+    if len(text) <= max_length:
+        await message.answer(text)
+        return
+    
+    # Разбиваем текст на части
+    parts = []
+    current_part = ""
+    
+    # Разбиваем по строкам, чтобы не разрывать слова
+    lines = text.split('\n')
+    
+    for line in lines:
+        # Если добавление строки не превышает лимит
+        if len(current_part) + len(line) + 1 <= max_length:
+            current_part += line + '\n'
+        else:
+            # Сохраняем текущую часть
+            if current_part:
+                parts.append(current_part.rstrip())
+            # Если одна строка слишком длинная, разбиваем её
+            if len(line) > max_length:
+                # Разбиваем по словам
+                words = line.split(' ')
+                current_part = ""
+                for word in words:
+                    if len(current_part) + len(word) + 1 <= max_length:
+                        current_part += word + ' '
+                    else:
+                        if current_part:
+                            parts.append(current_part.rstrip())
+                        current_part = word + ' '
+            else:
+                current_part = line + '\n'
+    
+    # Добавляем последнюю часть
+    if current_part:
+        parts.append(current_part.rstrip())
+    
+    # Отправляем все части
+    for i, part in enumerate(parts):
+        if i == 0:
+            await message.answer(part)
+        else:
+            await message.answer(part)
+
+
 async def start_handler(message: Message):
     """Обработчик команды /start"""
     user = message.from_user
@@ -303,8 +358,8 @@ async def handle_route_creation(message: Message, state: FSMContext):
     # Сохраняем обновленную историю
     await state.update_data(history=history)
     
-    # Отправляем маршрут пользователю
-    await message.answer(result["response"])
+    # Отправляем маршрут пользователю (с разбиением на части если нужно)
+    await send_long_message(message, result["response"])
     
     # Сбрасываем состояние и возвращаем в главное меню
     await state.clear()

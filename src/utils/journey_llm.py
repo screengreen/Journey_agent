@@ -99,9 +99,22 @@ class JourneyLLM:
 
         messages.append(HumanMessage(content=user_prompt))
 
-        structured = self.llm.with_structured_output(output_model)
-        result: T = structured.invoke(messages)
-        return result
+        try:
+            structured = self.llm.with_structured_output(output_model)
+            result: T = structured.invoke(messages)
+            
+            if result is None:
+                raise ValueError(f"LLM returned None for {output_model.__name__}")
+            
+            return result
+        except Exception as e:
+            import logging
+            logger = logging.getLogger(__name__)
+            logger.error(
+                f"❌ Error in parse() for {output_model.__name__}: {e}",
+                exc_info=True
+            )
+            raise
 
     def __getattr__(self, name: str) -> Any:
         """

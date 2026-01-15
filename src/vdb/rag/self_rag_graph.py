@@ -16,6 +16,7 @@ from src.vdb.rag.prompts import (
     CITY_EXTRACTION_PROMPT,
     QUERY_REFORMULATION_PROMPT,
     RELEVANCE_EVALUATION_PROMPT,
+    EVENT_RELEVANCE_PROMPT,
 )
 from src.vdb.rag.retriever import EventRetriever
 from src.planner_agent.models import InputData, Constraints
@@ -44,8 +45,9 @@ class SelfRAGState(TypedDict):
     user_query: str
     owner: Optional[str]
 
-    # extracted city for filtering public events
+    # extracted city and date for filtering public events
     city: Optional[str]
+    date: Optional[str]
 
     # retrieval loop
     retrieved_events: List[Event]
@@ -114,12 +116,14 @@ def retrieve_events_node(state: SelfRAGState, retriever: EventRetriever) -> Self
     query = state.get("current_query") or state["user_query"]
     owner = state.get("owner")
     city = state.get("city")
+    date = state.get("date")
 
-    events = retriever.retrieve(query, owner=owner, city=city)
+    events = retriever.retrieve(query, owner=owner, city=city, date=date)
 
     logs = state.get("logs", [])
     city_info = f", город='{city}'" if city else ""
-    logs.append(f"🔎 Поиск событий: запрос='{query}', владелец='{owner}'{city_info}, найдено={len(events)}")
+    date_info = f", дата='{date}'" if date else ""
+    logs.append(f"🔎 Поиск событий: запрос='{query}', владелец='{owner}'{city_info}{date_info}, найдено={len(events)}")
 
     return {
         **state,
@@ -229,13 +233,62 @@ def extract_constraints_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAG
     }
 
 
-def build_input_data_node(state: SelfRAGState) -> SelfRAGState:
-    """Собираем финальный InputData."""
+def _classify_relevance_llm(event: Event, user_query: str, llm: BaseChatModel) -> bool:
+    """Использует LLM для классификации релевантности одного события (без keyword-хардкода)."""
+    import logging
+    logger = logging.getLogger(__name__)
+    
+    try:
+        messages = EVENT_RELEVANCE_PROMPT.format_messages(
+            user_query=user_query,
+            title=event.title or "",
+            description=event.description or "",
+            tags=", ".join(event.tags or []),
+            date=event.date or "",
+        )
+        resp = llm.invoke(messages)
+        text = (resp.content or "").strip().upper()
+        is_relevant = text.startswith("YES")
+        
+        logger.info(f"🔍 LLM релевантность для '{event.title}': {text[:50]} → {'✅ ДА' if is_relevant else '❌ НЕТ'}")
+        return is_relevant
+    except Exception as e:
+        # В случае ошибки считаем нерелевантным
+        logger.warning(f"⚠️ Ошибка при классификации '{event.title}': {e}")
+        return False
+
+
+def build_input_data_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAGState:
+    """Собираем финальный InputData, применяя LLM-фильтр релевантности."""
+    import logging
+    logger = logging.getLogger(__name__)
+    
     logs = state.get("logs", [])
     constraints = state.get("constraints") or Constraints()
+    user_query = state.get("user_query", "")
+    all_events = state.get("retrieved_events", [])
+
+    logger.info(f"🔍 Начинаем LLM-фильтрацию релевантности для {len(all_events)} событий")
+    
+    relevant_events: List[Event] = []
+    for ev in all_events:
+        is_rel = _classify_relevance_llm(ev, user_query, llm)
+        if is_rel:
+            relevant_events.append(ev)
+            logs.append(f"✅ LLM: событие релевантно '{ev.title}'")
+        else:
+            logs.append(f"❌ LLM: событие нерелевантно '{ev.title}'")
+
+    if not relevant_events and all_events:
+        relevant_events = all_events[:1]
+        logs.append("⚠️ LLM отфильтровал все события, берём первое как fallback")
+        logger.warning(f"⚠️ LLM отфильтровал все {len(all_events)} событий, используем fallback: {all_events[0].title}")
+    else:
+        logs.append(f"🔍 Релевантность LLM: {len(all_events)} → {len(relevant_events)}")
+        logger.info(f"✅ После LLM-фильтра осталось {len(relevant_events)}/{len(all_events)} событий")
 
     input_data = InputData(
-        events=state.get("retrieved_events", []),
+        events=relevant_events,
         user_prompt=state["user_query"],
         constraints=constraints,
     )
@@ -286,7 +339,7 @@ def create_self_rag_graph(
     workflow.add_node("evaluate_relevance", lambda state: evaluate_relevance_node(state, llm, retriever))
     workflow.add_node("reformulate_queries", lambda state: reformulate_queries_node(state, llm, retriever))
     workflow.add_node("extract_constraints", lambda state: extract_constraints_node(state, llm))
-    workflow.add_node("build_input_data", build_input_data_node)
+    workflow.add_node("build_input_data", lambda state: build_input_data_node(state, llm))
 
     # Flow:
     # check_memory -> extract_city -> retrieve -> evaluate -> (reformulate loop) -> extract_constraints -> build_input_data -> END
@@ -318,6 +371,8 @@ def run_self_rag(
     owner: Optional[str] = None,
     llm: Optional[BaseChatModel] = None,
     retriever: Optional[EventRetriever] = None,
+    city: Optional[str] = None,
+    date: Optional[str] = None,
     return_logs: bool = False,
 ) -> Union[InputData, Tuple[InputData, List[str]]]:
     """Запускает Self-RAG и возвращает InputData (или InputData + логи)."""
@@ -326,7 +381,8 @@ def run_self_rag(
     initial_state: SelfRAGState = {
         "user_query": user_query,
         "owner": owner,
-        "city": None,
+        "city": city,
+        "date": date,
 
         "retrieved_events": [],
         "reformulated_queries": [],
