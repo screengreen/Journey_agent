@@ -1,9 +1,11 @@
 """
 Интеграция агентской системы Journey Agent с Telegram ботом.
 """
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 from src.main_pipeline import main_pipeline
+from src.vdb.rag.query_parser import extract_city_and_date
+from src.utils.journey_llm import JourneyLLM
 
 
 def process_route_request(prompt: str, username: str, conversation_history: list = None) -> Dict[str, Any]:
@@ -19,7 +21,34 @@ def process_route_request(prompt: str, username: str, conversation_history: list
         Словарь с результатом обработки
     """
     try:
-        response = main_pipeline(prompt)
+        # Извлекаем город и дату из запроса
+        llm = JourneyLLM()
+        city, date = extract_city_and_date(prompt, llm=llm.llm)
+        
+        # Логирование для отладки
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.info(f"Извлечено из запроса '{prompt}': city={city}, date={date}")
+        
+        # Валидация: проверяем, что город и дата указаны
+        if city is None or date is None:
+            missing = []
+            if city is None:
+                missing.append("город")
+            if date is None:
+                missing.append("дату")
+            
+            missing_str = " и ".join(missing)
+            return {
+                "response": (
+                    f"Пожалуйста, укажи {missing_str} для поиска мероприятий. "
+                    f"Например: 'Москва, 15 января' или 'Санкт-Петербург, выходные'"
+                ),
+                "status": "validation_error"
+            }
+        
+        # Передаем city и date в main_pipeline
+        response = main_pipeline(prompt, city=city, date=date)
 
         return {
             "response": response,
@@ -32,7 +61,20 @@ def process_route_request(prompt: str, username: str, conversation_history: list
         print(f"❌ Ошибка при обработке запроса: {e}")
         print(error_trace)
         
+        # Формируем понятное сообщение об ошибке для пользователя
+        error_msg = str(e)
+        
+        # Если это ошибка валидации Pydantic, делаем более понятное сообщение
+        if "validation error" in error_msg.lower() or "ValidationError" in error_msg:
+            error_msg = (
+                "Не удалось создать план из-за неполных данных. "
+                "Попробуй переформулировать запрос или указать больше деталей."
+            )
+        elif len(error_msg) > 200:
+            # Обрезаем слишком длинные сообщения
+            error_msg = error_msg[:200] + "..."
+        
         return {
-            "response": f"Произошла ошибка при обработке вашего запроса: {str(e)}",
+            "response": f"Произошла ошибка при обработке вашего запроса: {error_msg}",
             "status": "error"
         }

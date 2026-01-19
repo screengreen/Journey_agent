@@ -180,4 +180,3 @@ class PlanningGraph:
             final_text=result_text
         )
         return result
-

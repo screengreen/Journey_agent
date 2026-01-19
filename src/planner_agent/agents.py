@@ -332,12 +332,39 @@ class PlannerAgent:
         print("💡 LLM может использовать инструменты для получения информации о маршрутах и погоде")
 
         # ВАЖНО: tools= НЕ передаём
-        with _temp_bound_tools(self.llm, self.llm_with_tools):
-            plan = self.llm.parse(
-                Plan,
-                user_prompt=user_prompt,
-                system_prompt=system_prompt,
+        plan = None
+        try:
+            with _temp_bound_tools(self.llm, self.llm_with_tools):
+                plan = self.llm.parse(
+                    Plan,
+                    user_prompt=user_prompt,
+                    system_prompt=system_prompt,
+                )
+        except Exception as e:
+            print(f"❌ Ошибка при создании плана через LLM: {e}")
+            # Возвращаем fallback пустой план
+            plan = Plan(
+                items=[],
+                total_duration_minutes=0,
+                total_travel_time_minutes=0,
+                summary=f"Не удалось создать план: {str(e)[:100]}",
+                included_events=[],
+                excluded_events=[]
             )
+            return plan
+
+        # Проверка на None
+        if plan is None:
+            print("❌ LLM вернул None вместо плана")
+            plan = Plan(
+                items=[],
+                total_duration_minutes=0,
+                total_travel_time_minutes=0,
+                summary="LLM не смог создать план",
+                included_events=[],
+                excluded_events=[]
+            )
+            return plan
 
         print("✅ План создан:")
         print(f"   - Событий в плане: {len(plan.items)}")
