@@ -16,6 +16,7 @@ class Constraints(BaseModel):
     max_total_time_minutes: Optional[int] = Field(description="Максимальное общее время в минутах", default=None)
     preferred_transport: Optional[str] = Field(description="Предпочтительный транспорт", default=None)
     budget: Optional[float] = Field(description="Бюджет", default=None)
+    max_events: Optional[int] = Field(description="Максимальное количество событий в плане", default=None)
     other_constraints: List[str] = Field(description="Другие ограничения", default_factory=list)
 
 

@@ -26,12 +26,25 @@ CONSTRAINTS_EXTRACTION_PROMPT = """
 Извлеки ограничения для планирования из текста пользователя.
 
 Верни ТОЛЬКО валидный JSON объект (без пояснений, без markdown), строго с ключами:
-- start_time: "HH:MM" или null
-- end_time: "HH:MM" или null
-- max_total_time_minutes: integer или null
-- preferred_transport: string или null
-- budget: number или null
-- other_constraints: array[string]
+- start_time: "HH:MM" или null (например: "10:00", "14:30")
+- end_time: "HH:MM" или null (например: "18:00", "20:00")
+- max_total_time_minutes: integer или null (общая длительность плана в минутах)
+- preferred_transport: string или null (например: "walking", "bus", "car")
+- budget: number или null (бюджет в рублях)
+- max_events: integer или null (сколько событий/мест максимум включить в план)
+- other_constraints: array[string] (другие ограничения)
+
+ВАЖНО при извлечении max_events:
+- Если пользователь явно указал количество мест ("2 места", "3 события", "пару мест", "немного мест") - извлеки это число
+- "пару" = 2, "несколько" = 3, "немного" = 3-4
+- Если количество НЕ указано - верни null
+- Если указано "много" или "максимум" - верни null (не ограничиваем)
+
+ВАЖНО при извлечении времени:
+- Извлекай ТОЛЬКО явно указанное время
+- Формат времени СТРОГО "HH:MM" (например: "09:00", "14:30", "18:00")
+- Если время не указано - верни null
+- "утром" = null (не конкретное время), "с 10 утра" = "10:00"
 
 Текст пользователя:
 {user_query}
@@ -194,6 +207,8 @@ def reformulate_queries_node(
 
 def extract_constraints_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAGState:
     """Достаём Constraints из user_query через LLM (JSON), с безопасным fallback."""
+    from datetime import time as time_type
+    
     logs = state.get("logs", [])
 
     prompt = CONSTRAINTS_EXTRACTION_PROMPT.format(user_query=state["user_query"])
@@ -209,16 +224,48 @@ def extract_constraints_node(state: SelfRAGState, llm: BaseChatModel) -> SelfRAG
 
         data = json.loads(raw)
 
+        # Конвертируем строковое время в объекты time
+        if data.get("start_time") and isinstance(data["start_time"], str):
+            try:
+                hours, minutes = data["start_time"].split(":")
+                data["start_time"] = time_type(int(hours), int(minutes))
+            except (ValueError, AttributeError):
+                logs.append(f"⚠️ Не удалось распарсить start_time: {data['start_time']}")
+                data["start_time"] = None
+        
+        if data.get("end_time") and isinstance(data["end_time"], str):
+            try:
+                hours, minutes = data["end_time"].split(":")
+                data["end_time"] = time_type(int(hours), int(minutes))
+            except (ValueError, AttributeError):
+                logs.append(f"⚠️ Не удалось распарсить end_time: {data['end_time']}")
+                data["end_time"] = None
+
         # pydantic v1/v2 совместимость
         if hasattr(Constraints, "model_validate"):
             constraints = Constraints.model_validate(data)
         else:
             constraints = Constraints.parse_obj(data)
 
-        logs.append("🧩 Constraints извлечены из запроса через LLM")
-    except Exception:
+        # Логируем извлеченные constraints
+        constraint_details = []
+        if constraints.start_time:
+            constraint_details.append(f"start_time={constraints.start_time}")
+        if constraints.end_time:
+            constraint_details.append(f"end_time={constraints.end_time}")
+        if constraints.max_events:
+            constraint_details.append(f"max_events={constraints.max_events}")
+        if constraints.max_total_time_minutes:
+            constraint_details.append(f"max_total_time={constraints.max_total_time_minutes}мин")
+        
+        if constraint_details:
+            logs.append(f"🧩 Constraints извлечены: {', '.join(constraint_details)}")
+        else:
+            logs.append("🧩 Constraints извлечены (пустые)")
+            
+    except Exception as e:
         constraints = Constraints()
-        logs.append("🧩 Не удалось извлечь Constraints через LLM → использую пустые Constraints()")
+        logs.append(f"🧩 Не удалось извлечь Constraints через LLM → использую пустые Constraints() (ошибка: {str(e)[:100]})")
         if raw:
             logs.append(f"   (сырое содержимое модели: {raw[:200]}...)")
 
