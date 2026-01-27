@@ -254,7 +254,7 @@ fi
 # ───────────────────────────────────────────────────────────────
 # Шаг 3: Проверка Telegram парсинга
 # ───────────────────────────────────────────────────────────────
-print_step "Шаг 3/5: Настройка парсинга Telegram каналов"
+print_step "Шаг 3/6: Настройка парсинга Telegram каналов"
 
 # Проверяем есть ли API credentials для Telegram
 TG_API_ID=$(grep "^TELEGRAM_APP_API_ID=" "$ENV_FILE" 2>/dev/null | cut -d'=' -f2-)
@@ -320,7 +320,7 @@ fi
 # ───────────────────────────────────────────────────────────────
 # Шаг 4: Сборка Docker образов
 # ───────────────────────────────────────────────────────────────
-print_step "Шаг 4/5: Сборка Docker образов"
+print_step "Шаг 4/6: Сборка Docker образов"
 
 cd "$SCRIPT_DIR"
 
@@ -338,7 +338,7 @@ echo -e "\n${GREEN}✓${NC} Docker образы собраны"
 # ───────────────────────────────────────────────────────────────
 # Шаг 5: Запуск сервисов
 # ───────────────────────────────────────────────────────────────
-print_step "Шаг 5/5: Запуск сервисов"
+print_step "Шаг 5/6: Запуск сервисов"
 
 echo -e "Запускаю сервисы...\n"
 
@@ -352,6 +352,36 @@ fi
 # Ждём немного для инициализации
 echo -e "\n${YELLOW}⏳ Ожидаю инициализации сервисов...${NC}"
 sleep 10
+
+# ───────────────────────────────────────────────────────────────
+# Шаг 6: Проверка Weaviate
+# ───────────────────────────────────────────────────────────────
+print_step "Шаг 6/6: Проверка готовности Weaviate"
+
+echo -e "Ожидаю готовности Weaviate...\n"
+
+# Проверяем доступность Weaviate
+WEAVIATE_READY=false
+MAX_ATTEMPTS=30
+ATTEMPT=0
+
+while [ $ATTEMPT -lt $MAX_ATTEMPTS ]; do
+    if curl -s http://localhost:8080/v1/.well-known/ready > /dev/null 2>&1; then
+        WEAVIATE_READY=true
+        break
+    fi
+    ATTEMPT=$((ATTEMPT + 1))
+    echo -e "${YELLOW}⏳ Ожидаю готовности Weaviate... (попытка $ATTEMPT/$MAX_ATTEMPTS)${NC}"
+    sleep 2
+done
+
+if [ "$WEAVIATE_READY" = false ]; then
+    echo -e "${RED}❌ Weaviate не готов после $MAX_ATTEMPTS попыток${NC}"
+    echo -e "${YELLOW}   Проверьте логи: docker compose logs weaviate${NC}"
+else
+    echo -e "${GREEN}✓${NC} Weaviate готов к работе"
+    echo -e "${CYAN}   Инициализация и загрузка данных произойдет при запуске бота${NC}"
+fi
 
 # ───────────────────────────────────────────────────────────────
 # Финальный вывод
@@ -382,6 +412,7 @@ echo -e "${BLUE}📋 Полезные команды:${NC}"
 echo -e "   • Логи бота:        ${CYAN}docker compose logs -f bot${NC}"
 echo -e "   • Логи API:         ${CYAN}docker compose logs -f api${NC}"
 echo -e "   • Логи sync-worker: ${CYAN}docker compose logs -f sync-worker${NC}"
+echo -e "   • Статус Weaviate:  ${CYAN}curl http://localhost:8000/weaviate/stats${NC}"
 echo -e "   • Остановить:       ${CYAN}docker compose down${NC}"
 echo -e "   • Перезапустить:    ${CYAN}docker compose restart${NC}"
 

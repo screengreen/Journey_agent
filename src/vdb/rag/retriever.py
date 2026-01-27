@@ -157,6 +157,98 @@ class EventRetriever:
 
         return "\n\n".join(formatted)
 
+    def get_random_events(
+        self,
+        count: int = 2,
+        owner: Optional[str] = None,
+        city: Optional[str] = None,
+    ) -> List[Event]:
+        """
+        Получить случайные события из базы данных.
+
+        Args:
+            count: Количество событий для получения
+            owner: Владелец события для фильтрации
+            city: Город для фильтрации
+
+        Returns:
+            Список случайных событий
+        """
+        import random
+        
+        client = self._get_client()
+
+        try:
+            collection = client.collections.get(self.collection_name)
+        except Exception:
+            return []
+
+        try:
+            # Получаем больше событий для фильтрации
+            result = collection.query.fetch_objects(
+                limit=count * 10,
+                return_metadata=wvc.query.MetadataQuery(distance=True),
+            )
+
+            events = []
+            for obj in result.objects:
+                try:
+                    obj_owner = obj.properties.get("owner")
+                    
+                    # Фильтруем по владельцу
+                    if owner and owner != obj_owner:
+                        continue
+                    
+                    # Фильтрация по городу применяется ТОЛЬКО для публичных событий
+                    if city and obj_owner == "all":
+                        obj_location = obj.properties.get("location") or ""
+                        obj_country = obj.properties.get("country") or ""
+                        
+                        city_lower = city.lower()
+                        if city_lower not in obj_location.lower() and city_lower not in obj_country.lower():
+                            continue
+                    
+                    event = Event(**obj.properties)
+                    events.append(event)
+                        
+                except Exception as e:
+                    import warnings
+                    warnings.warn(f"Ошибка при парсинге события: {e}")
+                    continue
+
+            # Группируем события по городам
+            events_by_city = {}
+            for event in events:
+                location = event.location or event.country or "unknown"
+                # Определяем город из location
+                city_key = location.split(',')[-1].strip() if ',' in location else location
+                
+                if city_key not in events_by_city:
+                    events_by_city[city_key] = []
+                events_by_city[city_key].append(event)
+            
+            # Находим города с достаточным количеством событий
+            suitable_cities = {city: evs for city, evs in events_by_city.items() if len(evs) >= count}
+            
+            if not suitable_cities:
+                # Если нет городов с нужным количеством, берем события из самого большого города
+                if events_by_city:
+                    largest_city = max(events_by_city.keys(), key=lambda c: len(events_by_city[c]))
+                    return random.sample(events_by_city[largest_city], min(count, len(events_by_city[largest_city])))
+                return []
+            
+            # Выбираем случайный город из подходящих
+            selected_city = random.choice(list(suitable_cities.keys()))
+            selected_events = suitable_cities[selected_city]
+            
+            # Возвращаем count случайных событий из выбранного города
+            return random.sample(selected_events, min(count, len(selected_events)))
+            
+        except Exception as e:
+            import warnings
+            warnings.warn(f"Ошибка при получении случайных событий: {e}")
+            return []
+
     def close(self):
         """Закрыть соединение с Weaviate."""
         if self._client is not None:

@@ -203,6 +203,11 @@ def get_main_menu_keyboard():
     keyboard = [
         [
             InlineKeyboardButton(text="🗺️ Создать маршрут", callback_data="create_route"),
+        ],
+        [
+            InlineKeyboardButton(text="🎲 Случайный маршрут", callback_data="random_route"),
+        ],
+        [
             InlineKeyboardButton(text="➕ Добавить канал", callback_data="add_channel")
         ]
     ]
@@ -224,8 +229,9 @@ async def start_handler(message: Message):
 👋 Привет, {user.first_name}!
 
 Я помогу тебе:
-• Добавлять каналы Telegram для отслеживания событий
 • Создавать персональные маршруты на основе твоих предпочтений
+• Генерировать случайные маршруты из реальных событий
+• Добавлять каналы Telegram для отслеживания событий
 
 Выбери действие:
 """
@@ -284,6 +290,76 @@ async def callback_add_channel(callback: CallbackQuery, state: FSMContext):
     except Exception:
         await callback.message.answer(
             text,
+            reply_markup=get_exit_menu_keyboard()
+        )
+
+
+async def callback_random_route(callback: CallbackQuery, state: FSMContext):
+    """Обработчик кнопки 'Случайный маршрут'"""
+    await callback.answer()
+    
+    # Показываем сообщение о загрузке
+    loading_message = await callback.message.answer("🎲 Генерирую случайный маршрут из 2 событий...\n⏳ Пожалуйста, подожди...")
+    
+    try:
+        from src.vdb.rag.retriever import EventRetriever
+        from src.planner_agent.models import InputData, Constraints
+        from src.planner_agent.graph import PlanningGraph
+        from src.utils.journey_llm import JourneyLLM
+        from datetime import time
+        
+        # Получаем случайные события из базы
+        retriever = EventRetriever()
+        random_events = retriever.get_random_events(count=2, owner="all")
+        retriever.close()
+        
+        if len(random_events) < 2:
+            await loading_message.edit_text(
+                "😔 К сожалению, в базе данных недостаточно событий для создания маршрута.\n\n"
+                "Попробуй добавить каналы с событиями через кнопку '➕ Добавить канал'.",
+                reply_markup=get_exit_menu_keyboard()
+            )
+            return
+        
+        # Определяем город
+        city = "неизвестный город"
+        if random_events[0].location:
+            city_parts = random_events[0].location.split(',')
+            city = city_parts[-1].strip() if city_parts else random_events[0].location
+        
+        # Создаем InputData с ограничениями
+        constraints = Constraints(
+            max_events=2,
+            start_time=time(10, 0),  # Начало в 10:00
+            end_time=time(18, 0),    # Конец в 18:00
+        )
+        
+        input_data = InputData(
+            events=random_events,
+            user_prompt=f"Создай маршрут из этих 2 событий в городе {city}",
+            constraints=constraints
+        )
+        
+        # Создаем план
+        llm = JourneyLLM()
+        graph = PlanningGraph(llm)
+        output = graph.run(input_data)
+        
+        # Отправляем результат
+        await loading_message.edit_text(
+            f"🎲 **Случайный маршрут в городе {city}**\n\n{output.final_text}",
+            parse_mode="Markdown",
+            reply_markup=get_exit_menu_keyboard()
+        )
+        
+    except Exception as e:
+        logger.error(f"❌ Ошибка при создании случайного маршрута: {e}")
+        import traceback
+        traceback.print_exc()
+        
+        await loading_message.edit_text(
+            f"❌ Произошла ошибка при создании маршрута: {str(e)}\n\n"
+            "Попробуй еще раз или создай маршрут вручную.",
             reply_markup=get_exit_menu_keyboard()
         )
 
@@ -460,8 +536,6 @@ async def handle_route_creation(message: Message, state: FSMContext):
     )
 
 
-
-
 async def handle_unknown_message(message: Message):
     """Обработчик для сообщений вне активной сессии"""
     await message.answer(
@@ -472,6 +546,16 @@ async def handle_unknown_message(message: Message):
 
 async def main():
     """Запуск бота"""
+    # Инициализация Weaviate и загрузка данных при первом запуске
+    try:
+        logger.info("🚀 Инициализация Weaviate и загрузка данных...")
+        from src.launch_pipeline import launch_pipeline
+        launch_pipeline()
+        logger.info("✅ Weaviate инициализирован и данные загружены")
+    except Exception as e:
+        logger.warning(f"⚠️ Ошибка при инициализации Weaviate: {e}")
+        logger.warning("Бот продолжит работу, но функции поиска событий могут не работать")
+    
     # Получаем токен из переменных окружения
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     
@@ -489,6 +573,7 @@ async def main():
     
     # Регистрируем обработчики callback
     dp.callback_query.register(callback_create_route, F.data == "create_route")
+    dp.callback_query.register(callback_random_route, F.data == "random_route")
     dp.callback_query.register(callback_add_channel, F.data == "add_channel")
     dp.callback_query.register(callback_exit_to_menu, F.data == "exit_to_menu")
     
